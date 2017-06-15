@@ -1,0 +1,35 @@
+{% if page.comments == True %}
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--
+    <h2 class="footer-heading">
+      <a class="page-link" href="{{ '/about' | prepend: site.url }}">
+      {{ site.title | prepend: 'About ' }}
+    </a></h2>
+    -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        {% include color-social.html %}
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="contact-list">
+          <li>{{ site.data.bio.name }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.data.bio.email }}</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+{% else%}
+<footer class="site-footer">
+    <div class="wrapper">
+        <h2 class="footer-heading"> {{ site.title }}</h2>
+    </div>
+</footer>
+{% endif %}

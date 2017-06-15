@@ -1,0 +1,13 @@
+name:       "Shao-Hua Sun"
+title:      "A Ph.D. student in Computer Science<br>at University of Southern California"
+email:      "<a href='mailto:shaohuas@usc.edu' >shaohuas at usc [dot] edu</a>"
+head_pic:   /images/profile.jpg
+deep_pic:   /images/profile.jpg
+normal:
+  date:     "June 2017"
+  title:    ""
+  content:  "I am a <strong>Ph.D. student</strong> in <strong>Computer Science</strong> at the <strong>University of Southern California</strong> (USC) as an Annenberg Fellow working with <a href='http://people.csail.mit.edu/lim/'><strong>Professor Joseph J. Lim</strong></a>. My research interests span over the fields of <em>Computer Vision</em> and <em>Machine Learning</em>. In particular, I focus on <em>Deep Learning</em>, <em>Reinforcement Learning</em>, and their applications to <em>Computer Vision</em>. Before joining USC, I received my B.S. degree from Dept. of Electrical Engineering at National Taiwan University (NTU), Taipei, Taiwan."
+short:
+  date:
+  title:  "Shao-Hua Sun"
+  content: "I am interested in <strong>Deep Learning</strong>, <strong>Reinforcement Learning</strong>, and their applications to <strong>Computer Vision</strong>.<br><br><br>"

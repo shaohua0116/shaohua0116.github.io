@@ -1,0 +1,43 @@
+# Site settings
+title: Shao-Hua Sun
+description:
+  en: ""
+  cn: ""
+keywords:
+  en: ""
+  cn: ""
+background: /images/background/background.jpg
+deep_background: /images/background/background_deep.jpg
+
+baseurl: ""
+url: "https://shaohua0116.github.io"
+
+# Paginationœ
+paginate: 10
+paginate_path: "/posts/page/:num/"
+
+# Build settings
+markdown: kramdown
+
+# permalink setting
+permalink: pretty
+# highlighter: rouge
+highlighter: rouge
+
+# Social media link for the site
+social:
+  twitter:    shaohua0116
+  github:     shaohua0116
+  linkedin:   shaohua0116
+
+# customized document resources
+collections:
+  projects:
+    output: true
+
+scss:
+  sass_dir: _scss
+  style: :compressed
+
+gems:
+  ['jekyll-paginate', 'jekyll/scholar', 'jekyll-sitemap']

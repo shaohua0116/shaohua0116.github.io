@@ -1,0 +1,43 @@
+# - date:  "Summer 2017"
+#   title: "<strong>Graduate Research Internship</strong><br>Snap Inc."
+#   desc:  "Computer Vision, Deep Learning"
+#   host:  false
+#   brief: true
+- date:  "Spring 2017"
+  title: "<strong>PhD student</strong><br>USC"
+  desc:  "Computer Vision, Deep Learning, Reinforcement Learning"
+  host:
+    name: "<a href='http://people.csail.mit.edu/lim/'>Prof. Joseph J. Lim</a>"
+    role: "Advisor"
+  brief: true
+- date:  "Summer 2016"
+  title: "<strong>Graduate Research Internship</strong><br>Comupter Vision Lab, GE Global Research"
+  desc:  "Computer Vision, Deep Learning"
+  host:  false
+  brief: true
+- date:  "Undergrad."
+  title: "<strong>Research Assistant</strong><br>Research Center for Information Technology Innovation, Academia Sinica, Taiwan"
+  desc:  "Computer Vision, Machine Learning, Computational Photography"
+  host:
+    name: "<a href='https://www.citi.sinica.edu.tw/pages/ycwang/index_en.html'>Dr. Yu-Chiang Frank Wang</a>"
+    role: "Advisor"
+  brief: true
+- date:  "Undergrad."
+  title: "<strong>Research Assistant</strong><br>Dept. of Computer Science and Information Engineering, NTU"
+  desc:  "Computer Vision, Computatinal Photography"
+  host:
+    name: "<a href='https://www.csie.ntu.edu.tw/~cyy/'>Prof. Yung-Yu Chuang</a>"
+    role: "Advisor"
+  brief: true
+- date:  "Undergrad."
+  title: "<strong>Research Assistant</strong><br>Dept. of Electrical Engineering, NTU"
+  desc:  "Computer Vision, Image Processing"
+  host:
+    name: "<a href='http://www.ee.ntu.edu.tw/profile?id=101'>Prof. Shao-Yi Chien</a>"
+    role: "Advisor"
+  brief: true
+- date:  "Summer 2012"
+  title: "<strong>Software Engineer Internship</strong><br>Microsoft Taiwan"
+  desc:  "Windows Phone App Development"
+  host:  false
+  brief: true

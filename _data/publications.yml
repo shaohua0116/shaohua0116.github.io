@@ -1,0 +1,42 @@
+- title: 'Exploiting Image Structural Similarity for Single Image Rain Removal'
+  date:  'Oct. 2014'
+  imgurl: '/images/projects/2014/rain.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: <strong>Shao-Hua Sun</strong>
+      url:  'https://shaohua0116.github.io/'
+    - name: Shang-Pu Fan
+      url:  '#'
+    - name: Yu-Chiang Frank Wang
+      url:  'https://www.citi.sinica.edu.tw/pages/ycwang/index_en.html'
+  publisher:  'ICIP 2014'
+  status:   ''
+  place:    'in Paris, France'
+  desc: 'Without any prior knowledge or user interaction, single image rain removal has been a challenging task. By observing the limitations of standard batch-mode learning-based methods, we propose to exploit the structural similarity of the image bases for solving this task. By formulating the basis selection as an optimization problem, we are able to disregard those associated with rain patterns while the detailed image information can be preserved.'
+  tags:
+    - name: 'pdf'
+      url:  'http://mml.citi.sinica.edu.tw/papers/ICIP_2014_Sun.pdf'
+    - name: 'Google Scholar'
+      url:  'https://scholar.google.com/scholar?cluster=2864066827398178624&hl=en&as_sdt=0,5&sciodt=0,5'
+- title: 'Exploiting Image Structural Similarity for Single Image Rain Removal'
+  date:  'Oct. 2014'
+  imgurl: '/images/projects/2014/rain.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: <strong>Shao-Hua Sun</strong>
+      url:  'https://shaohua0116.github.io/'
+    - name: Shang-Pu Fan
+      url:  '#'
+    - name: Yu-Chiang Frank Wang
+      url:  'https://www.citi.sinica.edu.tw/pages/ycwang/index_en.html'
+  publisher:  'ICIP 2014'
+  status:   ''
+  place:    'in Paris, France'
+  desc: 'Without any prior knowledge or user interaction, single image rain removal has been a challenging task. By observing the limitations of standard batch-mode learning-based methods, we propose to exploit the structural similarity of the image bases for solving this task. By formulating the basis selection as an optimization problem, we are able to disregard those associated with rain patterns while the detailed image information can be preserved.'
+  tags:
+    - name: 'pdf'
+      url:  'http://mml.citi.sinica.edu.tw/papers/ICIP_2014_Sun.pdf'
+    - name: 'Google Scholar'
+      url:  'https://scholar.google.com/scholar?cluster=2864066827398178624&hl=en&as_sdt=0,5&sciodt=0,5'
