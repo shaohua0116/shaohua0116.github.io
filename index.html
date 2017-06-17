@@ -46,69 +46,6 @@ layout: home
       <img src='images/cute.png' width='100'>
     </h1>
   </div>
-<!--    
-  <div class="button">
-    <h1 class="sm-heading text-center">
-      <a href="{{ '/timeline/#timeline' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i> More
-      </a>
-    </h1>
-  </div>
--->
 </div>
-<!--
-<div id="publications" class="publications">
-  <h1 class="md-heading text-center">
-    Publications
-  </h1>
-
-  <div class="pub-list">
-  {% for publication in site.data.publications %}
-  {% if publication.selected %}
-    <div class="pub">
-      <div class="pub-left">
-        <img class="intro-img {{publication.imgprop}}" src="{{ publication.imgurl | prepend: site.baseurl }}"/>
-      </div>
-      <div class="pub-right">
-        <div class="title">
-          {{ publication.title }}
-        </div>
-        <div class="authors">
-          {% for author in publication.authors %}
-            <a class="author" href="{{ author.url }}">
-              {{ author.name | prepend: ' '}}
-              {% if author.equal_contribution %}* {% endif %}
-            </a>
-            {% if forloop.last == false %},{% endif %}
-          {% endfor %}
-        </div>
-        <div class="desc">
-          <p>{{ publication.desc }}</p>
-        </div>
-        <div class="publish">
-          <span class="publisher">{{ publication.publisher }}</span>
-          <span class="status">{{ publication.status }}</span>
-          <span class="place">{{ publication.place }}</span>
-        </div>
-        <div class="tags">
-          {% for tag in publication.tags %}
-          [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
-  {% endfor %}
-  </div>
--->
-<!--  
-  <div class="button">
-    <h1 class="sm-heading text-center">
-      <a href="{{ '/publications/#publications' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i> All Publications
-      </a>
-    </h1>
-  </div> 
--->  
 </div>
 </div>
