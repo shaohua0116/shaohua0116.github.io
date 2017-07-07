@@ -1,8 +1,8 @@
-# - date:  "Summer 2017"
-#   title: "<strong>Graduate Research Internship</strong><br>Snap Inc."
-#   desc:  "Computer Vision, Deep Learning"
-#   host:  false
-#   brief: true
+- date:  "Summer 2017"
+  title: "<strong>Research Internship</strong><br>Snap Inc."
+  desc:  "Computer Vision, Deep Learning"
+  host:  false
+  brief: true
 - date:  "Spring 2017"
   title: "<strong>PhD student</strong><br>USC"
   desc:  "Computer Vision, Deep Learning, Reinforcement Learning"
