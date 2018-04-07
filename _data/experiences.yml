@@ -1,5 +1,5 @@
-- date:  "Summer 2017 - present"
-  title: "<strong>Research Internship</strong><br>Snap Inc."
+- date:  "Summer 2017 - Spring 2018"
+  title: "<strong>Research Internship</strong><br><a href='https://www.snap.com/en-US/'>Snap Inc.</a>"
   desc:  "Computer Vision, Deep Learning"
   host:  false
   brief: true
@@ -11,7 +11,7 @@
     role: "Advisor"
   brief: true
 - date:  "Summer 2016"
-  title: "<strong>Graduate Research Internship</strong><br>Comupter Vision Lab, GE Global Research"
+  title: "<br><a href='https://www.geglobalresearch.com/'><strong>Graduate Research Internship</strong></a><br>Comupter Vision Lab, GE Global Research"
   desc:  "Computer Vision, Deep Learning"
   host:  false
   brief: true
