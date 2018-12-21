@@ -42,8 +42,8 @@ layout: home
     </div>
   </div>
   <div>
-    <h1 class="sm-heading cute-wrapper">
-      <img src='images/cute.png' width='100'>
+    <h1 class="sm-heading young-wrapper">
+      <img src='images/young.png' width='100'>
     </h1>
   </div>
 <!--    

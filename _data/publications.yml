@@ -1,6 +1,121 @@
+
+- title: 'Composing Complex Skills by Learning Transition Policies with Proximity Reward Induction'
+  date:  'May 2019'
+  imgurl: '/images/projects/transition.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Youngwoon Lee*
+      url:  'http://youngwoon.github.io/'
+    - name: <strong>Shao-Hua Sun*</strong>
+      url:  'https://shaohua0116.github.io/'
+    - name: Sriram Somasundaram
+      url:  'http://srirams32.github.io/'
+    - name: Edward Hu
+      url:  'https://edwardshu.com/'
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  desc: 'Intelligent creatures acquire complex skills by exploiting previously learned skills and learning to transition between them. To empower machines with this ability, we propose transition policies which effectively connect primitive skills to perform sequential tasks without handcrafted rewards. To effectively train our transition policies, we introduce proximity predictors which induce rewards gauging proximity to suitable initial states for the next skill. The proposed method is evaluated on a diverse set of experiments for continuous control in both bipedal locomotion and robotic arm manipulation tasks in MuJoCo. We demonstrate that transition policies enable us to effectively learn complex tasks and the induced reward computed using the proximity predictor improves training efficiency.'
+  tags:
+    - name: 'Paper'
+      url:  'https://openreview.net/pdf?id=rygrBhC5tQ'
+    - name: 'Project Page'
+      url:  'https://sites.google.com/view/transitions-iclr2019'
+    - name: 'OpenReview'
+      url:  'https://openreview.net/forum?id=rygrBhC5tQ'
+    - name: 'Bibtex'
+      url:  './bibtex/transition.txt'
+  publisher:  'ICLR 2019'
+  status:   ''
+  # place:    'in New Orleans, USA'
+    
+- title: 'Toward Multimodal Model-Agnostic Meta-Learning'
+  date:  'Dec. 2018'
+  imgurl: '/images/projects/mumomaml.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Risto Vuorio
+      url:  'https://vuoristo.github.io/'
+    - name: <strong>Shao-Hua Sun</strong>
+      url:  'https://shaohua0116.github.io/'
+    - name: Hexiang Hu
+      url:  'http://hexianghu.com/'
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  desc: 'Gradient-based meta-learners such as MAML are able to learn a meta-prior from similar tasks to adapt to novel tasks from the same distribution with few gradient updates. One important limitation of such frameworks is that they seek a common initialization shared across the entire task distribution, substantially limiting the diversity of the task distributions that they are able to learn from. In this paper, we augment MAML with the capability to identify tasks sampled from a multimodal task distribution and adapt quickly through gradient updates. Specifically, we propose a multimodal MAML algorithm that is able to modulate its meta-learned prior according to the identified task, allowing faster adaptation. We evaluate the proposed model on a diverse set of problems including regression, few-shot image classification, and reinforcement learning. The results demonstrate the effectiveness of our model in modulating the meta-learned prior in response to the characteristics of tasks sampled from a multimodal distribution'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/pdf/1812.07172.pdf'
+    - name: 'arXiv'
+      url:  'https://arxiv.org/abs/1812.07172'
+    - name: 'Bibtex'
+      url:  './bibtex/mumomaml.txt'
+  publisher:  'Meta-Learning Workshop at NeurIPS 2018'
+  status:   ''
+  # place:    'in Montreal, Canada'
+      
+- title: 'Multi-view to Novel view: Synthesizing Novel Views with Self-Learned Confidence'
+  date:  'Sep. 2018'
+  imgurl: '/images/projects/view.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: <strong>Shao-Hua Sun</strong>
+      url:  'https://shaohua0116.github.io/'
+    - name: Minyoung Huh
+      url:  'http://minyounghuh.com/'
+    - name: Yuan-Hong Liao
+      url:  'https://andrewliao11.github.io/'
+    - name: Ning Zhang
+      url:  'https://people.eecs.berkeley.edu/~nzhang/'
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  publisher:  'ECCV 2018'
+  status:   ''
+  # place:    'in Munich, Germany'
+  desc: 'We address the task of multi-view novel view synthesis, where we are interested in synthesizing a target image with an arbitrary camera pose from given source images. We propose an end-to-end trainable framework that learns to exploit multiple viewpoints to synthesize a novel view without any 3D supervision. Specifically, our model consists of a flow prediction module and a pixel generation module to directly leverage information presented in source views as well as hallucinate missing pixels from statistical priors. To merge the predictions produced by the two modules given multi-view source images, we introduce a self-learned confidence aggregation mechanism. We evaluate our model on images rendered from 3D object models as well as real and synthesized scenes. We demonstrate that our model is able to achieve state-of-the-art results as well as progressively improve its predictions when more source images are available.'
+  tags:
+    - name: 'Paper'
+      url:  'https://shaohua0116.github.io/Multiview2Novelview/sun2018multiview.pdf'
+    - name: 'Project Page'
+      url:  'https://shaohua0116.github.io/Multiview2Novelview'
+    - name: 'Code'
+      url:  'https://github.com/shaohua0116/Multiview2Novelview'
+    - name: 'Bibtex'
+      url:  'https://shaohua0116.github.io/Multiview2Novelview/cite.txt'
+
+- title: 'Neural Program Synthesis from Diverse Demonstration Videos'
+  date:  'Jul. 2018'
+  imgurl: '/images/projects/demo2program.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: <strong>Shao-Hua Sun*</strong>
+      url:  'https://shaohua0116.github.io/'
+    - name: Hyeonwoo Noh*
+      url:  'http://cvlab.postech.ac.kr/~hyeonwoonoh/'
+    - name: Sriram Somasundaram
+      url:  'http://srirams32.github.io/'
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  publisher:  'ICML 2018'
+  status:   ''
+  # place:    'in Stockholm, Sweden'
+  desc: 'Interpreting decision making logic in demonstration videos is key to collaborating with and mimicking humans. To empower machines with this ability, we propose a neural program synthesizer that is able to explicitly synthesize underlying programs from behaviorally diverse and visually complicated demonstration videos. We introduce a summarizer module as part of our model to improve the network’s ability to integrate multiple demonstrations varying in behavior. We also employ a multi-task objective to encourage the model to learn meaningful intermediate representations for end-to-end training. We show that our model is able to reliably synthesize underlying programs as well as capture diverse behaviors exhibited in demonstrations.'
+  tags:
+    - name: 'Paper'
+      url:  'https://shaohua0116.github.io/demo2program/sun2018neural.pdf'
+    - name: 'Project Page'
+      url:  'https://shaohua0116.github.io/demo2program/'
+    - name: 'Code'
+      url:  'https://github.com/shaohua0116/demo2program'
+    - name: 'Bibtex'
+      url:  'https://shaohua0116.github.io/demo2program/cite.txt'
+
 - title: 'Exploiting Image Structural Similarity for Single Image Rain Removal'
   date:  'Oct. 2014'
-  imgurl: '/images/projects/2014/rain.png'
+  imgurl: '/images/projects/rain.png'
   imgprop: 'frame'
   selected: true
   authors:
@@ -9,34 +124,13 @@
     - name: Shang-Pu Fan
       url:  '#'
     - name: Yu-Chiang Frank Wang
-      url:  'https://www.citi.sinica.edu.tw/pages/ycwang/index_en.html'
+      url:  'http://vllab.ee.ntu.edu.tw/members.html'
   publisher:  'ICIP 2014'
   status:   ''
-  place:    'in Paris, France'
-  desc: 'Without any prior knowledge or user interaction, single image rain removal has been a challenging task. By observing the limitations of standard batch-mode learning-based methods, we propose to exploit the structural similarity of the image bases for solving this task. By formulating the basis selection as an optimization problem, we are able to disregard those associated with rain patterns while the detailed image information can be preserved.'
+  # place:    'in Paris, France'
+  desc: 'Without any prior knowledge or user interaction, single image rain removal has been a challenging task. By observing the limitations of standard batch-mode learning-based methods, we propose to exploit the structural similarity of the image bases for solving this task. By formulating the basis selection as an optimization problem, we are able to disregard those associated with rain patterns while the detailed image information can be preserved. Experiments on both synthetic and real-world images will verify the effectiveness of our proposed method.'
   tags:
-    - name: 'pdf'
+    - name: 'Paper'
       url:  'http://mml.citi.sinica.edu.tw/papers/ICIP_2014_Sun.pdf'
-    - name: 'Google Scholar'
-      url:  'https://scholar.google.com/scholar?cluster=2864066827398178624&hl=en&as_sdt=0,5&sciodt=0,5'
-- title: 'Exploiting Image Structural Similarity for Single Image Rain Removal'
-  date:  'Oct. 2014'
-  imgurl: '/images/projects/2014/rain.png'
-  imgprop: 'frame'
-  selected: true
-  authors:
-    - name: <strong>Shao-Hua Sun</strong>
-      url:  'https://shaohua0116.github.io/'
-    - name: Shang-Pu Fan
-      url:  '#'
-    - name: Yu-Chiang Frank Wang
-      url:  'https://www.citi.sinica.edu.tw/pages/ycwang/index_en.html'
-  publisher:  'ICIP 2014'
-  status:   ''
-  place:    'in Paris, France'
-  desc: 'Without any prior knowledge or user interaction, single image rain removal has been a challenging task. By observing the limitations of standard batch-mode learning-based methods, we propose to exploit the structural similarity of the image bases for solving this task. By formulating the basis selection as an optimization problem, we are able to disregard those associated with rain patterns while the detailed image information can be preserved.'
-  tags:
-    - name: 'pdf'
-      url:  'http://mml.citi.sinica.edu.tw/papers/ICIP_2014_Sun.pdf'
-    - name: 'Google Scholar'
-      url:  'https://scholar.google.com/scholar?cluster=2864066827398178624&hl=en&as_sdt=0,5&sciodt=0,5'
+    - name: 'Bibtex'
+      url:  './bibtex/rain.txt'

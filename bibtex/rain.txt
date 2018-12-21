@@ -1,0 +1,8 @@
+@inproceedings{sun2014exploiting,
+  title={Exploiting image structural similarity for single image rain removal},
+  author={Sun, Shao-Hua and Fan, Shang-Pu and Wang, Yu-Chiang Frank},
+  booktitle={Image Processing (ICIP), 2014 IEEE International Conference on},
+  pages={4482--4486},
+  year={2014},
+  organization={IEEE}
+}
