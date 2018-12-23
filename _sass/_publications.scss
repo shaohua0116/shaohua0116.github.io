@@ -22,8 +22,8 @@
 
 .pub-left {
   float:         left;
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width:         calc(25% - (#{$spacing-unit} / 2));
   text-align:    center;
   margin-left:   auto;
   margin-right:  auto;
@@ -41,8 +41,8 @@
 .pub-right {
   float:         right;
   text-align:    justify;
-  width: -webkit-calc(70% - (#{$spacing-unit} / 2));
-  width:         calc(70% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(75% - (#{$spacing-unit} / 2));
+  width:         calc(75% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
