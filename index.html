@@ -73,6 +73,9 @@ layout: home
             {% if forloop.last == false %},{% endif %}
           {% endfor %}
         </div>
+        <div class="publisher">
+            <span class="publisher">in {{ publication.publisher }}</span>
+        </div>
         <div class="desc">
           <p>
           {% if publication.desc contains '<!--more-->' %}
@@ -83,7 +86,9 @@ layout: home
           </p>
         </div>
         <div class="publish">
+          <!--
           <span class="publisher">{{ publication.publisher }}</span>
+          -->
           <span class="status">{{ publication.status }}</span>
           <span class="place">{{ publication.place }}</span>
         </div>

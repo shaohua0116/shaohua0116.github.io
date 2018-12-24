@@ -1,4 +1,3 @@
-
 .publications {
   max-width:        -webkit-calc(100% - (#{$spacing-unit} / 2));
   max-width:        calc(100% - (#{$spacing-unit} / 2));
@@ -68,18 +67,26 @@
 
 .pub-right > .title {
   font-weight:  600;
+  font-size:    16px;
 }
 
 .pub-right > .authors > .author {
   color:          $blue-color;
   font-weight:    400;
+  font-size:      16px;
+}
+
+.pub-right > .publisher > .publisher {
+  color:          $blue-color-dark;
+  font-weight:    400;
+  font-size:      16px;
 }
 
 .pub-right > .tags > .tag {
-  color:          $red-color-dark;
-  font-weight:    500;
-  font-size:      14px;
-}
+   color:          $red-color-dark;
+   font-weight:    500;
+   font-size:      16px;
+ }
 
 .pub-right > .desc > p {
   margin: auto;
@@ -94,20 +101,20 @@
   font-size:      16px;
 }
 
-.pub-right > .publish > .status {
-  color:          $red-color-dark;
-  font-weight:    800;
-  font-size:      16px;
-  @include media-query($on-palm) {
-    display: none;
-  }
-}
+// .pub-right > .publish > .status {
+//   color:          $red-color-dark;
+//   font-weight:    800;
+//   font-size:      16px;
+//   @include media-query($on-palm) {
+//     display: none;
+//   }
+// }
 
-.pub-right > .publish > .place {
-  color:          $blue-color;
-  font-weight:    500;
-  font-size:      16px;
-  @include media-query($on-palm) {
-    display: none;
-  }
-}
+// .pub-right > .publish > .place {
+//   color:          $blue-color;
+//   font-weight:    500;
+//   font-size:      16px;
+//   @include media-query($on-palm) {
+//     display: none;
+//   }
+// }

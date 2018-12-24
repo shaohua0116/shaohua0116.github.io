@@ -6,7 +6,6 @@ noindex:  true
 
 <div id="publications" class="publications">
   <h1 class="lg-heading text-center">
-    <i class="fa fa-file" aria-hidden="true"></i>
     Full Publication List
   </h1>
 
@@ -30,11 +29,16 @@ noindex:  true
         {% if forloop.last == false %},{% endif %}
         {% endfor %}
       </div>
+      <div class="publisher">
+        <span class="publisher">in {{ publication.publisher }}</span>
+      </div>
       <div class="desc">
         <p>{{ publication.desc }}</p>
       </div>
       <div class="publish">
+        <!--
         <span class="publisher">{{ publication.publisher }}</span>
+        -->
         <span class="status">{{ publication.status }}</span>
         <span class="place">{{ publication.place }}</span>
       </div>
