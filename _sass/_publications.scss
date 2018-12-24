@@ -39,7 +39,6 @@
 
 .pub-right {
   float:         right;
-  text-align:    justify;
   width: -webkit-calc(75% - (#{$spacing-unit} / 2));
   width:         calc(75% - (#{$spacing-unit} / 2));
 }
@@ -68,32 +67,29 @@
 .pub-right > .title {
   font-weight:  600;
   font-size:    16px;
-  text-align:   left;
 }
 
 .pub-right > .authors > .author {
   color:          $blue-color;
   font-weight:    400;
   font-size:      16px;
-  text-align:     left;
 }
 
 .pub-right > .publisher > .publisher {
   color:          $blue-color-dark;
   font-weight:    400;
   font-size:      16px;
-  text-align:     left;
 }
 
 .pub-right > .tags > .tag {
   color:          $red-color-dark;
   font-weight:    500;
   font-size:      16px;
-  text-align:     left;
 }
 
 .pub-right > .desc > p {
-  margin: auto;
+  margin:         auto;
+  text-align:     justify;
 }
 
 .pub-right > .publish {
