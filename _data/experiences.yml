@@ -38,8 +38,8 @@
     name: "<a href='http://www.ee.ntu.edu.tw/profile?id=101'>Prof. Shao-Yi Chien</a>"
     role: "Advisor"
   brief: false
-- date:  "Summer 2012"
-  title: "<strong>Software Engineer Internship</strong><br>Microsoft Taiwan"
-  desc:  "Windows Phone App Development"
-  host:  false
-  brief: false
+# - date:  "Summer 2012"
+#   title: "<strong>Software Engineer Internship</strong><br>Microsoft Taiwan"
+#   desc:  "Windows Phone App Development"
+#   host:  false
+#   brief: false
