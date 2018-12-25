@@ -103,6 +103,7 @@ layout: home
   {% endfor %}
   </div>
 
+  </div>
   <div class="button">
     <h1 class="sm-heading text-center">
       <a href="{{ '/publications/#publications' | prepend: site.baseurl }}">
@@ -111,5 +112,26 @@ layout: home
     </h1>
   </div> 
 
-</div>
+  <div id="service" class="service">
+    <h1 class="md-heading text-center">
+      Professional Service
+    </h1>
+    <div class="service-body">
+      {% for service in site.data.service %}
+      <div class="service-item">
+        <!--
+        <div class="service-role">
+          {{ service.role }}
+        </div>
+        <div class="service-activity">
+          {{ service.activity }}
+        </div>
+        -->
+        <span class="service-role">{{ service.role }}</span>:
+        <span class="service-activity">{{ service.activity }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
 </div>
