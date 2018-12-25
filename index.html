@@ -107,7 +107,7 @@ layout: home
   <div class="button">
     <h1 class="sm-heading text-center">
       <a href="{{ '/publications/#publications' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i> All Publications
+        <i class="fa fa-info-circle"></i> Full Publication List
       </a>
     </h1>
   </div> 
@@ -119,14 +119,6 @@ layout: home
     <div class="service-body">
       {% for service in site.data.service %}
       <div class="service-item">
-        <!--
-        <div class="service-role">
-          {{ service.role }}
-        </div>
-        <div class="service-activity">
-          {{ service.activity }}
-        </div>
-        -->
         <span class="service-role">{{ service.role }}</span>:
         <span class="service-activity">{{ service.activity }}</span>
       </div>
