@@ -1,10 +1,12 @@
 - date:  "Summer 2017 - Spring 2018"
   title: "<strong>Research Internship</strong><br>Snap Inc."
   desc:  "Computer Vision, Deep Learning"
-  host:  false
+  host:
+    name: "<a href='https://people.eecs.berkeley.edu/~nzhang/'>Dr. Ning Zhang</a>"
+    role: "Mentor"
   brief: true
 - date:  "Spring 2017 - present"
-  title: "<strong>PhD student</strong><br>USC"
+  title: "<strong>PhD student</strong><br>University of Southern California"
   desc:  "Computer Vision, Deep Learning, Reinforcement Learning"
   host:
     name: "<a href='http://people.csail.mit.edu/lim/'>Prof. Joseph J. Lim</a>"
@@ -14,30 +16,30 @@
   title: "<strong>Graduate Research Internship</strong><br>Comupter Vision Lab, GE Global Research"
   desc:  "Computer Vision, Deep Learning"
   host:  false
-  brief: true
+  brief: false
 - date:  "Undergrad."
   title: "<strong>Research Assistant</strong><br>Research Center for Information Technology Innovation, Academia Sinica, Taiwan"
   desc:  "Computer Vision, Machine Learning, Computational Photography"
   host:
     name: "<a href='http://vllab.ee.ntu.edu.tw/members.html'>Prof. Yu-Chiang Frank Wang</a>"
     role: "Advisor"
-  brief: true
+  brief: false
 - date:  "Undergrad."
   title: "<strong>Research Assistant</strong><br>Dept. of Computer Science and Information Engineering, NTU"
   desc:  "Computer Vision, Computatinal Photography"
   host:
     name: "<a href='https://www.csie.ntu.edu.tw/~cyy/'>Prof. Yung-Yu Chuang</a>"
     role: "Advisor"
-  brief: true
+  brief: false
 - date:  "Undergrad."
   title: "<strong>Research Assistant</strong><br>Dept. of Electrical Engineering, NTU"
   desc:  "Computer Vision, Image Processing"
   host:
     name: "<a href='http://www.ee.ntu.edu.tw/profile?id=101'>Prof. Shao-Yi Chien</a>"
     role: "Advisor"
-  brief: true
-# - date:  "Summer 2012"
-#   title: "<strong>Software Engineer Internship</strong><br>Microsoft Taiwan"
-#   desc:  "Windows Phone App Development"
-#   host:  false
-#   brief: true
+  brief: false
+- date:  "Summer 2012"
+  title: "<strong>Software Engineer Internship</strong><br>Microsoft Taiwan"
+  desc:  "Windows Phone App Development"
+  host:  false
+  brief: false

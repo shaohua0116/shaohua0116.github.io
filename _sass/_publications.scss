@@ -1,3 +1,4 @@
+$border-width: 2px;
 .publications {
   max-width:        -webkit-calc(100% - (#{$spacing-unit} / 2));
   max-width:        calc(100% - (#{$spacing-unit} / 2));
@@ -30,8 +31,10 @@
 
 .pub-left > .intro-img {
   width:          320px;
-  border-style:   solid;
-  border-color:   $red-color-dark;
+  border-right:   $border-width solid $red-color-dark;
+  border-top:     $border-width solid $red-color-dark;
+  border-left:    $border-width solid $red-color-dark;
+  border-bottom:  $border-width solid $red-color-dark;
 }
 
 .pub-left > .frame {

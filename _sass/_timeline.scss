@@ -57,7 +57,7 @@ $image-half-width: 50px;
   border-left:        5px solid #333;
   text-align:         left;
   &:last-child {
-      height: 80px;
+      height: 50px;
       border-left:        5px dashed #333;
   }
 }
@@ -108,8 +108,8 @@ $image-half-width: 50px;
 .timeline > .timeline-body > .timeline-item:last-child:after
 {
   bottom:         0;
-  width:          11px;
-  height:         11px;
+  width:          0px;
+  height:         0px;
   background:     #333;
   content:        "";
   display:        block;
