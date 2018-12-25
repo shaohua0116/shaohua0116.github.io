@@ -120,7 +120,7 @@
   date:  'Oct. 2014'
   imgurl: '/images/projects/rain.png'
   imgprop: 'frame'
-  selected: true
+  selected: false
   authors:
     - name: <strong>Shao-Hua Sun</strong>
       url:  'https://shaohua0116.github.io/'
