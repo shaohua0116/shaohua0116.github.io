@@ -123,7 +123,7 @@ $image-half-width: 50px;
 //   border-right:       5px dashed #333;
 // }
 
-.timeline > .timeline-body > .timeline-item:last-child:nth-child(odd){
+.timeline > .timeline-body > .timeline-item:last-child:nth-child(odd) {
   vertical-align:     middle;
   min-height:         200px;
   border-left:        5px dashed #333;

@@ -11,52 +11,19 @@ layout: home
   </div>
 </div>
 
-
-<div id="timeline" class="timeline-brief">
+<div id="news" class="news">
   <h1 class="md-heading text-center">
-    Timeline
+    News
   </h1>
-
-  <div class="timeline-body">
-    {% for experience in site.data.experiences %}
-    {% if experience.brief == true %}
-    <div class="timeline-item">
-      <div class="timeline-date">
-        {{ experience.date }}
-      </div>
-      <div class="timeline-title">
-        {{ experience.title }}
-      </div>
-      <div class="timeline-desc">
-        {{ experience.desc }}
-      </div>
-      {% unless experience.host == false %}
-      <div class="timeline-host">
-        {{ experience.host.role }}: {{ experience.host.name }}
-      </div>
-      {% endunless %}
+  <div class="news-body">
+    {% for news in site.data.news %}
+    <div class="news-item">
+      <li>
+        {{ news.news }}
+      </li>
     </div>
-    {% endif %}
     {% endfor %}
-    <div class="timeline-item">
-    </div>
   </div>
-  <!---
-  <div>
-    <h1 class="sm-heading young-wrapper">
-      <img src='images/young.png' width='100'>
-    </h1>
-  </div>
-  -->
-  <div class="button">
-    <h1 class="sm-heading text-center">
-      <a href="{{ '/timeline/#timeline' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i> Full Timeline
-      </a>
-    </h1>
-  </div> 
-
-
 </div>
 
 <div id="publications" class="publications">
@@ -112,28 +79,67 @@ layout: home
     </div>
     {% endif %}
     {% endfor %}
-  </div>
+</div>
 
-  <div class="button">
-    <h1 class="sm-heading text-center">
-      <a href="{{ '/publications/#publications' | prepend: site.baseurl }}">
-        <i class="fa fa-info-circle"></i> Full Publication List
-      </a>
-    </h1>
-  </div> 
+<div class="button">
+  <h1 class="sm-heading text-center">
+    <a href="{{ '/publications/#publications' | prepend: site.baseurl }}">
+      <i class="fa fa-info-circle"></i> Full Publication List
+    </a>
+  </h1>
+</div> 
 
-  <div id="service" class="service">
-    <h1 class="md-heading text-center">
-      Professional Service
-    </h1>
-    <div class="service-body">
-      {% for service in site.data.service %}
-      <div class="service-item">
-        <span class="service-role">{{ service.role }}</span>:
-        <span class="service-activity">{{ service.activity }}</span>
+<div id="timeline" class="timeline-brief">
+  <h1 class="md-heading text-center">
+    Timeline
+  </h1>
+
+  <div class="timeline-body">
+    {% for experience in site.data.experiences %}
+    {% if experience.brief == true %}
+    <div class="timeline-item">
+      <div class="timeline-date">
+        {{ experience.date }}
       </div>
-      {% endfor %}
+      <div class="timeline-title">
+        {{ experience.title }}
+      </div>
+      <div class="timeline-desc">
+        {{ experience.desc }}
+      </div>
+      {% unless experience.host == false %}
+      <div class="timeline-host">
+        {{ experience.host.role }}: {{ experience.host.name }}
+      </div>
+      {% endunless %}
+    </div>
+    {% endif %}
+    {% endfor %}
+    <div class="timeline-item">
     </div>
   </div>
+</div>
+
+<div class="button">
+  <h1 class="sm-heading text-center">
+    <a href="{{ '/timeline/#timeline' | prepend: site.baseurl }}">
+      <i class="fa fa-info-circle"></i> Full Timeline
+    </a>
+  </h1>
+</div> 
+
+<div id="service" class="service">
+  <h1 class="md-heading text-center">
+    Professional Service
+  </h1>
+  <div class="service-body">
+    {% for service in site.data.service %}
+    <div class="service-item">
+      <span class="service-role">{{ service.role }}</span>:
+      <span class="service-activity">{{ service.activity }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</div>
 
 </div>
