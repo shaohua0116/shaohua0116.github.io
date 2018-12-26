@@ -50,6 +50,8 @@
       url:  'https://arxiv.org/pdf/1812.07172.pdf'
     - name: 'arXiv'
       url:  'https://arxiv.org/abs/1812.07172'
+    - name: 'Poster'
+      url:  './images/posters/mumomaml.pdf'
     - name: 'Bibtex'
       url:  './bibtex/mumomaml.txt'
   publisher:  'Meta-Learning Workshop at Neural Information Processing Systems (NeurIPS) 2018'
@@ -84,6 +86,8 @@
       url:  'https://shaohua0116.github.io/Multiview2Novelview'
     - name: 'Code'
       url:  'https://github.com/shaohua0116/Multiview2Novelview'
+    - name: 'Poster'
+      url:  './images/posters/view.pdf'
     - name: 'Bibtex'
       url:  'https://shaohua0116.github.io/Multiview2Novelview/cite.txt'
 
@@ -113,6 +117,10 @@
       url:  'https://shaohua0116.github.io/demo2program/'
     - name: 'Code'
       url:  'https://github.com/shaohua0116/demo2program'
+    - name: 'Slides'
+      url:  './images/slides/demo2program.pdf'
+    - name: 'Poster'
+      url:  './images/posters/demo2program.pdf'
     - name: 'Bibtex'
       url:  'https://shaohua0116.github.io/demo2program/cite.txt'
 
