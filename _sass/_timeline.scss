@@ -57,7 +57,7 @@ $image-half-width: 50px;
   border-left:        5px solid #333;
   text-align:         left;
   &:last-child {
-      height: 40px;
+      height: 80px;
       border-left:        5px dashed #333;
   }
 }
@@ -96,12 +96,6 @@ $image-half-width: 50px;
   border-radius:  5px;
 }
 
-.timeline > .timeline-body > .timeline-item-last {
-  vertical-align:     middle;
-  min-height:         200px;
-  border-left:        5px dashed #333;
-}
-
 .young-wrapper {
     margin-left: calc(15% - 40px);
     margin-left: -webkit-calc(15% - 40px);
@@ -133,18 +127,6 @@ $image-half-width: 50px;
     min-height:         0;
     text-align:         left;
     border-left:        5px solid #333;
-    border-right:       0px;
-    width:              100%;
-    padding-left:       15px;
-    margin-left:        15px;
-    margin-right:       0px;
-    padding-right:      0px;
-  }
-
-  .timeline > .timeline-body > .timeline-item-last {
-    min-height:         0;
-    text-align:         left;
-    border-left:        5px dashed #333;
     border-right:       0px;
     width:              100%;
     padding-left:       15px;
