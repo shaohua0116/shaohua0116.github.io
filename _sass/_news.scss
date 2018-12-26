@@ -22,6 +22,9 @@ $news-padding: 20px;
 .news-item {
   text-align:     left;
   font-size:      16px;
+  @include media-query($on-palm) {
+    font-size:      14px;
+  }
   float:          left !important;
   overflow:       auto;
   // padding-top:    #{$spacing-unit};
@@ -30,17 +33,22 @@ $news-padding: 20px;
 
 .news-left {
   float:       left;
-  width: -webkit-calc(15% - (#{$spacing-unit} / 2));
-  width:         calc(15% - (#{$spacing-unit} / 2));
   margin-left: auto;
   margin-right: auto;
+  width: -webkit-calc(12% - (#{$spacing-unit} / 2));
+  width:         calc(12% - (#{$spacing-unit} / 2));
+  @include media-query($on-palm) {
+  }
 }
 
 .news-right {
   float:       left;
-  width: -webkit-calc(85% - (#{$spacing-unit} / 2));
-  width:         calc(85% - (#{$spacing-unit} / 2));
-  margin-left: 0px;
+  width: -webkit-calc(88% - (#{$spacing-unit} / 2));
+  width:         calc(88% - (#{$spacing-unit} / 2));
+  margin-left: 5px;
+  @include media-query($on-palm) {
+    margin-left: 25px;
+  }
 }
 
 .news-left > .news-date {
