@@ -18,13 +18,20 @@ layout: home
   <div class="news-body">
     {% for news in site.data.news %}
     <div class="news-item">
-      <li>
-        <span class="news-date">{{ news.date }}</span>:
-        <span class="news-news">{{ news.news }}</span>
-      </li>
+      <div class="news-left">
+        <div class="news-date">
+          {{ news.date }}
+        </div>
+      </div>
+      <div class="news-right">
+        <div class="news-news">
+          {{ news.news }}
+        </div>
+      </div>
     </div>
     {% endfor %}
   </div>
+
 </div>
 
 <div id="publications" class="publications">
