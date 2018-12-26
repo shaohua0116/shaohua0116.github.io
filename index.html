@@ -19,7 +19,8 @@ layout: home
     {% for news in site.data.news %}
     <div class="news-item">
       <li>
-        {{ news.news }}
+        <span class="news-date">{{ news.date }}</span>:
+        <span class="news-news">{{ news.news }}</span>
       </li>
     </div>
     {% endfor %}

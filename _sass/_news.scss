@@ -4,8 +4,8 @@
 $news-padding: 20px;
 
 .news {
-  max-width:        -webkit-calc(85% - (#{$spacing-unit} / 2));
-  max-width:        calc(85% - (#{$spacing-unit} / 2));
+  max-width:        -webkit-calc(90% - (#{$spacing-unit} / 2));
+  max-width:        calc(90% - (#{$spacing-unit} / 2));
   margin-top:       #{$spacing-unit};
   margin-left:      auto;
   margin-right:     auto;
@@ -20,8 +20,14 @@ $news-padding: 20px;
 }
 
 .news-item {
-  // width:       -webkit-calc(80% - (#{$news-padding}) );
-  // width:       calc(80% -  (#{$news-padding}) );
   text-align:  left;
   font-size:   14px;
+}
+
+.news-date {
+  color:       $primary-color-dark;
+  font-weight: bold;
+}
+
+.news-news {
 }
