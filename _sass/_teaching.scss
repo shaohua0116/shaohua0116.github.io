@@ -1,9 +1,9 @@
 /*
-* News items
+* Teaching items
 */
-$news-padding: 20px;
+$teaching-padding: 20px;
 
-.news {
+.teaching {
   max-width:        -webkit-calc(80% - (#{$spacing-unit} / 2));
   max-width:        calc(80% - (#{$spacing-unit} / 2));
   margin-top:       #{$spacing-unit};
@@ -15,46 +15,39 @@ $news-padding: 20px;
   }
 }
 
-.news-body {
+.teaching-body {
   overflow:   auto;
 }
 
-.news-item {
+.teaching-item {
   text-align:     left;
   font-size:      16px;
   @include media-query($on-palm) {
-    font-size:      14px;
+    font-size:      16px;
   }
   // float:          left !important;
   overflow:       auto;
-  // padding-top:    #{$spacing-unit};
   margin-top:     5px;
 }
 
-.news-left {
+.teaching-semester {
+  font-weight: bold;
   float:       left;
   margin-left: auto;
   margin-right: auto;
-  width: -webkit-calc(12% - (#{$spacing-unit} / 2));
-  width:         calc(12% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width:         calc(25% - (#{$spacing-unit} / 2));
   @include media-query($on-palm) {
   }
-}
-
-.news-right {
-  float:       left;
-  width: -webkit-calc(88% - (#{$spacing-unit} / 2));
-  width:         calc(88% - (#{$spacing-unit} / 2));
-  margin-left: 5px;
-  @include media-query($on-palm) {
-    margin-left: 25px;
-  }
-}
-
-.news-left > .news-date {
   color:       $primary-color-dark;
-  font-weight: bold;
 }
 
-.news-right > .news-news {
+.teaching-course {
+  float:       left;
+  width: -webkit-calc(75% - (#{$spacing-unit} / 2));
+  width:         calc(75% - (#{$spacing-unit} / 2));
+  margin-left: 0px;
+  @include media-query($on-palm) {
+    margin-left: 30px;
+  }
 }

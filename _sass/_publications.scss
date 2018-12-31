@@ -77,23 +77,35 @@ $border-width: 2px;
   color:          $blue-color;
   font-weight:    400;
   font-size:      16px;
+  @include media-query($on-palm) {
+    font-size:  14px;
+  }
 }
 
 .pub-right > .publisher > .publisher {
   color:          $blue-color-dark;
   font-weight:    400;
   font-size:      16px;
+  @include media-query($on-palm) {
+    font-size:  14px;
+  }
 }
 
 .pub-right > .tags > .tag {
   color:          $red-color-dark;
   font-weight:    500;
   font-size:      16px;
+  @include media-query($on-palm) {
+    font-size:  14px;
+  }
 }
 
 .pub-right > .desc > p {
   margin:         auto;
   text-align:     justify;
+  @include media-query($on-palm) {
+    font-size:  14px;
+  }
 }
 
 .pub-right > .publish {

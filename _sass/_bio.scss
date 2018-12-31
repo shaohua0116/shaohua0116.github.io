@@ -1,6 +1,6 @@
 .bio {
-  max-width:        -webkit-calc(81% - (#{$spacing-unit} / 2));
-  max-width:        calc(81% - (#{$spacing-unit} / 2));
+  max-width:        -webkit-calc(80% - (#{$spacing-unit} / 2));
+  max-width:        calc(80% - (#{$spacing-unit} / 2));
   // margin-top:       #{$spacing-unit};
   margin-top:       #{$spacing-unit};
   margin-left:      auto;
@@ -16,4 +16,7 @@
   margin:     5px;
   padding:    5px;
   font-size:  16px;
+  @include media-query($on-palm) {
+    font-size:  14px;
+  }
 }

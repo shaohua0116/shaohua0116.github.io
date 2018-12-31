@@ -31,7 +31,6 @@ layout: home
     </div>
     {% endfor %}
   </div>
-
 </div>
 
 <div id="publications" class="publications">
@@ -137,6 +136,42 @@ layout: home
     </a>
   </h1>
 </div> 
+
+<div id="teaching" class="teaching">
+  <h1 class="md-heading text-center">
+    Teaching
+  </h1>
+  <div class="teaching-body">
+    {% for teaching in site.data.teaching %}
+    <div class="teaching-item">
+      <!--
+      <div class="teaching-left">
+        <div class="teaching-semester">
+          {{ teaching.semester }}
+        </div>
+      </div>
+      <div class="teaching-middle">
+        <div class="teaching-course">
+          {{ teaching.course }}
+        </div>
+      </div>
+      <div class="teaching-right">
+        <div class="teaching-school">
+          {{ teaching.school }}
+        </div>
+      </div>
+      -->
+      <span class="teaching-semester">{{ teaching.semester }}</span>
+
+      <span class="teaching-course">{{ teaching.course }}</span>
+      <!--
+      <span class="teaching-role">{{ teaching.role }}</span>
+      <span class="teaching-school">{{ teaching.school }}</span>
+      -->
+    </div>
+    {% endfor %}
+  </div>
+</div>
 
 <div id="service" class="service">
   <h1 class="md-heading text-center">
