@@ -1,8 +1,8 @@
 $service-padding: 20px;
 
 .service {
-  max-width:        -webkit-calc(81% - (#{$spacing-unit} / 2));
-  max-width:        calc(81% - (#{$spacing-unit} / 2));
+  max-width:        -webkit-calc(80% - (#{$spacing-unit} / 2));
+  max-width:        calc(80% - (#{$spacing-unit} / 2));
   margin-top:       #{$spacing-unit};
   margin-left:      auto;
   margin-right:     auto;
@@ -17,8 +17,6 @@ $service-padding: 20px;
 }
 
 .service-item {
-  width:       -webkit-calc(80% - (#{$service-padding}) );
-  width:       calc(80% -  (#{$service-padding}) );
   font-size:   16px;
   font-weight: bold;
   position: relative;
@@ -29,9 +27,6 @@ $service-padding: 20px;
 
 .service-role {
   color:        $primary-color-dark;
-  @include media-query($on-palm) {
-    font-size:  14px;
-  }
 }
 
 .service-activity {
