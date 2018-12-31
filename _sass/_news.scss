@@ -37,8 +37,6 @@ $news-padding: 20px;
   margin-right: auto;
   width: -webkit-calc(12% - (#{$spacing-unit} / 2));
   width:         calc(12% - (#{$spacing-unit} / 2));
-  @include media-query($on-palm) {
-  }
 }
 
 .news-right {
