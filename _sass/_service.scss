@@ -36,8 +36,8 @@ $service-padding: 20px;
   margin-left: auto;
   margin-right: auto;
   color:       $primary-color-dark;
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(28% - (#{$spacing-unit} / 2));
+  width:         calc(28% - (#{$spacing-unit} / 2));
   @include media-query($on-palm) {
     width: -webkit-calc(40% - (#{$spacing-unit} / 2));
     width:         calc(40% - (#{$spacing-unit} / 2));
@@ -47,8 +47,8 @@ $service-padding: 20px;
 
 .service-activity {
   float:       left;
-  width: -webkit-calc(70% - (#{$spacing-unit} / 2));
-  width:         calc(70% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(72% - (#{$spacing-unit} / 2));
+  width:         calc(72% - (#{$spacing-unit} / 2));
   margin-left: 0px;
   @include media-query($on-palm) {
     width: -webkit-calc(60% - (#{$spacing-unit} / 2));
