@@ -1,3 +1,9 @@
+{% if site.social.github %}
+<a href="{{ site.social.github | prepend: "https://github.com/" }}" target="_blank">
+  <img src="/images/icon/color-github.png" class="social-icon">
+</a>
+{% endif %}
+
 {% if site.social.twitter %}
 <a href="{{ site.social.twitter | prepend: "https://twitter.com/" }}" target="_blank">
   <img src="/images/icon/color-twitter.png" class="social-icon">
@@ -7,12 +13,6 @@
 {% if site.social.linkedin %}
 <a href="{{ site.social.linkedin | prepend: "https://linkedin.com/in/" }}" target="_blank">
   <img src="/images/icon/color-linkedin.png" class="social-icon">
-</a>
-{% endif %}
-
-{% if site.social.github %}
-<a href="{{ site.social.github | prepend: "https://github.com/" }}" target="_blank">
-  <img src="/images/icon/color-github.png" class="social-icon">
 </a>
 {% endif %}
 
