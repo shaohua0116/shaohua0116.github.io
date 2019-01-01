@@ -35,7 +35,7 @@
     font-size:      2.0rem;
     height:         2.6rem;
     line-height:    2.6rem;
-    margin:         0 5px;
+    margin:         0 4px;
     position:       relative;
     text-align:     center;
     -webkit-user-select: none;
@@ -75,6 +75,9 @@
 .github span {
     background-color: $github-color;
 }
+.gscholar span {
+    background-color: $gscholar-color;
+}
 /* Icons */
 .icon-button i {
     background:         none;
@@ -83,7 +86,7 @@
     left:               0;
     line-height:        2.6rem;
     position:           absolute;
-    top:                0;
+    top:                2px;
     -webkit-transition: all 0.3s;
        -moz-transition: all 0.3s;
          -o-transition: all 0.3s;
@@ -100,9 +103,14 @@
 .icon-button .icon-linkedin {
     color: $linkedin-color;
 }
+.icon-button .icon-gscholar {
+    color: $gscholar-color;
+    top:                0px;
+}
 
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-github,
+.icon-button:hover .icon-gscholar,
 .icon-button:hover .icon-linkedin {
     color: white;
 }
