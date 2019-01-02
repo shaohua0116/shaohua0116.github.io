@@ -78,6 +78,9 @@
 .gscholar span {
     background-color: $gscholar-color;
 }
+.google span {
+    background-color: $google-color;
+}
 /* Icons */
 .icon-button i {
     background:         none;
@@ -106,17 +109,21 @@
 .icon-button .icon-linkedin {
     color: $linkedin-color;
 }
+.icon-button .icon-google {
+    color: $google-color;
+}
 .icon-button .icon-gscholar {
     color: $gscholar-color;
     top:                0px;
     @include media-query($on-palm) {
-      top:              -1px;
+      top:              0;
     }
 }
 
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-github,
-.icon-button:hover .icon-gscholar,
-.icon-button:hover .icon-linkedin {
+.icon-button:hover .icon-linkedin,
+.icon-button:hover .icon-google,
+.icon-button:hover .icon-gscholar, {
     color: white;
 }

@@ -20,7 +20,8 @@ $news-padding: 20px;
 }
 
 .news-item {
-  text-align:     left;
+  // text-align:     left;
+  text-align:     justify;
   font-size:      16px;
   @include media-query($on-palm) {
     font-size:      14px;
@@ -35,14 +36,14 @@ $news-padding: 20px;
   float:       left;
   margin-left: auto;
   margin-right: auto;
-  width: -webkit-calc(12% - (#{$spacing-unit} / 2));
-  width:         calc(12% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+  width:         calc(15% - (#{$spacing-unit} / 2));
 }
 
 .news-right {
   float:       left;
-  width: -webkit-calc(88% - (#{$spacing-unit} / 2));
-  width:         calc(88% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(85% - (#{$spacing-unit} / 2));
+  width:         calc(85% - (#{$spacing-unit} / 2));
   margin-left: 5px;
   @include media-query($on-palm) {
     margin-left: 25px;
