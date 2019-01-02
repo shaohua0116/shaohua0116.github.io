@@ -49,7 +49,7 @@
     - name: 'Paper'
       url:  'https://arxiv.org/pdf/1812.07172.pdf'
     - name: 'Project Page'
-      url:  './project_page/mumomaml/index.html'
+      url:  './mumomaml/index.html'
     - name: 'arXiv'
       url:  'https://arxiv.org/abs/1812.07172'
     - name: 'Poster'

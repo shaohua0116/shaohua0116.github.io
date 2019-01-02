@@ -1,0 +1,6 @@
+@inproceedings{vuorio2018toward,
+  title={Toward Multimodal Model-Agnostic Meta-Learning},
+  author={Vuorio, Risto and Sun, Shao-Hua and Hu, Hexiang and Lim, Joseph J},
+  booktitle={2nd Workshop on Meta-Learning at The Thirty-second Annual Conference Neural Information Processing Systems},
+  year={2018},
+}
