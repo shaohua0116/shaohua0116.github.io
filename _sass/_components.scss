@@ -96,9 +96,6 @@
             transition: all 0.3s;
     width:              2.6rem;
     z-index:            20;
-    @include media-query($on-palm) {
-      top:              0;
-    }
 }
 .icon-button .icon-twitter {
     color: $twitter-color;
@@ -114,10 +111,6 @@
 }
 .icon-button .icon-gscholar {
     color: $gscholar-color;
-    top:                0px;
-    @include media-query($on-palm) {
-      top:              0;
-    }
 }
 
 .icon-button:hover .icon-twitter,
