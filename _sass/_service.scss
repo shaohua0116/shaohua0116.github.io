@@ -28,7 +28,7 @@ $service-padding: 20px;
   // float:          left !important;
   overflow:       auto;
   margin-top:     5px;
-  font-weight: bold;
+  // font-weight: bold;
 }
 
 .service-role {
@@ -38,6 +38,7 @@ $service-padding: 20px;
   color:       $primary-color-dark;
   width: -webkit-calc(28% - (#{$spacing-unit} / 2));
   width:         calc(28% - (#{$spacing-unit} / 2));
+  font-weight: bold;
   @include media-query($on-palm) {
     width: -webkit-calc(40% - (#{$spacing-unit} / 2));
     width:         calc(40% - (#{$spacing-unit} / 2));

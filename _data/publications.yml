@@ -1,4 +1,4 @@
-- title: 'Composing Complex Skills by Learning Transition Policies with Proximity Reward Induction'
+- title: 'Composing Complex Skills by Learning Transition Policies'
   date:  'May 2019'
   imgurl: '/images/projects/transition.png'
   imgprop: 'frame'
@@ -14,13 +14,13 @@
       url:  'https://edwardshu.com/'
     - name: Joseph J. Lim
       url:  'http://www-bcf.usc.edu/~limjj/'
-  desc: 'Intelligent creatures acquire complex skills by exploiting previously learned skills and learning to transition between them. To empower machines with this ability, we propose transition policies which effectively connect primitive skills to perform sequential tasks without handcrafted rewards. To effectively train our transition policies, we introduce proximity predictors which induce rewards gauging proximity to suitable initial states for the next skill. The proposed method is evaluated on a diverse set of experiments for continuous control in both bipedal locomotion and robotic arm manipulation tasks'
-  abstract: 'Intelligent creatures acquire complex skills by exploiting previously learned skills and learning to transition between them. To empower machines with this ability, we propose transition policies which effectively connect primitive skills to perform sequential tasks without handcrafted rewards. To effectively train our transition policies, we introduce proximity predictors which induce rewards gauging proximity to suitable initial states for the next skill. The proposed method is evaluated on a diverse set of experiments for continuous control in both bipedal locomotion and robotic arm manipulation tasks in MuJoCo. We demonstrate that transition policies enable us to effectively learn complex tasks and the induced reward computed using the proximity predictor improves training efficiency.'
+  desc: 'Humans acquire complex skills by exploiting previously learned skills and making transitions between them. To empower machines with this ability, we propose a method that can learn transition policies which effectively connect primitive skills to perform sequential tasks without handcrafted rewards. To efficiently train our transition policies, we introduce proximity predictors which induce rewards gauging proximity to suitable initial states for the next skill. The proposed method is evaluated on a set of complex continuous control tasks in bipedal locomotion and robotic arm manipulation which traditional methods struggle at.'
+  abstract: 'Humans acquire complex skills by exploiting previously learned skills and making transitions between them. To empower machines with this ability, we propose a method that can learn transition policies which effectively connect primitive skills to perform sequential tasks without handcrafted rewards. To efficiently train our transition policies, we introduce proximity predictors which induce rewards gauging proximity to suitable initial states for the next skill. The proposed method is evaluated on a set of complex continuous control tasks in bipedal locomotion and robotic arm manipulation which traditional policy gradient methods struggle at. We demonstrate that transition policies enable us to effectively compose complex skills with existing primitive skills. The proposed induced rewards computed using the proximity predictor further improve training efficiency by providing more dense information than the sparse rewards from the environments.'
   tags:
     - name: 'Paper'
       url:  'https://openreview.net/pdf?id=rygrBhC5tQ'
     - name: 'Project Page'
-      url:  'https://sites.google.com/view/transitions-iclr2019'
+      url:  'https://youngwoon.github.io/transition/'
     - name: 'OpenReview'
       url:  'https://openreview.net/forum?id=rygrBhC5tQ'
     - name: 'Bibtex'
@@ -91,7 +91,7 @@
     - name: 'Poster'
       url:  './images/posters/view.pdf'
     - name: 'Bibtex'
-      url:  'https://shaohua0116.github.io/Multiview2Novelview/cite.txt'
+      url:  './bibtex/multiview.txt'
 
 - title: 'Neural Program Synthesis from Diverse Demonstration Videos'
   date:  'Jul. 2018'
@@ -124,7 +124,7 @@
     - name: 'Poster'
       url:  './images/posters/demo2program.pdf'
     - name: 'Bibtex'
-      url:  'https://shaohua0116.github.io/demo2program/cite.txt'
+      url:  './bibtex/demo2program.txt'
 
 - title: 'Exploiting Image Structural Similarity for Single Image Rain Removal'
   date:  'Oct. 2014'
