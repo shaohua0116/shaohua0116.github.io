@@ -1,4 +1,4 @@
-@inproceedings{lee2018composing,
+@inproceedings{lee2019composing,
   title={Composing Complex Skills by Learning Transition Policies with Proximity Reward Induction},
   author={Lee, Youngwoon and Sun, Shao-Hua and Somasundaram, Sriram and Hu, Edward and Lim, Joseph J.},
   booktitle={International Conference on Learning Representations},

@@ -1,3 +1,26 @@
+- title: 'Feedback Adversarial Learning: Spatial Feedback for Improving Generative Adversarial Networks'
+  date:  'June 2019'
+  imgurl: '/images/projects/fal.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Minyoung Huh*
+      url:  'http://minyounghuh.com/'
+    - name: <strong>Shao-Hua Sun*</strong>
+      url:  'https://shaohua0116.github.io/'
+    - name: Ning Zhang
+      url:  'https://people.eecs.berkeley.edu/~nzhang/'
+  desc: 'We propose feedback adversarial learning framework that can improve existing generative adversarial networks by leveraging the spatial feedback from the discriminator even during the testing time. We formulate the generation task as a recurrent framework, in which the generator conditions on the discriminator spatial output response, and the previous image to iteratively improve generation quality over time. We show that one can easily adapt our method to several existing adversarial learning methods on a wide range of tasks, including image generation, image-to-image translation, and voxel generation.'
+  abstract: 'The discriminator in generative adversarial networks is used to train the generator but is discarded during the testing time; not being fully utilized during generation. Hence, we propose feedback adversarial learning (FAL) framework that can improve existing generative adversarial networks by leveraging the spatial feedback from the discriminator even during the testing time. We formulate the generation task as a recurrent framework, in which the discriminator feedback is integrated into the feedforward path of the generation process. Specifically, the generator conditions on the discriminator spatial output response, and the previous image to improve generation quality over time -- allowing the generator to attend and fix its previous mistakes. We demonstrate that one can easily adapt our method to several existing adversarial learning methods on a wide range of tasks, including image generation, image-to-image translation, and voxel generation.'
+  tags:
+    # - name: 'Paper'
+    #   url:  'https://openreview.net/pdf?id=rygrBhC5tQ'
+    - name: 'Bibtex'
+      url:  './bibtex/fal.txt'
+  publisher:  'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019'
+  status:   ''
+  # place:    'in Long Beach, California, USA'
+ 
 - title: 'Composing Complex Skills by Learning Transition Policies'
   date:  'May 2019'
   imgurl: '/images/projects/transition.png'
