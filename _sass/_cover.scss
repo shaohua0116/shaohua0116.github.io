@@ -4,8 +4,9 @@
 */
 .cover {
   // max-width:            100%;
-  max-width:        -webkit-calc(80% - (#{$spacing-unit} / 2));
-  max-width:        calc(80% - (#{$spacing-unit} / 2));
+  max-width:        -webkit-calc(70% - (#{$spacing-unit} / 2));
+  max-width:        calc(70% - (#{$spacing-unit} / 2));
+  max-width:            900px;
   height:               320px;
   z-index:              initial;
   margin-right:         auto;
