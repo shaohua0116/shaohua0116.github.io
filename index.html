@@ -51,11 +51,13 @@ layout: home
         </div>
         <div class="authors">
           {% for author in publication.authors %}
-            <a class="author" href="{{ author.url }}">
-              {{ author.name | prepend: ' '}}
-              {% if author.equal_contribution %}* {% endif %}
-            </a>
-            {% if forloop.last == false %},{% endif %}
+          <a class="author" href="{{ author.url }}">
+              {% if author.me %}<strong> {% endif %}
+              {{author.name}}
+              {% if author.me %}</strong> {% endif %}
+          </a>
+          {% if author.equal_contribution %}* {% endif %}
+          {% if forloop.last == false %},{% endif %}
           {% endfor %}
         </div>
         <div class="publisher">

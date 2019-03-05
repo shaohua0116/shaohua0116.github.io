@@ -4,10 +4,13 @@
   imgprop: 'frame'
   selected: true
   authors:
-    - name: Minyoung Huh*
+    - name: Minyoung Huh
       url:  'http://minyounghuh.com/'
-    - name: <strong>Shao-Hua Sun*</strong>
+      equal_contribution: true
+    - name: Shao-Hua Sun
       url:  'https://shaohua0116.github.io/'
+      equal_contribution: true
+      me: true
     - name: Ning Zhang
       url:  'https://people.eecs.berkeley.edu/~nzhang/'
   desc: 'We propose feedback adversarial learning framework that can improve existing generative adversarial networks by leveraging the spatial feedback from the discriminator even during the testing time. We formulate the generation task as a recurrent framework, in which the generator conditions on the discriminator spatial output response, and the previous image to iteratively improve generation quality over time. We show that one can easily adapt our method to several existing adversarial learning methods on a wide range of tasks, including image generation, image-to-image translation, and voxel generation.'
@@ -27,10 +30,13 @@
   imgprop: 'frame'
   selected: true
   authors:
-    - name: Youngwoon Lee*
+    - name: Youngwoon Lee
       url:  'http://youngwoon.github.io/'
-    - name: <strong>Shao-Hua Sun*</strong>
+      equal_contribution: true
+    - name: Shao-Hua Sun
       url:  'https://shaohua0116.github.io/'
+      equal_contribution: true
+      me: true
     - name: Sriram Somasundaram
       url:  'http://srirams32.github.io/'
     - name: Edward Hu
@@ -60,8 +66,9 @@
   authors:
     - name: Risto Vuorio
       url:  'https://vuoristo.github.io/'
-    - name: <strong>Shao-Hua Sun</strong>
+    - name: Shao-Hua Sun
       url:  'https://shaohua0116.github.io/'
+      me: true
     - name: Hexiang Hu
       url:  'http://hexianghu.com/'
     - name: Joseph J. Lim
@@ -89,8 +96,9 @@
   imgprop: 'frame'
   selected: true
   authors:
-    - name: <strong>Shao-Hua Sun</strong>
+    - name: Shao-Hua Sun
       url:  'https://shaohua0116.github.io/'
+      me: true
     - name: Minyoung Huh
       url:  'http://minyounghuh.com/'
     - name: Yuan-Hong Liao
@@ -122,10 +130,13 @@
   imgprop: 'frame'
   selected: true
   authors:
-    - name: <strong>Shao-Hua Sun*</strong>
+    - name: Shao-Hua Sun
       url:  'https://shaohua0116.github.io/'
-    - name: Hyeonwoo Noh*
+      equal_contribution: true
+      me: true
+    - name: Hyeonwoo Noh
       url:  'http://cvlab.postech.ac.kr/~hyeonwoonoh/'
+      equal_contribution: true
     - name: Sriram Somasundaram
       url:  'http://srirams32.github.io/'
     - name: Joseph J. Lim
@@ -155,8 +166,9 @@
   imgprop: 'frame'
   selected: false
   authors:
-    - name: <strong>Shao-Hua Sun</strong>
+    - name: Shao-Hua Sun
       url:  'https://shaohua0116.github.io/'
+      me: true
     - name: Shang-Pu Fan
       url:  '#'
     - name: Yu-Chiang Frank Wang

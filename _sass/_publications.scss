@@ -134,3 +134,15 @@ $border-width: 2px;
 //     display: none;
 //   }
 // }
+
+ul.main-nav {
+       display: inline-block; /* fixes that spacing issue */
+       margin: 0; /* cancels out unwanted margin */
+       white-space: nowrap;
+}
+li {
+       overflow: hidden; 
+       text-overflow: ellipsis;
+       display: inline-block;
+       white-space: nowrap;
+}
