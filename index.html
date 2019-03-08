@@ -123,6 +123,11 @@ layout: home
         {{ experience.host.role }}: {{ experience.host.name }}
       </div>
       {% endunless %}
+      {% unless experience.lab == false %}
+      <div class="timeline-host">
+        {{ experience.lab.role }}: {{ experience.lab.name }}
+      </div>
+      {% endunless %}
     </div>
     {% endif %}
     {% endfor %}
