@@ -28,6 +28,9 @@
 
 /* Wrapper */
 .icon-button {
+    border-width:   1px;
+    border-style:   solid;
+    border-color:   rgba(128, 128, 128, 0.950);
     background-color: white;
     border-radius:  2.6rem;
     cursor:         pointer;
@@ -78,9 +81,6 @@
 .gscholar span {
     background-color: $gscholar-color;
 }
-.google span {
-    background-color: $google-color;
-}
 /* Icons */
 .icon-button i {
     background:         none;
@@ -98,19 +98,20 @@
     z-index:            20;
 }
 .icon-button .icon-twitter {
-    color: $twitter-color;
+    color:        $twitter-color;
+    border-color: $twitter-color;
 }
 .icon-button .icon-github {
-    color: $github-color;
+    color:        $github-color;
+    border-color: $github-color;
 }
 .icon-button .icon-linkedin {
-    color: $linkedin-color;
-}
-.icon-button .icon-google {
-    color: $google-color;
+    color:        $linkedin-color;
+    border-color: $linkedin-color;
 }
 .icon-button .icon-gscholar {
-    color: $gscholar-color;
+    color:        $gscholar-color;
+    border-color: $gscholar-color;
 }
 
 .icon-button:hover .icon-twitter,
