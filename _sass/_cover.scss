@@ -48,8 +48,8 @@
   position:         relative;
   top:              10%;
   // width:            640px;
-  width: -webkit-calc(80% - (#{$spacing-unit} / 2));
-  width:         calc(80% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));
   margin-left:      auto;
   margin-right:     auto;
   @extend %clearfix;
@@ -66,8 +66,8 @@
 }
 
 .wrapper-light {
-  background-color: rgba(230, 230, 230, .9);
-  // background-color: rgba(230, 230, 230, .0);
+  //background-color: rgba(230, 230, 230, .9);
+  background-color: rgba(230, 230, 230, .0);
 }
 
 .wrapper-dark {
