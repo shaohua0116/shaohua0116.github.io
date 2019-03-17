@@ -1,4 +1,4 @@
-$border-width: 2px;
+$border-width: 1px;
 
 .publications {
   max-width:        -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -32,10 +32,9 @@ $border-width: 2px;
 
 .pub-left > .intro-img {
   width:          320px;
-  border-right:   $border-width solid $red-color-dark;
-  border-top:     $border-width solid $red-color-dark;
-  border-left:    $border-width solid $red-color-dark;
-  border-bottom:  $border-width solid $red-color-dark;
+  border:   1px solid $red-color-dark;
+
+  border-radius:  3%;
 }
 
 .pub-left > .frame {

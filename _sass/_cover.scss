@@ -4,10 +4,10 @@
 */
 .cover {
   // max-width:            100%;
-  max-width:        -webkit-calc(70% - (#{$spacing-unit} / 2));
-  max-width:        calc(70% - (#{$spacing-unit} / 2));
+  max-width:        -webkit-calc(100% - (#{$spacing-unit} / 2));
+  max-width:        calc(100% - (#{$spacing-unit} / 2));
   max-width:            900px;
-  height:               320px;
+  height:               256px;
   z-index:              initial;
   margin-right:         auto;
   margin-left:          auto;
@@ -85,13 +85,13 @@
 }
 
 .profile-col-1 {
-  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-  width:         calc(40% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+  width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 .profile-col-2 {
-  width: -webkit-calc(60% - (#{$spacing-unit} / 2));
-  width:         calc(60% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(55% - (#{$spacing-unit} / 2));
+  width:         calc(55% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -117,11 +117,11 @@
 
 .circle-img {
   margin:         0px auto;
-  // width:          168px;
-  width:          192px;
-  border-width:   3px;
-  border-style:   solid;
-  border-radius:  50%;
+  width:          200px;
+  border-radius:  25%;
+  // border-radius:  50%;
+  // border-width:   3px;
+  // border-style:   solid;
   @include media-query($on-palm) {
     width:          150px;
   }
