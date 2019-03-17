@@ -101,7 +101,8 @@ $height: 240px;
   }
 }
 
-@include media-query($on-palm) {
+// @include media-query($on-palm) {
+@media (max-width: 768px) {
   .profile-col {
     position:   relative;
     margin:     10px auto;
