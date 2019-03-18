@@ -59,6 +59,12 @@ $border-width: 1px;
   float:         right;
   width: -webkit-calc(75% - (#{$spacing-unit} / 2));
   width:         calc(75% - (#{$spacing-unit} / 2));
+  @media screen and (min-width: 800px){
+    display:       flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:   left;
+  }
 }
 
 @include media-query($on-laptop) {
