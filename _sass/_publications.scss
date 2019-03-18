@@ -15,9 +15,10 @@ $border-width: 1px;
   border-top:     thin solid #c0c0c0;
   radius:         55px;
   float:          left !important;
-  margin-top:     #{$spacing-unit};
-  margin-top:     30px;
-  padding-top:    #{$spacing-unit};
+  // margin-top:     #{$spacing-unit};
+  margin-top:     25px;
+  // margin-bottom:  5px;
+  padding-top:    25px; //#{$spacing-unit};
   overflow:       auto;
 }
 
@@ -28,13 +29,17 @@ $border-width: 1px;
   text-align:    center;
   margin-left:   auto;
   margin-right:  auto;
+  margin-top:     20px; 
 }
 
 .pub-left > .intro-img {
   width:          320px;
   border:   1px solid $red-color-dark;
-
   border-radius:  3%;
+  @include media-query($on-palm) {
+    margin-top:     -10px; 
+    margin-bottom:  10px; 
+  }
 }
 
 .pub-left > .frame {
@@ -115,24 +120,6 @@ $border-width: 1px;
   color:          $blue-color-dark;
   font-size:      16px;
 }
-
-// .pub-right > .publish > .status {
-//   color:          $red-color-dark;
-//   font-weight:    800;
-//   font-size:      16px;
-//   @include media-query($on-palm) {
-//     display: none;
-//   }
-// }
-
-// .pub-right > .publish > .place {
-//   color:          $blue-color;
-//   font-weight:    500;
-//   font-size:      16px;
-//   @include media-query($on-palm) {
-//     display: none;
-//   }
-// }
 
 ul.main-nav {
        display: inline-block; /* fixes that spacing issue */
