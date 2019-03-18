@@ -15,11 +15,14 @@ $border-width: 1px;
   border-top:     thin solid #c0c0c0;
   radius:         55px;
   float:          left !important;
-  // margin-top:     #{$spacing-unit};
-  margin-top:     25px;
-  // margin-bottom:  5px;
-  padding-top:    25px; //#{$spacing-unit};
+  padding-top: -webkit-calc((#{$spacing-unit} / 2));
+  padding-top:        -calc((#{$spacing-unit} / 2));
+  padding-bottom: -webkit-calc((#{$spacing-unit} / 2));
+  padding-bottom:        -calc((#{$spacing-unit} / 2));
   overflow:       auto;
+  @media screen and (min-width: 800px){
+    display:        flex;
+  }
 }
 
 .pub-left {
@@ -27,19 +30,26 @@ $border-width: 1px;
   width: -webkit-calc(25% - (#{$spacing-unit} / 2));
   width:         calc(25% - (#{$spacing-unit} / 2));
   text-align:    center;
-  margin-left:   auto;
   margin-right:  auto;
-  margin-top:     20px; 
+
+  @media screen and (min-width: 800px){
+    display:       flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:   left;
+  }
+  @include media-query($on-palm) {
+    padding-bottom: -webkit-calc((#{$spacing-unit} / 2));
+    padding-bottom:        -calc((#{$spacing-unit} / 2));
+    margin-right:  10px auto;
+    margin-left:   10px auto;
+  }
 }
 
 .pub-left > .intro-img {
   width:          320px;
-  border:   1px solid $red-color-dark;
+  border:         1px solid $red-color-dark;
   border-radius:  3%;
-  @include media-query($on-palm) {
-    margin-top:     -10px; 
-    margin-bottom:  10px; 
-  }
 }
 
 .pub-left > .frame {

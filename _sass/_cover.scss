@@ -53,6 +53,10 @@ $height: 240px;
   margin-right:     auto;
   @extend %clearfix;
 
+  @media screen and (min-width: 800px){
+    display:        flex;
+  }
+
   @include media-query($on-palm) {
     top:           5%;
     border-radius: 25px;
@@ -81,6 +85,12 @@ $height: 240px;
   margin-left:    auto;
   margin-right:   auto;
   text-align:     center;
+  @media screen and (min-width: 800px){
+    display:       flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:   left;
+  }
 }
 
 .profile-col-1 {
@@ -102,7 +112,7 @@ $height: 240px;
 }
 
 // @include media-query($on-palm) {
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .profile-col {
     position:   relative;
     margin:     10px auto;
