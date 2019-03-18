@@ -100,6 +100,7 @@ layout: home
   </h1>
 </div> 
 
+  <!--
 <div id="timeline" class="timeline-brief">
   <h1 class="md-heading text-center">
     Timeline
@@ -143,16 +144,17 @@ layout: home
     </a>
   </h1>
 </div> 
+-->
 
-<div id="teaching" class="teaching">
+<div id="service" class="service">
   <h1 class="md-heading text-center">
     Teaching
   </h1>
-  <div class="teaching-body">
+  <div class="service-body">
     {% for teaching in site.data.teaching %}
-    <div class="teaching-item">
-      <span class="teaching-semester">{{ teaching.semester }}</span>
-      <span class="teaching-course">{{ teaching.course }}</span>
+    <div class="service-item">
+      <span class="service-role">{{ teaching.semester }}</span>
+      <span class="service-activity">{{ teaching.course }}</span>
     </div>
     {% endfor %}
   </div>
