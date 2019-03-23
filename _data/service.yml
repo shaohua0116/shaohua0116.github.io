@@ -1,3 +1,4 @@
 - role: "Conference reviewer"
-  activity: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019,<br>IEEE International Conference on Computer Vision (ICCV) 2019,<br>Neural Information Processing Systems (NeurIPS) 2019,<br>IEEE International Conference on Image Processing (ICIP) 2019,<br>British Machine Vision Conference (BMVC) 2019"
+  activity: "CVPR 2019, ICCV 2019, NeurIPS 2019, ICIP 2019, BMVC 2019"
+  activity_full: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019,<br>IEEE International Conference on Computer Vision (ICCV) 2019,<br>Neural Information Processing Systems (NeurIPS) 2019,<br>IEEE International Conference on Image Processing (ICIP) 2019,<br>British Machine Vision Conference (BMVC) 2019"
   brief: true
