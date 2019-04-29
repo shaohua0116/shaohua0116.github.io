@@ -50,6 +50,8 @@
       url:  'https://openreview.net/pdf?id=rygrBhC5tQ'
     - name: 'Project Page'
       url:  'https://youngwoon.github.io/transition/'
+    - name: 'Code'
+      url:  'https://github.com/youngwoon/transition'
     - name: 'OpenReview'
       url:  'https://openreview.net/forum?id=rygrBhC5tQ'
     - name: 'Bibtex'
