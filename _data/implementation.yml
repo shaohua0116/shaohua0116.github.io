@@ -1,7 +1,7 @@
 - category: 'Computer Vision'
   projects:
     - name: 'Multi-digit MNIST'
-      desc: 'Combine multiple MNIST digits to create datasets few-shot learning'
+      desc: 'Combine multiple MNIST digits to create datasets with 100/1000 classes for few-shot learning'
       url:  'https://github.com/shaohua0116/MultiDigitMNIST'
     - name: 'Novel View Synthesis'
       desc: 'A simple Novel View Synthesis model on ShapeNet (cars and chairs), KITTI, and Synthia'
