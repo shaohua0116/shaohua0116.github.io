@@ -47,3 +47,24 @@ $service-padding: 20px;
     margin-left: 20px;
   }
 }
+
+
+@include media-query($on-laptop) {
+  .service-role,
+  .service-activity {
+    float:         none;
+    margin:        10px auto;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .service-item {
+    position:   relative;
+    margin:     10px auto;
+    float:      none;
+    width: -webkit-calc( 100% - (#{$spacing-unit} / 2));
+    width:         calc( 100% - (#{$spacing-unit} / 2));
+  }
+}

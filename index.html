@@ -148,6 +148,24 @@ layout: home
 
 <div id="service" class="service">
   <h1 class="md-heading text-center">
+    Open Source Projects
+  </h1>
+  <div class="service-body">
+    {% for implementation in site.data.implementation %}
+    <div class="service-item">
+      {% if implementation.category %}
+        <span class="service-role"> {{ implementation.name }} </span>
+      {% else %}
+        <span class="service-role"><a herf="{{ implementation.url }}"> {{ implementation.name }} </a></span>
+      {% endif %}
+      <span class="service-activity"> {{ implementation.desc }} </span>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div id="service" class="service">
+  <h1 class="md-heading text-center">
     Teaching
   </h1>
   <div class="service-body">

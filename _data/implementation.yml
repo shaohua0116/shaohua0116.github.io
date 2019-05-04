@@ -1,0 +1,41 @@
+- name: 'Computer Vision'
+  category: true
+- name: 'Novel View Synthesis'
+  desc: 'A simple Novel View Synthesis model on ShapeNet (cars and chairs), KITTI, and Synthia'
+  url:  'https://github.com/shaohua0116/NovelViewSynthesis-TensorFlow'
+- name: 'Learning to Count'
+  desc: 'Representation Learning by Learning to Count'
+  url:  'https://github.com/gitlimlab/Representation-Learning-by-Learning-to-Count'
+
+- name: 'Generative Model'
+  category: true
+- name: 'WGAN-GP'
+  desc: 'Wasserstein GAN with Gradient Penalty (WGAN-GP) and Least Squares GAN (LSGAN)'
+  url:  'https://github.com/shaohua0116/WGAN-GP-TensorFlow'
+- name: 'Semi-supervised GAN'
+  desc: 'Semi-supervised Learning Generative Adversarial Networks'
+  url:  'https://github.com/gitlimlab/SSGAN-Tensorflow'
+- name: 'DCGAN'
+  desc: 'Deep Convolutional Generative Adversarial Networks'
+  url:  'https://github.com/shaohua0116/DCGAN-Tensorflow'
+- name: 'Generative Latent Optimization'
+  desc: 'Generative Latent Optimization (GLO) proposed by Facebook AI Research'
+  url:  'https://github.com/gitlimlab/Generative-Latent-Optimization-Tensorflow'
+
+- name: 'Tutorial'
+  category: true
+- name: 'OpenReviewer Cralwer'
+  desc: 'Tutorials on crawling data from OpenReview webpages and installing Selenium and ChromeDriver on Ubuntu'
+  url:  'https://github.com/shaohua0116/ICLR2019-OpenReviewData'
+- name: 'VAE Tutorial'
+  desc: 'Variational Autoencoders for the deep learning course at USC'
+  url:  'https://github.com/shaohua0116/VAE-Tensorflow'
+
+- name: 'Misc'
+  category: true
+- name: 'Group Normalization'
+  desc: 'Group Normalization on the task of image classification'
+  url:  'https://github.com/shaohua0116/Group-Normalization-Tensorflow'
+- name: 'Relation Networks'
+  desc: 'Relational Networks and a VQA dataset named Sort-of-CLEVR'
+  url:  'https://github.com/gitlimlab/Relation-Network-Tensorflow'
