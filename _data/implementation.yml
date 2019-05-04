@@ -1,5 +1,8 @@
 - name: 'Computer Vision'
   category: true
+- name: 'Multi-digit MNIST'
+  desc: 'Combine multiple MNIST digits to create datasets few-shot learning'
+  url:  'https://github.com/shaohua0116/MultiDigitMNIST'
 - name: 'Novel View Synthesis'
   desc: 'A simple Novel View Synthesis model on ShapeNet (cars and chairs), KITTI, and Synthia'
   url:  'https://github.com/shaohua0116/NovelViewSynthesis-TensorFlow'
@@ -19,7 +22,7 @@
   desc: 'Deep Convolutional Generative Adversarial Networks'
   url:  'https://github.com/shaohua0116/DCGAN-Tensorflow'
 - name: 'Generative Latent Optimization'
-  desc: 'Generative Latent Optimization (GLO) proposed by Facebook AI Research'
+  desc: 'Train a generator without the need to learn a discriminator'
   url:  'https://github.com/gitlimlab/Generative-Latent-Optimization-Tensorflow'
 
 - name: 'Tutorial'

@@ -100,7 +100,7 @@ layout: home
   </h1>
 </div> 
 
-  <!--
+<!--
 <div id="timeline" class="timeline-brief">
   <h1 class="md-heading text-center">
     Timeline
@@ -156,7 +156,7 @@ layout: home
       {% if implementation.category %}
         <span class="service-role"> {{ implementation.name }} </span>
       {% else %}
-        <span class="service-role"><a herf="{{ implementation.url }}"> {{ implementation.name }} </a></span>
+        <a class="service-role" href="{{ implementation.url }}"> {{ implementation.name }} </a>
       {% endif %}
       <span class="service-activity"> {{ implementation.desc }} </span>
     </div>
