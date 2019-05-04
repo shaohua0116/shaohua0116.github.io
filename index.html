@@ -146,20 +146,21 @@ layout: home
 </div> 
 -->
 
-<div id="service" class="service">
+<div id="implementation" class="implementation">
   <h1 class="md-heading text-center">
-    Open Source Projects
+  Open Source Projects
   </h1>
-  <div class="service-body">
-    {% for implementation in site.data.implementation %}
-    <div class="service-item">
-      {% if implementation.category %}
-        <span class="service-role"> {{ implementation.name }} </span>
-      {% else %}
-        <a class="service-role" href="{{ implementation.url }}"> {{ implementation.name }} </a>
-      {% endif %}
-      <span class="service-activity"> {{ implementation.desc }} </span>
-    </div>
+  <div class="implementation-body">
+    {% for category in site.data.implementation %}
+      <div class="implementation-category">
+          <span> {{ category.category }} </span>
+      </div>
+      {% for project in category.projects %}
+        <div class="implementation-item">
+          <a class="implementation-role" href="{{ project.url }}"> {{ project.name }} </a>
+          <span class="implementation-activity"> {{ project.desc }} </span>
+        </div>
+      {% endfor %}
     {% endfor %}
   </div>
 </div>

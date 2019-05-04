@@ -1,0 +1,78 @@
+/*
+* implementation items
+*/
+$implementation-padding: 20px;
+
+.implementation {
+  max-width:        -webkit-calc(90% - (#{$spacing-unit} / 2));
+  max-width:        calc(90% - (#{$spacing-unit} / 2));
+  margin-top:       #{$spacing-unit};
+  margin-left:      auto;
+  margin-right:     auto;
+  @include media-query($on-palm) {
+    max-width:        -webkit-calc(100% - (#{$spacing-unit} / 2));
+    max-width:        calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+.implementation-body {
+  overflow:   auto;
+}
+
+.implementation-item {
+  overflow:       auto;
+  margin-top:     5px;
+}
+
+.implementation-category {
+  color:  $primary-color-dark;
+  font-weight:    bold;
+  text-align:     left;
+  font-size:      16px;
+  @include media-query($on-palm) {
+    font-size:      14px;
+  }
+  overflow:       auto;
+  margin-top:     5px;
+}
+
+
+.implementation-role {
+  float:       left;
+  margin-left: auto;
+  margin-right: auto;
+  color:       $blue-color;
+  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+  width:         calc(30% - (#{$spacing-unit} / 2));
+  font-weight: 525;
+}
+
+.implementation-activity {
+  float:       left;
+  width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+  width:         calc(70% - (#{$spacing-unit} / 2));
+  @media screen and (max-width: 800px){
+    margin-left: 20px;
+  }
+}
+
+
+@include media-query($on-laptop) {
+  .implementation-role,
+  .implementation-activity {
+    float:         none;
+    margin:        10px auto;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .implementation-item {
+    position:   relative;
+    margin:     10px auto;
+    float:      none;
+    width: -webkit-calc( 100% - (#{$spacing-unit} / 2));
+    width:         calc( 100% - (#{$spacing-unit} / 2));
+  }
+}
