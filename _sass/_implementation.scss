@@ -12,7 +12,9 @@ $implementation-padding: 20px;
   @include media-query($on-palm) {
     max-width:        -webkit-calc(100% - (#{$spacing-unit} / 2));
     max-width:        calc(100% - (#{$spacing-unit} / 2));
+    font-size:      14px;
   }
+  font-size:      16px;
 }
 
 .implementation-body {
@@ -28,10 +30,6 @@ $implementation-padding: 20px;
   color:  $primary-color-dark;
   font-weight:    bold;
   text-align:     left;
-  font-size:      16px;
-  @include media-query($on-palm) {
-    font-size:      14px;
-  }
   overflow:       auto;
   margin-top:     5px;
 }
