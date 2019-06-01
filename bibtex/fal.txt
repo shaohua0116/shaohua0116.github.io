@@ -1,6 +1,6 @@
 @inproceedings{huh2019feedback,
   title={Feedback Adversarial Learning: Spatial Feedback for Improving Generative Adversarial Networks},
   author={Huh, Minyoung and Sun, Shao-Hua and Zhang, Ning},
-  booktitle={IEEE Conference on Computer Vision and Pattern Recognition},
+  booktitle={The IEEE Conference on Computer Vision and Pattern Recognition},
   year={2019},
 }
