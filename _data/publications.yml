@@ -18,6 +18,8 @@
   tags:
     - name: 'Paper'
       url:  'http://openaccess.thecvf.com/content_CVPR_2019/html/Huh_Feedback_Adversarial_Learning_Spatial_Feedback_for_Improving_Generative_Adversarial_Networks_CVPR_2019_paper.html'
+    - name: 'Poster'
+      url:  './images/posters/fal.pdf'
     - name: 'Bibtex'
       url:  './bibtex/fal.txt'
   publisher:  'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019'
