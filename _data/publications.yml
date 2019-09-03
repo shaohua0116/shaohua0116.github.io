@@ -1,3 +1,33 @@
+- title: 'Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation'
+  date:  'Dec 2019'
+  imgurl: '/images/projects/mumomaml.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Risto Vuorio
+      url:  'https://vuoristo.github.io/'
+      equal_contribution: true
+    - name: Shao-Hua Sun
+      url:  'https://shaohua0116.github.io/'
+      me: true
+      equal_contribution: true
+    - name: Hexiang Hu
+      url:  'http://hexianghu.com/'
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  desc: 'Model-agnostic meta-learners aim to acquire meta-prior parameters from a distribution of tasks and adapt to novel tasks with few gradient updates. Yet, seeking a common initialization shared across the entire task distribution substantially limits the diversity of the task distributions that they are able to learn from. We propose a multimodal MAML (MMAML) framework, which is able to modulate its meta-learned prior according to the identified mode, allowing more efficient fast adaptation.'
+  abstract: 'Model-agnostic meta-learners aim to acquire meta-prior parameters from similar tasks to adapt to novel tasks from the same distribution with few gradient updates. With the flexibility in the choice of models, those frameworks demonstrate appealing performance on a variety of domains such as few-shot image classification and reinforcement learning. However, one important limitation of such frameworks is that they seek a common initialization shared across the entire task distribution, substantially limiting the diversity of the task distributions that they are able to learn from. In this paper, we augment MAML with the capability to identify the mode of tasks sampled from a multimodal task distribution and adapt quickly through gradient updates. Specifically, we propose a multimodal MAML (MMAML) framework, which is able to modulate its meta-learned prior according to the identified mode, allowing more efficient fast adaptation. We evaluate the proposed model on a diverse set of few-shot learning tasks, including regression, image classification, and reinforcement learning. The results not only demonstrate the effectiveness of our model in modulating the meta-learned prior in response to the characteristics of tasks but also show that learning from a multimodal distribution could benefit learning the tasks from a single mode.'
+  tags:
+    - name: 'Paper'
+      url:  '#'
+    - name: 'Bibtex'
+      url:  './bibtex/mmaml.txt'
+  publisher:  'Neural Information Processing Systems (NeurIPS) 2019'
+  oral: true 
+  oral_text: 'Spotlight: top 3%'
+  status:   ''
+  # place:    'in Vancouver, Canada'
+ 
 - title: 'Feedback Adversarial Learning: Spatial Feedback for Improving Generative Adversarial Networks'
   date:  'June 2019'
   imgurl: '/images/projects/fal.png'
@@ -23,6 +53,8 @@
     - name: 'Bibtex'
       url:  './bibtex/fal.txt'
   publisher:  'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019'
+  oral: false
+  oral_text: 'Spotlight: top 2.4%'
   status:   ''
   # place:    'in Long Beach, California, USA'
  
@@ -61,6 +93,8 @@
     - name: 'Bibtex'
       url:  './bibtex/transition.txt'
   publisher:  'International Conference on Learning Representations (ICLR) 2019'
+  oral: false
+  oral_text: 'Spotlight: top 2.4%'
   status:   ''
   # place:    'in New Orleans, USA'
     
@@ -93,6 +127,8 @@
     - name: 'Bibtex'
       url:  './bibtex/mumomaml.txt'
   publisher:  'Meta-Learning Workshop at Neural Information Processing Systems (NeurIPS) 2018'
+  oral: false
+  oral_text: 'Spotlight: top 2.4%'
   status:   ''
   # place:    'in Montreal, Canada'
       
@@ -114,6 +150,8 @@
     - name: Joseph J. Lim
       url:  'http://www-bcf.usc.edu/~limjj/'
   publisher:  'European Conference on Computer Vision (ECCV) 2018'
+  oral: false
+  oral_text: 'Spotlight: top 2.4%'
   status:   ''
   # place:    'in Munich, Germany'
   desc: 'We aim to synthesize a target image with an arbitrary camera pose from multipple given source images. We propose an end-to-end trainable framework which consists of a flow prediction module and a pixel generation module to directly leverage information presented in source views as well as hallucinate missing pixels from statistical priors. We introduce a self-learned confidence aggregation mechanism to merge the predictions produced by the two modules given multi-view source images.'
@@ -148,6 +186,8 @@
     - name: Joseph J. Lim
       url:  'http://www-bcf.usc.edu/~limjj/'
   publisher:  'International Conference on Machine Learning (ICML) 2018'
+  oral: false
+  oral_text: 'Spotlight: top 2.4%'
   status:   ''
   # place:    'in Stockholm, Sweden'
   desc: 'Interpreting decision making logic in demonstration videos is key to collaborating with and mimicking humans. To empower machines with this ability, we propose a framework that is able to explicitly synthesize underlying programs from behaviorally diverse and visually complicated demonstration videos. We introduce a summarizer module to improve the network’s ability to integrate multiple demonstrations and employ a multi-task objective to encourage the model to learn meaningful intermediate representations.'
@@ -180,6 +220,8 @@
     - name: Yu-Chiang Frank Wang
       url:  'http://vllab.ee.ntu.edu.tw/members.html'
   publisher:  'International Conference on Image Processing (ICIP) 2014'
+  oral: false
+  oral_text: 'Spotlight: top 2.4%'
   status:   ''
   # place:    'in Paris, France'
   desc: 'Without any prior knowledge or user interaction, single image rain removal has been a challenging task. By observing the limitations of standard batch-mode learning-based methods, we propose to exploit the structural similarity of the image bases for solving this task. By formulating the basis selection as an optimization problem, we are able to disregard those associated with rain patterns while the detailed image information can be preserved. Experiments on both synthetic and real-world images will verify the effectiveness of our proposed method.'

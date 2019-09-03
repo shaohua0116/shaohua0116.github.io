@@ -60,9 +60,17 @@ layout: home
           {% if forloop.last == false %},{% endif %}
           {% endfor %}
         </div>
+
+        {% if publication.oral %}
+        <div class="publisher">
+            <span class="publisher">in {{ publication.publisher }}</span>
+            <span class="publisher_oral">&nbsp ({{ publication.oral_text }})</span>
+        </div>
+        {% else %}
         <div class="publisher">
             <span class="publisher">in {{ publication.publisher }}</span>
         </div>
+        {% endif %}
         
         <div class="desc">
           <p>

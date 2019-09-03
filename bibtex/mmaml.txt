@@ -1,0 +1,6 @@
+@inproceedings{vuorio2019multimodal,
+  title={Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation},
+  author={Vuorio, Risto and Sun, Shao-Hua and Hu, Hexiang and Lim, Joseph J},
+  booktitle={Neural Information Processing Systems},
+  year={2019},
+}
