@@ -23,15 +23,26 @@ noindex:  true
       <div class="authors">
         {% for author in publication.authors %}
         <a class="author" href="{{ author.url }}">
-          {{ author.name | prepend: ' '}}
-          {% if author.equal_contribution %} * {% endif %}
+            {% if author.me %}<strong> {% endif %}
+            {{author.name}}
+            {% if author.me %}</strong> {% endif %}
         </a>
+        {% if author.equal_contribution %}* {% endif %}
         {% if forloop.last == false %},{% endif %}
         {% endfor %}
       </div>
+      
+      {% if publication.oral %}
+      <div class="publisher">
+         <span class="publisher">in {{ publication.publisher }}</span>
+         <span class="publisher_oral">&nbsp ({{ publication.oral_text }})</span>
+      </div>
+      {% else %}
       <div class="publisher">
         <span class="publisher">in {{ publication.publisher }}</span>
       </div>
+      {% endif %}
+
       <div class="desc">
         <p>{{ publication.desc }}</p>
       </div>
@@ -56,5 +67,4 @@ noindex:  true
       <i class="fa fa-arrow-circle-left"></i> Back
     </a></h1>
   </div>
-
 </div>

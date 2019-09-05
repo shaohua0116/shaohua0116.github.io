@@ -24,7 +24,7 @@
       url:  '/bibtex/mmaml.txt'
   publisher:  'Neural Information Processing Systems (NeurIPS) 2019'
   oral: true 
-  oral_text: 'Spotlight: top 3%'
+  oral_text: 'Spotlight'
   status:   ''
   # place:    'in Vancouver, Canada'
  
