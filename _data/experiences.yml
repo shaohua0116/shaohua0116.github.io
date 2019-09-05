@@ -1,4 +1,12 @@
-- date:  "Summer 2017 - Spring 2018"
+- date:  "Summer 2019"
+  title: "<strong>Deep Learning Research Intern</strong><br>Nvidia"
+  desc:  "Deep Learning, Reinforcement Learning, Meta-Learning"
+  host:
+    name: "<a href='https://www.cs.utoronto.ca/~fidler/'>Prof. Sanja Fidler</a>"
+    role: "Mentor"
+  lab: false
+  brief: false
+- date:  "Summer 2017"
   title: "<strong>Research Internship</strong><br>Snap Inc."
   desc:  "Computer Vision, Deep Learning"
   host:
@@ -31,26 +39,26 @@
     name: "<a href='http://vllab.ee.ntu.edu.tw/'>Vison and Learning Lab</a>"
     role: "Lab"
   brief: true
-- date:  "Undergrad."
-  title: "<strong>Research Assistant</strong><br>Dept. of Computer Science and Information Engineering, NTU"
-  desc:  "Computer Vision, Computatinal Photography"
-  host:
-    name: "<a href='https://www.csie.ntu.edu.tw/~cyy/'>Prof. Yung-Yu Chuang</a>"
-    role: "Advisor"
-  lab:
-    name: "<a href='http://www.cmlab.csie.ntu.edu.tw/new_cml_website/index.php'>Communication and Multimedia Lab</a>"
-    role: "Lab"
-  brief: false
-- date:  "Undergrad."
-  title: "<strong>Research Assistant</strong><br>Dept. of Electrical Engineering, NTU"
-  desc:  "Computer Vision, Image Processing"
-  host:
-    name: "<a href='http://www.ee.ntu.edu.tw/profile?id=101'>Prof. Shao-Yi Chien</a>"
-    role: "Advisor"
-  lab:
-    name: "<a href='http://media.ee.ntu.edu.tw/'>Media IC & System Design Lab</a>"
-    role: "Lab"
-  brief: false
+#- date:  "Undergrad."
+#  title: "<strong>Research Assistant</strong><br>Dept. of Computer Science and Information Engineering, NTU"
+#  desc:  "Computer Vision, Computatinal Photography"
+#  host:
+#    name: "<a href='https://www.csie.ntu.edu.tw/~cyy/'>Prof. Yung-Yu Chuang</a>"
+#    role: "Advisor"
+#  lab:
+#    name: "<a href='http://www.cmlab.csie.ntu.edu.tw/new_cml_website/index.php'>Communication and Multimedia Lab</a>"
+#    role: "Lab"
+#  brief: false
+#- date:  "Undergrad."
+#  title: "<strong>Research Assistant</strong><br>Dept. of Electrical Engineering, NTU"
+#  desc:  "Computer Vision, Image Processing"
+#  host:
+#    name: "<a href='http://www.ee.ntu.edu.tw/profile?id=101'>Prof. Shao-Yi Chien</a>"
+#    role: "Advisor"
+#  lab:
+#    name: "<a href='http://media.ee.ntu.edu.tw/'>Media IC & System Design Lab</a>"
+#    role: "Lab"
+#  brief: false
 # - date:  "Summer 2012"
 #   title: "<strong>Software Engineer Internship</strong><br>Microsoft Taiwan"
 #   desc:  "Windows Phone App Development"
