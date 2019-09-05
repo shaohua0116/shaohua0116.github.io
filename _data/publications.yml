@@ -21,7 +21,7 @@
     - name: 'Paper'
       url:  '#'
     - name: 'Bibtex'
-      url:  './bibtex/mmaml.txt'
+      url:  '/bibtex/mmaml.txt'
   publisher:  'Neural Information Processing Systems (NeurIPS) 2019'
   oral: true 
   oral_text: 'Spotlight: top 3%'
@@ -51,7 +51,7 @@
     - name: 'Poster'
       url:  './images/posters/fal.pdf'
     - name: 'Bibtex'
-      url:  './bibtex/fal.txt'
+      url:  '/bibtex/fal.txt'
   publisher:  'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019'
   oral: false
   oral_text: 'Spotlight: top 2.4%'
@@ -91,7 +91,7 @@
     - name: 'Poster'
       url:  './images/posters/transition.pdf'
     - name: 'Bibtex'
-      url:  './bibtex/transition.txt'
+      url:  '/bibtex/transition.txt'
   publisher:  'International Conference on Learning Representations (ICLR) 2019'
   oral: false
   oral_text: 'Spotlight: top 2.4%'
@@ -125,7 +125,7 @@
     - name: 'Poster'
       url:  './images/posters/mumomaml.pdf'
     - name: 'Bibtex'
-      url:  './bibtex/mumomaml.txt'
+      url:  '/bibtex/mumomaml.txt'
   publisher:  'Meta-Learning Workshop at Neural Information Processing Systems (NeurIPS) 2018'
   oral: false
   oral_text: 'Spotlight: top 2.4%'
@@ -166,7 +166,7 @@
     - name: 'Poster'
       url:  './images/posters/view.pdf'
     - name: 'Bibtex'
-      url:  './bibtex/multiview.txt'
+      url:  '/bibtex/multiview.txt'
 
 - title: 'Neural Program Synthesis from Diverse Demonstration Videos'
   date:  'Jul. 2018'
@@ -204,7 +204,7 @@
     - name: 'Poster'
       url:  './images/posters/demo2program.pdf'
     - name: 'Bibtex'
-      url:  './bibtex/demo2program.txt'
+      url:  '/bibtex/demo2program.txt'
 
 - title: 'Exploiting Image Structural Similarity for Single Image Rain Removal'
   date:  'Oct. 2014'
@@ -229,4 +229,4 @@
     - name: 'Paper'
       url:  'http://mml.citi.sinica.edu.tw/papers/ICIP_2014_Sun.pdf'
     - name: 'Bibtex'
-      url:  './bibtex/rain.txt'
+      url:  '/bibtex/rain.txt'
