@@ -134,7 +134,8 @@ $border-width: 1px;
   margin:         auto;
   text-align:     justify;
   @include media-query($on-palm) {
-    font-size:  14px;
+    // don't show desc on phones
+    font-size:  0px;
   }
 }
 
