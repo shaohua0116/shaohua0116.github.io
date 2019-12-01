@@ -20,6 +20,8 @@
   tags:
     - name: 'Paper'
       url:  'http://papers.nips.cc/paper/8296-multimodal-model-agnostic-meta-learning-via-task-aware-modulation'
+    - name: 'Code'
+      url:  'https://github.com/shaohua0116/MMAML-Classification'
     - name: 'Bibtex'
       url:  '/bibtex/mmaml.txt'
   publisher:  'Neural Information Processing Systems (NeurIPS) 2019'
