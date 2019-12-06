@@ -1,5 +1,5 @@
 - role: "Conference reviewer"
-  activity: "NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, ICIP, BMV"
+  activity: "NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, ICIP, BMVC"
   activity_year: "NeurIPS 2019, ICML 2020, ICLR 2020, CVPR 2019, ICCV 2019, ECCV 2020, AAAI 2020, ICIP 2019, BMVC 2019"
   brief: true
 - role: "Journal reviewer"
