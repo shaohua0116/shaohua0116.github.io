@@ -8,7 +8,6 @@
       url:  'https://shaohua0116.github.io/'
       me: true
     - name: Te-Lin Wu
-      url:  '#'
     - name: Joseph J. Lim
       url:  'http://www-bcf.usc.edu/~limjj/'
   desc: 'we propose to utilize programs, structured in a formal language, as a precise and expressive way to specify tasks. We then devise a modular framework that learns to perform a task specified by a program – as different circumstances give rise to diverse ways to accomplish the task, our framework can perceive which circumstance it is currently under, and instruct a multitask policy accordingly to fulfill each subtask of the overall task.'

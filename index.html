@@ -51,7 +51,11 @@ layout: home
         </div>
         <div class="authors">
           {% for author in publication.authors %}
-          <a class="author" href="{{ author.url }}">
+          {% if author.url %}
+              <a class="author" href="{{ author.url }}">
+          {% else %}
+              <a class="author">
+          {% endif %}
               {% if author.me %}<strong> {% endif %}
               {{author.name}}
               {% if author.me %}</strong> {% endif %}
