@@ -1,3 +1,28 @@
+- title: 'Program Guided Agent'
+  date:  'Apr 2020'
+  imgurl: '/images/projects/pga.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Shao-Hua Sun
+      url:  'https://shaohua0116.github.io/'
+      me: true
+    - name: Te-Lin Wu
+      url:  '#'
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  desc: 'we propose to utilize programs, structured in a formal language, as a precise and expressive way to specify tasks. We then devise a modular framework that learns to perform a task specified by a program – as different circumstances give rise to diverse ways to accomplish the task, our framework can perceive which circumstance it is currently under, and instruct a multitask policy accordingly to fulfill each subtask of the overall task.'
+  abstract: 'Developing agents that can learn to follow natural language instructions has been an emerging research direction. While being accessible and flexible, natural language instructions can sometimes be ambiguous even to humans. To address this, we propose to utilize programs, structured in a formal language, as a precise and expressive way to specify tasks. We then devise a modular framework that learns to perform a task specified by a program – as different circumstances give rise to diverse ways to accomplish the task, our framework can perceive which circumstance it is currently under, and instruct a multitask policy accordingly to fulfill each subtask of the overall task. Experimental results on a 2D Minecraft environment not only demonstrate that the proposed framework learns to reliably accomplish program instructions and achieves zero-shot generalization to more complex instructions but also verify the efficiency of the proposed modulation mechanism for learning the multitask policy. We also conduct an analysis comparing various models which learn from programs and natural language instructions in an end-to-end fashion.'
+  tags:
+    - name: 'Paper'
+      url:  'https://openreview.net/forum?id=BkxUvnEYDH'
+    - name: 'Bibtex'
+      url:  '/bibtex/pga.txt'
+  publisher:  'International Conference on Learning Representations (ICLR) 2020'
+  oral: true 
+  oral_text: 'Spotlight'
+  status:   ''
+ 
 - title: 'Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation'
   date:  'Dec 2019'
   imgurl: '/images/projects/mumomaml.png'
