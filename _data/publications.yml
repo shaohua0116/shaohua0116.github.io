@@ -50,6 +50,10 @@
       url:  'https://github.com/shaohua0116/MMAML-Classification'
     - name: 'Poster'
       url:  './images/posters/mmaml.pdf'
+    - name: 'Spotlight Slide'
+      url:  './images/slides/mmaml.pdf'
+    - name: 'Spotlight Talk'
+      url:  'https://slideslive.com/38921753/track-3-session-4'
     - name: 'Bibtex'
       url:  '/bibtex/mmaml.txt'
   publisher:  'Neural Information Processing Systems (NeurIPS) 2019'
@@ -216,8 +220,6 @@
     - name: Joseph J. Lim
       url:  'http://www-bcf.usc.edu/~limjj/'
   publisher:  'International Conference on Machine Learning (ICML) 2018'
-  oral: false
-  oral_text: 'Spotlight: top 2.4%'
   status:   ''
   # place:    'in Stockholm, Sweden'
   desc: 'Interpreting decision making logic in demonstration videos is key to collaborating with and mimicking humans. To empower machines with this ability, we propose a framework that is able to explicitly synthesize underlying programs from behaviorally diverse and visually complicated demonstration videos. We introduce a summarizer module to improve the network’s ability to integrate multiple demonstrations and employ a multi-task objective to encourage the model to learn meaningful intermediate representations.'
@@ -229,7 +231,7 @@
       url:  'https://shaohua0116.github.io/demo2program/'
     - name: 'Code'
       url:  'https://github.com/shaohua0116/demo2program'
-    - name: 'Slides'
+    - name: 'Slide'
       url:  './images/slides/demo2program.pdf'
     - name: 'Poster'
       url:  './images/posters/demo2program.pdf'
@@ -251,7 +253,6 @@
       url:  'http://vllab.ee.ntu.edu.tw/members.html'
   publisher:  'International Conference on Image Processing (ICIP) 2014'
   oral: false
-  oral_text: 'Spotlight: top 2.4%'
   status:   ''
   # place:    'in Paris, France'
   desc: 'Without any prior knowledge or user interaction, single image rain removal has been a challenging task. By observing the limitations of standard batch-mode learning-based methods, we propose to exploit the structural similarity of the image bases for solving this task. By formulating the basis selection as an optimization problem, we are able to disregard those associated with rain patterns while the detailed image information can be preserved. Experiments on both synthetic and real-world images will verify the effectiveness of our proposed method.'
