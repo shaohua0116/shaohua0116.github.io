@@ -88,7 +88,7 @@
       url:  '/bibtex/fal.txt'
   publisher:  'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019'
   oral: false
-  oral_text: 'Spotlight: top 2.4%'
+  oral_text: ''
   status:   ''
   # place:    'in Long Beach, California, USA'
  
@@ -128,7 +128,7 @@
       url:  '/bibtex/transition.txt'
   publisher:  'International Conference on Learning Representations (ICLR) 2019'
   oral: false
-  oral_text: 'Spotlight: top 2.4%'
+  oral_text: ''
   status:   ''
   # place:    'in New Orleans, USA'
     
@@ -162,7 +162,7 @@
       url:  '/bibtex/mumomaml.txt'
   publisher:  'Meta-Learning Workshop at Neural Information Processing Systems (NeurIPS) 2018'
   oral: false
-  oral_text: 'Spotlight: top 2.4%'
+  oral_text: ''
   status:   ''
   # place:    'in Montreal, Canada'
       
@@ -185,7 +185,7 @@
       url:  'http://www-bcf.usc.edu/~limjj/'
   publisher:  'European Conference on Computer Vision (ECCV) 2018'
   oral: false
-  oral_text: 'Spotlight: top 2.4%'
+  oral_text: ''
   status:   ''
   # place:    'in Munich, Germany'
   desc: 'We aim to synthesize a target image with an arbitrary camera pose from multipple given source images. We propose an end-to-end trainable framework which consists of a flow prediction module and a pixel generation module to directly leverage information presented in source views as well as hallucinate missing pixels from statistical priors. We introduce a self-learned confidence aggregation mechanism to merge the predictions produced by the two modules given multi-view source images.'
