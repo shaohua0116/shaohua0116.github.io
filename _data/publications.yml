@@ -19,6 +19,8 @@
       url:  'https://shaohua0116.github.io/ProgramGuidedAgent/'
     - name: 'OpenReview'
       url:  'https://openreview.net/forum?id=BkxUvnEYDH'
+    - name: 'Slide'
+      url:  './images/slides/pga.pdf'
     - name: 'Bibtex'
       url:  '/bibtex/pga.txt'
   publisher:  'International Conference on Learning Representations (ICLR) 2020'
