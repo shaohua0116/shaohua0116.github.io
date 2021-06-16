@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+gem 'liquid'
 gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'rouge'

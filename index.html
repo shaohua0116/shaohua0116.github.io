@@ -50,35 +50,23 @@ layout: home
           {{ publication.title }}
         </div>
         <div class="authors">
-          {% for author in publication.authors %}
-          {% if author.url %}
+          {%- for author in publication.authors %}
+          {%- if author.url -%}
               <a class="author" href="{{ author.url }}">
-          {% else %}
+          {%- else -%}
               <a class="author">
-          {% endif %}
-              {% if author.me %}<strong> {% endif %}
+          {%- endif -%}
+              {%- if author.me -%}<strong> {%- endif -%}
               {{author.name}}
-              {% if author.me %}</strong> {% endif %}
+              {%- if author.me -%}</strong> {%- endif -%}
           </a>
-          {% if author.equal_contribution and forloop.last == false %}
-            *,
-          {% elsif author.equal_contribution and forloop.last == true %}
-            *
-          {%- elsif author.equal_contribution == nil and forloop.last == false %}
-           ,
+          {%- if author.equal_contribution == nil -%}
+            {% if forloop.last == false %},{%- endif %}
+          {%- elsif author.equal_contribution -%}
+            {%- if forloop.last == false -%}*,
+            {%- elsif forloop.last == true -%}*
+            {%- endif -%}
           {% endif %}
-          <!--
-          {% if author.equal_contribution %}
-            {% unless forloop.last == false %}
-                *
-            {% else %}
-                *,
-            {% endunless %}
-          {% endif %}
-          -->
-          <!--
-          {% if forloop.last == false %},{% endif %}
-          -->
           {% endfor %}
         </div>
 
