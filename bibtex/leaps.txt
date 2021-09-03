@@ -1,0 +1,6 @@
+@article{trivedi2021learning,
+  title={Learning to Synthesize Programs as Interpretable and Generalizable Policies},
+  author={Dweep Trivedi and Jesse Zhang and Shao-Hua Sun and Joseph J. Lim},
+  journal={arXiv preprint arXiv:2108.13643},
+  year={2021}
+}

@@ -1,3 +1,32 @@
+- title: 'Learning to Synthesize Programs as Interpretable and Generalizable Policies'
+  date:  'Aug 2021'
+  imgurl: '/images/projects/leaps.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Dweep Trivedi
+      equal_contribution: true
+    - name: Jesse Zhang
+      url:  'https://jesbu1.github.io/'
+      equal_contribution: true
+    - name: Shao-Hua Sun
+      url:  'https://shaohua0116.github.io/'
+      me: true
+      equal_contribution: true
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  desc: 'We present a framework that learns to synthesize a program, detailing the procedure to solve a task in a flexible and expressive manner, solely from reward signals. To alleviate the difficulty of learning to compose programs to induce the desired agent behavior from scratch, we propose to learn a program embedding space that continuously parameterizes diverse behaviors in an unsupervised manner and then search over the learned program embedding space to yield a program that maximizes the return for a given task.'
+  abstract: 'Recently, deep reinforcement learning (DRL) methods have achieved impressive performance on tasks in a variety of domains. However, neural network poli- cies produced with DRL methods are not human-interpretable and often have difficulty generalizing to novel scenarios. To address these issues, prior works explore learning programmatic policies that are more interpretable and structured for generalization. Yet, these works either employ limited policy representations (e.g. decision trees, state machines, or predefined program templates) or require stronger supervision (e.g. input/output state pairs or expert demonstrations). We present a framework that instead learns to synthesize a program, which details the procedure to solve a task in a flexible and expressive manner, solely from reward signals. To alleviate the difficulty of learning to compose programs to induce the desired agent behavior from scratch, we propose to first learn a program embedding space that continuously parameterizes diverse behaviors in an unsupervised manner and then search over the learned program embedding space to yield a program that maximizes the return for a given task. Experimental results demonstrate that the proposed framework not only learns to reliably synthesize task-solving pro- grams but also outperforms DRL and program synthesis baselines while producing interpretable and more generalizable policies. We also justify the necessity of the proposed two-stage learning scheme as well as analyze various methods for learning the program embedding.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2108.13643'
+    - name: 'Bibtex'
+      url:  '/bibtex/leaps.txt'
+  publisher:  'arXiv:2108.13643'
+  oral: false
+  oral_text: ''
+  status:   ''
+ 
 - title: 'Program Guided Agent'
   date:  'Apr 2020'
   imgurl: '/images/projects/pga.png'
