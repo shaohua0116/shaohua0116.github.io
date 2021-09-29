@@ -1,0 +1,6 @@
+@inproceedings{lee2021generalizable,
+  title={Generalizable Imitation Learning from Observation via Inferring Goal Proximity},
+  author={Youngwoon Lee and Andrew Szot and Shao-Hua Sun and Joseph J. Lim},
+  booktitle={Neural Information Processing Systems},
+  year={2021}
+}

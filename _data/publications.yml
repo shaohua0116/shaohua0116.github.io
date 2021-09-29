@@ -22,11 +22,36 @@
       url:  'https://arxiv.org/abs/2108.13643'
     - name: 'Bibtex'
       url:  '/bibtex/leaps.txt'
-  publisher:  'arXiv:2108.13643'
+  publisher:  'Neural Information Processing Systems (NeurIPS) 2021'
   oral: false
   oral_text: ''
   status:   ''
- 
+    
+- title: 'Generalizable Imitation Learning from Observation via Inferring Goal Proximity'
+  date:  'Aug 2021'
+  imgurl: '/images/projects/goal.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Youngwoon Lee
+      url:  'http://youngwoon.github.io/'
+    - name: Andrew Szot
+      url:  'https://www.andrewszot.com/'
+    - name: Shao-Hua Sun
+      url:  'https://shaohua0116.github.io/'
+      me: true
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  desc: 'Task progress is intuitive and readily available task information that can guide an agent closer to the desired goal. Furthermore, a progress estimator can generalize to new situations. From this intuition, we propose a simple yet effective imitation learning from observation method for a goal-directed task using a learned goal proximity function as a task progress estimator, for better generalization to unseen states and goals. We obtain this goal proximity function from expert demonstrations and online agent experience, and then use the learned goal proximity as a dense reward for policy training.' 
+  abstract: 'Task progress is intuitive and readily available task information that can guide an agent closer to the desired goal. Furthermore, a progress estimator can generalize to new situations. From this intuition, we propose a simple yet effective imitation learning from observation method for a goal-directed task using a learned goal proximity function as a task progress estimator, for better generalization to unseen states and goals. We obtain this goal proximity function from expert demonstrations and online agent experience, and then use the learned goal proximity as a dense reward for policy training. We demonstrate that our proposed method can robustly generalize compared to prior imitation learning methods on a set of goal-directed tasks in navigation, locomotion, and robotic manipulation, even with demonstrations that cover only a part of the states.'
+  tags:
+    - name: 'Bibtex'
+      url:  '/bibtex/goal.txt'
+  publisher:  'Neural Information Processing Systems (NeurIPS) 2021'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 - title: 'Program Guided Agent'
   date:  'Apr 2020'
   imgurl: '/images/projects/pga.png'
