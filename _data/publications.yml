@@ -144,7 +144,7 @@
       url:  './images/posters/fal.pdf'
     - name: 'Bibtex'
       url:  '/bibtex/fal.txt'
-  publisher:  'IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019'
+  publisher:  'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2019'
   oral: false
   oral_text: ''
   status:   ''
