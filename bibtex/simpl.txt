@@ -1,0 +1,6 @@
+@inproceedings{skill2021nam,
+  title={Skill-based Meta-Reinforcement Learning},
+  author={Taewook Nam and Shao-Hua Sun and Karl Pertsch and Sung Ju Hwang and Joseph J. Lim},
+  booktitle={Deep RL Workshop at Neural Information Processing Systems},
+  year={2021}
+}
