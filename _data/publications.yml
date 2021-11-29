@@ -1,10 +1,11 @@
-- title: 'Learning to Synthesize Programs as Interpretable and Generalizable Policies'
+- title: 'Skill-based Meta-Reinforcement Learning'
   date:  'Dec 2021'
   imgurl: '/images/projects/simpl.png'
   imgprop: 'frame'
   selected: true
   authors:
     - name: Taewook Nam
+      url: 'https://www.mlai-kaist.com/people'
     - name: Shao-Hua Sun
       url:  'https://shaohua0116.github.io/'
       me: true
@@ -21,7 +22,7 @@
       url:  '#'
     - name: 'Bibtex'
       url:  '/bibtex/simpl.txt'
-  publisher:  'in Meta-Learning Workshop and Deep RL Workshop at Neural Information Processing Systems (NeurIPS) 2021'
+  publisher:  'Meta-Learning Workshop and Deep RL Workshop at Neural Information Processing Systems (NeurIPS) 2021'
   oral: false
   oral_text: ''
   status:   ''
