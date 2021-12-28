@@ -11,6 +11,20 @@ layout: home
   </div>
 </div>
 
+<div id="bio" class="bio">
+  <h1 class="md-heading text-center">
+    Recent Talk
+  </h1>
+  <div class="bio-body">
+      <strong>Title</strong>: {{ site.data.talk.title }} <br>
+      <strong>Abstract</strong>: {{ site.data.talk.abstract }} <br>
+        <div class="tags">
+          {% for tag in site.data.talk.tags %}
+          [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
+          {% endfor %}
+        </div>
+  </div>
+</div>
 <!--
 <div id="news" class="news">
   <h1 class="md-heading text-center">

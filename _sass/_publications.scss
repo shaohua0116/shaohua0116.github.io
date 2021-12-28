@@ -120,6 +120,14 @@ $border-width: 1px;
   }
 }
 
+.tags > .tag {
+  color:          $red-color-dark;
+  font-weight:    500;
+  font-size:      16px;
+  @include media-query($on-palm) {
+    font-size:  14px;
+  }
+}
 
 .pub-right > .tags > .tag {
   color:          $red-color-dark;
