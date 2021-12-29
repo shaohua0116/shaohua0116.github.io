@@ -319,7 +319,7 @@
       url:  './images/posters/demo2program.pdf'
     - name: 'Bibtex'
       url:  '/bibtex/demo2program.txt'
-  oral: true
+  oral: false
   oral_text: 'Short talk'
 
 - title: 'Exploiting Image Structural Similarity for Single Image Rain Removal'
