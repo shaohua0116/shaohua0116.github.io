@@ -50,6 +50,8 @@
   tags:
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2108.13643'
+    - name: 'Project Page'
+      url:  'https://clvrai.github.io/leaps/'
     - name: 'Slide'
       url:  './images/slides/leaps.pdf'
     - name: 'Bibtex'
