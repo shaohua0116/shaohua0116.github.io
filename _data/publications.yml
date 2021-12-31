@@ -50,6 +50,8 @@
   tags:
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2108.13643'
+    - name: 'Slide'
+      url:  './images/slides/leaps.pdf'
     - name: 'Bibtex'
       url:  '/bibtex/leaps.txt'
   publisher:  'Neural Information Processing Systems (NeurIPS) 2021'
