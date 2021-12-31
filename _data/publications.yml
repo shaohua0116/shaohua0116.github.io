@@ -77,6 +77,10 @@
   desc: 'Task progress is intuitive and readily available task information that can guide an agent closer to the desired goal. Furthermore, a progress estimator can generalize to new situations. From this intuition, we propose a simple yet effective imitation learning from observation method for a goal-directed task using a learned goal proximity function as a task progress estimator, for better generalization to unseen states and goals. We obtain this goal proximity function from expert demonstrations and online agent experience, and then use the learned goal proximity as a dense reward for policy training.' 
   abstract: 'Task progress is intuitive and readily available task information that can guide an agent closer to the desired goal. Furthermore, a progress estimator can generalize to new situations. From this intuition, we propose a simple yet effective imitation learning from observation method for a goal-directed task using a learned goal proximity function as a task progress estimator, for better generalization to unseen states and goals. We obtain this goal proximity function from expert demonstrations and online agent experience, and then use the learned goal proximity as a dense reward for policy training. We demonstrate that our proposed method can robustly generalize compared to prior imitation learning methods on a set of goal-directed tasks in navigation, locomotion, and robotic manipulation, even with demonstrations that cover only a part of the states.'
   tags:
+    - name: 'Paper'
+      url: 'https://papers.nips.cc/paper/2021/hash/868b7df964b1af24c8c0a9e43a330c6a-Abstract.html'
+    - name: 'Project Page'
+      url:  'https://clvrai.github.io/goal_prox_il/'
     - name: 'Bibtex'
       url:  '/bibtex/goal.txt'
   publisher:  'Neural Information Processing Systems (NeurIPS) 2021'
