@@ -226,6 +226,8 @@
       url:  'https://github.com/youngwoon/transition'
     - name: 'OpenReview'
       url:  'https://openreview.net/forum?id=rygrBhC5tQ'
+    - name: 'Slide'
+      url:  './images/slides/transition.pdf'
     - name: 'Poster'
       url:  './images/posters/transition.pdf'
     - name: 'Bibtex'
