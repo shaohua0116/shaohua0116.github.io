@@ -87,6 +87,8 @@
       url:  'https://clvrai.github.io/goal_prox_il/'
     - name: 'Code'
       url:  'https://github.com/clvrai/goal_prox_il'
+    - name: 'Slide'
+      url:  '/images/slides/goal_proximity.pdf'
     - name: 'Bibtex'
       url:  '/bibtex/goal.txt'
   publisher:  'Neural Information Processing Systems (NeurIPS) 2021'
