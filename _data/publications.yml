@@ -24,7 +24,7 @@
       url:  'https://openreview.net/forum?id=sNdJb5nqudI'
     - name: 'Bibtex'
       url:  '/bibtex/simpl.txt'
-  publisher:  'International Conference on Learning Representations (ICLR) 2022 and<br>Meta-Learning and Deep RL Workshop at Neural Information Processing Systems (NeurIPS) 2021'
+  publisher:  'International Conference on Learning Representations (ICLR) 2022 and<br>Meta-Learning Workshop at Neural Information Processing Systems (NeurIPS) 2021 and<br>Deep RL Workshop at Neural Information Processing Systems (NeurIPS) 2021'
   oral: false
   oral_text: ''
   status:   ''
