@@ -11,6 +11,7 @@ layout: home
   </div>
 </div>
 
+<div class="pub">
 <div id="bio" class="bio">
   <h1 class="md-heading text-center">
     PhD Thesis
@@ -18,12 +19,14 @@ layout: home
   <div class="bio-body">
       <strong>Title</strong>: {{ site.data.thesis.title }} <br>
       <strong>Abstract</strong>: {{ site.data.thesis.abstract }} <br>
+      <strong>Dissertation committee</strong>: {{ site.data.thesis.committee }} <br>
         <div class="tags">
           {% for tag in site.data.thesis.tags %}
           [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
           {% endfor %}
         </div>
   </div>
+</div>
 </div>
 <!--
 <div id="news" class="news">
