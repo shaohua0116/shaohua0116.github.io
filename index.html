@@ -20,6 +20,7 @@ layout: home
       <strong>Title</strong>: {{ site.data.thesis.title }} <br>
       <strong>Abstract</strong>: {{ site.data.thesis.abstract }} <br>
       <strong>Dissertation committee</strong>: {{ site.data.thesis.committee }} <br>
+        <img class="thesis-img" src="./thesis/thesis_fig.png"/>
         <div class="tags">
           {% for tag in site.data.thesis.tags %}
           [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]

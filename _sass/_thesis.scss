@@ -1,0 +1,13 @@
+$border-width: 1px;
+
+.thesis-img {
+  width:          800px;
+  border:         1px solid $red-color-dark;
+  border-radius:  5px;
+  box-shadow: 5px 5px 15px rgba(173, 181, 189, 0.4);
+  margin-top:       -webkit-calc((#{$spacing-unit} / 2));
+  margin-bottom:    -webkit-calc((#{$spacing-unit} / 2));
+}
+
+.pub-left > .frame {
+}
