@@ -7,3 +7,5 @@ tags:
     url: '/thesis/defense_slide_Sun.pdf'
   - name: 'Thesis'
     url: '/thesis/thesis_Sun.pdf'
+  - name: 'Bibtex'
+    url: '/bibtex/thesis.txt'

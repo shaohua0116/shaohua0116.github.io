@@ -1,0 +1,6 @@
+@phdthesis{sun2022program,
+  author={Shao-Hua Sun},
+  title={Program-Guided Framework for Interpreting and Acquiring Complex Skills with Learning Robots},
+  school={University of Southern California},
+  year="2022"
+}
