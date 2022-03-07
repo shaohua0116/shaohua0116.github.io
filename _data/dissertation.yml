@@ -4,8 +4,8 @@ abstract: "Recent development in artificial intelligence and machine learning ha
 committee: "<a href='http://people.csail.mit.edu/lim/' target='_blank'>Professor Joseph J. Lim</a> (Chair), <a href='https://robotics.usc.edu/~gaurav/' target='_blank'>Professor Gaurav Sukhatme</a>, <a href='https://stefanosnikolaidis.net/' target='_blank'>Professor Stefanos Nikolaidis</a>, and <a href='https://viterbi.usc.edu/directory/faculty/Nguyen/Quan' target='_blank'>Professor Quan Nguyen</a>"
 tags: 
   - name: 'Defense Slide'
-    url: '/thesis/defense_slide_Sun.pdf'
-  - name: 'Thesis'
-    url: '/thesis/thesis_Sun.pdf'
+    url: '/dissertation/defense_slide_Sun.pdf'
+  - name: 'Dissertation'
+    url: '/dissertation/dissertation_Sun.pdf'
   - name: 'Bibtex'
-    url: '/bibtex/thesis.txt'
+    url: '/bibtex/dissertation.txt'

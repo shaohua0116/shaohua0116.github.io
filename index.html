@@ -14,15 +14,15 @@ layout: home
 <div class="pub">
 <div id="bio" class="bio">
   <h1 class="md-heading text-center">
-    Ph.D. Thesis
+    Ph.D. Dissertation
   </h1>
   <div class="bio-body">
-      <strong>Title</strong>: {{ site.data.thesis.title }} <br>
-      <strong>Abstract</strong>: {{ site.data.thesis.abstract }} <br>
-      <strong>Dissertation committee</strong>: {{ site.data.thesis.committee }} <br>
-        <img class="thesis-img" src="./thesis/thesis_fig.png"/>
+      <strong>Title</strong>: {{ site.data.dissertation.title }} <br>
+      <strong>Abstract</strong>: {{ site.data.dissertation.abstract }} <br>
+      <strong>Dissertation committee</strong>: {{ site.data.dissertation.committee }} <br>
+        <img class="dissertation-img" src="./dissertation/dissertation_fig.png"/>
         <div class="tags">
-          {% for tag in site.data.thesis.tags %}
+          {% for tag in site.data.dissertation.tags %}
           [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
           {% endfor %}
         </div>
