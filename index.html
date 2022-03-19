@@ -6,30 +6,16 @@ layout: home
   <h1 class="md-heading text-center">
     Bio
   </h1>
+  {% for c in site.data.bio.normal.content %}
   <div class="bio-body">
-    <p> {{ site.data.bio.normal.content }} </p>
+      {{ c[1] }}
   </div>
+  {% endfor %}
 </div>
 
-<div class="pub">
-<div id="bio" class="bio">
-  <h1 class="md-heading text-center">
-    Ph.D. Dissertation
-  </h1>
-  <div class="bio-body">
-      <strong>Title</strong>: {{ site.data.dissertation.title }} <br>
-      <strong>Abstract</strong>: {{ site.data.dissertation.abstract }} <br>
-      <strong>Dissertation committee</strong>: {{ site.data.dissertation.committee }} <br>
-        <img class="dissertation-img" src="./dissertation/dissertation_fig.png"/>
-        <div class="tags">
-          {% for tag in site.data.dissertation.tags %}
-          [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
-          {% endfor %}
-        </div>
-  </div>
-</div>
-</div>
 <!--
+<div class="pub">
+</div>
 <div id="news" class="news">
   <h1 class="md-heading text-center">
     News
@@ -52,6 +38,25 @@ layout: home
   </div>
 </div>
 -->
+
+<div class="pub">
+<div id="bio" class="bio">
+  <h1 class="md-heading text-center">
+    Ph.D. Dissertation
+  </h1>
+  <div class="bio-body">
+      <strong>Title</strong>: {{ site.data.dissertation.title }} <br>
+      <strong>Abstract</strong>: {{ site.data.dissertation.abstract }} <br>
+      <strong>Dissertation committee</strong>: {{ site.data.dissertation.committee }} <br>
+        <img class="dissertation-img" src="./dissertation/dissertation_fig.png"/>
+        <div class="tags">
+          {% for tag in site.data.dissertation.tags %}
+          [<a class="tag" href="{{tag.url}}"> <strong>{{ tag.name }}</strong> </a>]
+          {% endfor %}
+        </div>
+  </div>
+</div>
+</div>
 
 <div id="publications" class="publications">
   <h1 class="md-heading text-center">
@@ -218,6 +223,8 @@ layout: home
 </div>
 -->
 
+<div class="pub">
+</div>
 <div id="service" class="service">
   <h1 class="md-heading text-center">
     Professional Activity
