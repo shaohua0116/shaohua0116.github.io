@@ -20,6 +20,10 @@
   tags:
     - name: 'Paper'
       url:  'https://openreview.net/pdf?id=jeLW-Fh9bV'
+    - name: 'Project Page'
+      url:  'https://namsan96.github.io/SiMPL/'
+    - name: 'Code'
+      url:  'https://github.com/namsan96/simpl'
     - name: 'OpenReview'
       url:  'https://openreview.net/forum?id=jeLW-Fh9bV'
     - name: 'Bibtex'
