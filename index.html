@@ -46,7 +46,11 @@ layout: home
   </h1>
   <div class="bio-body">
       <strong>Title</strong>: {{ site.data.dissertation.title }} <br>
-      <strong>Abstract</strong>: {{ site.data.dissertation.abstract }} <br>
+      <div class="dissertation-abs">
+        <p>
+        <strong>Abstract</strong>: {{ site.data.dissertation.abstract }}
+        </p>
+      </div>
       <strong>Dissertation committee</strong>: {{ site.data.dissertation.committee }} <br>
         <img class="dissertation-img" src="./dissertation/dissertation_fig.png"/>
         <div class="tags">

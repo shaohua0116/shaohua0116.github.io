@@ -11,3 +11,11 @@ $border-width: 1px;
 
 .pub-left > .frame {
 }
+
+.dissertation-abs > p {
+  margin:         auto;
+  @include media-query($on-palm) {
+    // don't show desc on phones
+    font-size:  0px;
+  }
+}
