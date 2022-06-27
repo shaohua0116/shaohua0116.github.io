@@ -3,6 +3,6 @@
   activity_year: "NeurIPS 2019-2020, ICML 2020, ICLR 2020-2021, CVPR 2019-2020, ICCV 2019, ECCV 2020, CoRL 2020, AAAI 2020, ICIP 2019, BMVC 2019"
   brief: true
 - role: "Journal reviewer"
-  activity: "IEEE Transactions on Image Processing"
+  activity: "Transactions on Machine Learning Research, IEEE Transactions on Image Processing"
   activity_year: "IEEE Transactions on Image Processing 2019"
   brief: true
