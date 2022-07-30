@@ -1,12 +1,12 @@
 /*
 * service items
 */
-$service-padding: 20px;
+ $service-padding: 20px;
 
 .service {
   max-width:        -webkit-calc(90% - (#{$spacing-unit} / 2));
   max-width:        calc(90% - (#{$spacing-unit} / 2));
-  margin-top:       #{$spacing-unit};
+//  margin-top:       #{$spacing-unit};
   margin-left:      auto;
   margin-right:     auto;
   @include media-query($on-palm) {
