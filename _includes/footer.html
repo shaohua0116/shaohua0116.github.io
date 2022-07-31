@@ -1,18 +1,19 @@
 {% if page.comments == True %}
 <footer class="site-footer">
-
   <div class="wrapper">
-      <div class="footer-col">
-        <div class="contact-list">
-          <p>{{ site.data.bio.name }}'s personal website</p>
-        <div>
-      <div class="footer-col">
-        {% include color-social.html %}
+    <div class="footer-col">
+      {% include color-social.html %}
+    </div>
+    <div class="footer-col">
+      <div class="contact-list">
+          <p> &copy <script>document.write(new Date().getFullYear())</script>
+           {{ site.data.bio.name }}</p>
+          <!--
+           {{ site.data.bio.name }}'s personal website</p>
+          -->
       </div>
     </div>
-
   </div>
-
 </footer>
 {% else%}
 <footer class="site-footer">
