@@ -1,3 +1,36 @@
+- title: 'Efficient Multi-Task Reinforcement Learning via Selective Behavior Sharing'
+  date:  'Dec 2022'
+  imgurl: '/images/projects/qmp.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Grace Zhang
+      url: 'https://www.mlai-kaist.com/people'
+    - name: Ayush Jain
+      url:  'https://ayushj240.github.io/'
+    - name: Injune Hwang
+      url:  'https://hij0527.github.io/'
+    - name: Shao-Hua Sun
+      url:  'https://shaohua0116.github.io/'
+      me: true
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  desc: 'We propose a multi-task reinforcement learning method, Q-switch Mixture of policies (QMP), that can share exploratory behavior, which can be helpful even when the optimal behaviors differ. Furthermore, as we learn each task, we can guide the exploration by sharing behaviors in a task and state dependent way. QMP learns to selectively share exploratory behavior between tasks by using a mixture of policies based on estimated discounted returns to gather training data. '
+  abstract: 'The ability to leverage shared behaviors between tasks is critical for sample efficient multi-task reinforcement learning (MTRL). Prior approaches based on parameter sharing or policy distillation share behaviors uniformly across tasks and states or focus on learning one optimal policy. Therefore, they are fundamentally limited when tasks have conflicting behaviors because no one optimal policy exists. Our key insight is that we can instead share exploratory behavior which can be helpful even when the optimal behaviors differ. Furthermore, as we learn each task, we can guide the exploration by sharing behaviors in a task and state dependent way. To this end, we propose a novel MTRL method, Q-switch Mixture of policies (QMP), that learns to selectively share exploratory behavior between tasks by using a mixture of policies based on estimated discounted returns to gather training data. Experimental results in manipulation and locomotion tasks demonstrate that our method outperforms prior behavior sharing methods, high- lighting the importance of task and state dependent sharing.'
+  tags:
+    - name: 'Paper'
+      url:  'https://openreview.net/pdf?id=U3n8WPtKPm'
+    - name: 'Project Page'
+      url:  'https://sites.google.com/view/qmp-mtrl'
+    - name: 'OpenReview'
+      url:  'https://openreview.net/forum?id=U3n8WPtKPm'
+    - name: 'Bibtex'
+      url:  '/bibtex/qmp.txt'
+  publisher:  'Deep RL Workshop at Neural Information Processing Systems (NeurIPS) 2022'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 - title: 'Skill-based Meta-Reinforcement Learning'
   date:  'Dec 2021'
   imgurl: '/images/projects/simpl.png'
