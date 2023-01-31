@@ -1,3 +1,29 @@
+- title: 'Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs'
+  date:  'Jan 2023'
+  imgurl: '/images/projects/hprl.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Guan-Ting Liu
+    - name: En-Pei Hu
+    - name: Pu-Jen Cheng
+      url:  'https://www.csie.ntu.edu.tw/~pjcheng/'
+    - name: Hung-Yi Lee
+      url:  'https://speech.ee.ntu.edu.tw/~hylee/index.php'
+    - name: Shao-Hua Sun
+      url:  'https://shaohua0116.github.io/'
+      me: true
+  desc: 'We re-formulate solving a reinforcement learning task as synthesizing a task-solving program that can be executed to interact with the environment and maximize the return. We first learn a program embedding space that continuously parameterizes a diverse set of programs sampled from a program dataset. Then, we train a meta-policy, whose action space is the learned program embedding space, to produce a series of programs (i.e., predict a series of actions) to yield a composed task-solving program.'
+  abstract: 'Aiming to produce reinforcement learning (RL) policies that are human-interpretable and can generalize better to novel scenarios, Trivedi et al. (2021) present a method (LEAPS) that first learns a program embedding space to continuously parameterize diverse programs from a pre-generated program dataset, and then searches for a task-solving program in the learned program embedding space when given a task. Despite encouraging results, the program policies that LEAPS can produce are limited by the distribution of the program dataset. Furthermore, during searching, LEAPS evaluates each candidate program solely based on its return, failing to precisely reward correct parts of programs and penalize incorrect parts. To address these issues, we propose to learn a meta-policy that composes a series of programs sampled from the learned program embedding space. By composing programs, our proposed method can produce program policies that describe out-of-distributionally complex behaviors and directly assign credits to programs that induce desired behaviors. We design and conduct extensive experiments in the Karel domain. The experimental results show that our proposed framework outperforms baselines. The ablation studies confirm the limitations of LEAPS and justify our design choices.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2301.12950'
+    - name: 'Bibtex'
+      url:  '/bibtex/hprl.txt'
+  publisher:  'arXiv preprint'
+  oral: false
+  oral_text: ''
+  status:   ''
 - title: 'Efficient Multi-Task Reinforcement Learning via Selective Behavior Sharing'
   date:  'Dec 2022'
   imgurl: '/images/projects/qmp.png'
