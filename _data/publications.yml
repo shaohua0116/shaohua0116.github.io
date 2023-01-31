@@ -5,13 +5,15 @@
   selected: true
   authors:
     - name: Guan-Ting Liu
+      equal_contribution: true
     - name: En-Pei Hu
+      equal_contribution: true
     - name: Pu-Jen Cheng
       url:  'https://www.csie.ntu.edu.tw/~pjcheng/'
     - name: Hung-Yi Lee
       url:  'https://speech.ee.ntu.edu.tw/~hylee/index.php'
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
   desc: 'We re-formulate solving a reinforcement learning task as synthesizing a task-solving program that can be executed to interact with the environment and maximize the return. We first learn a program embedding space that continuously parameterizes a diverse set of programs sampled from a program dataset. Then, we train a meta-policy, whose action space is the learned program embedding space, to produce a series of programs (i.e., predict a series of actions) to yield a composed task-solving program.'
   abstract: 'Aiming to produce reinforcement learning (RL) policies that are human-interpretable and can generalize better to novel scenarios, Trivedi et al. (2021) present a method (LEAPS) that first learns a program embedding space to continuously parameterize diverse programs from a pre-generated program dataset, and then searches for a task-solving program in the learned program embedding space when given a task. Despite encouraging results, the program policies that LEAPS can produce are limited by the distribution of the program dataset. Furthermore, during searching, LEAPS evaluates each candidate program solely based on its return, failing to precisely reward correct parts of programs and penalize incorrect parts. To address these issues, we propose to learn a meta-policy that composes a series of programs sampled from the learned program embedding space. By composing programs, our proposed method can produce program policies that describe out-of-distributionally complex behaviors and directly assign credits to programs that induce desired behaviors. We design and conduct extensive experiments in the Karel domain. The experimental results show that our proposed framework outperforms baselines. The ablation studies confirm the limitations of LEAPS and justify our design choices.'
@@ -37,7 +39,7 @@
     - name: Injune Hwang
       url:  'https://hij0527.github.io/'
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
     - name: Joseph J. Lim
       url:  'http://www-bcf.usc.edu/~limjj/'
@@ -66,7 +68,7 @@
     - name: Taewook Nam
       url: 'https://www.mlai-kaist.com/people'
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
     - name: Karl Pertsch
       url:  'https://kpertsch.github.io/'
@@ -103,7 +105,7 @@
       url:  'https://jesbu1.github.io/'
       equal_contribution: true
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
     - name: Joseph J. Lim
       url:  'http://www-bcf.usc.edu/~limjj/'
@@ -136,7 +138,7 @@
     - name: Andrew Szot
       url:  'https://www.andrewszot.com/'
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
     - name: Joseph J. Lim
       url:  'http://www-bcf.usc.edu/~limjj/'
@@ -165,7 +167,7 @@
   selected: true
   authors:
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
     - name: Te-Lin Wu
     - name: Joseph J. Lim
@@ -198,7 +200,7 @@
       url:  'https://vuoristo.github.io/'
       equal_contribution: true
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
       equal_contribution: true
     - name: Hexiang Hu
@@ -238,7 +240,7 @@
       url:  'http://minyounghuh.com/'
       equal_contribution: true
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       equal_contribution: true
       me: true
     - name: Ning Zhang
@@ -268,7 +270,7 @@
       url:  'http://youngwoon.github.io/'
       equal_contribution: true
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       equal_contribution: true
       me: true
     - name: Sriram Somasundaram
@@ -309,7 +311,7 @@
     - name: Risto Vuorio
       url:  'https://vuoristo.github.io/'
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
     - name: Hexiang Hu
       url:  'http://hexianghu.com/'
@@ -337,7 +339,7 @@
   selected: true
   authors:
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
     - name: Minyoung Huh
       url:  'http://minyounghuh.com/'
@@ -373,7 +375,7 @@
   selected: true
   authors:
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       equal_contribution: true
       me: true
     - name: Hyeonwoo Noh
@@ -411,7 +413,7 @@
   selected: false
   authors:
     - name: Shao-Hua Sun
-      url:  'https://shaohua0116.github.io/'
+      url:  ''
       me: true
     - name: Shang-Pu Fan
       url:  '#'
