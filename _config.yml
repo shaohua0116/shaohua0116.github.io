@@ -40,5 +40,6 @@ scss:
   sass_dir: _scss
   style: :compressed
 
-gems:
+# gems:
+plugins:
   ['jekyll-paginate', 'jekyll/scholar', 'jekyll-sitemap']
