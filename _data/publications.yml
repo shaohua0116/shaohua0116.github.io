@@ -45,7 +45,7 @@
       url:  'https://arxiv.org/abs/2301.12950'
     - name: 'Bibtex'
       url:  '/bibtex/hprl.txt'
-  publisher:  'arXiv preprint'
+  publisher:  'Deep Learning for Code Workshop at International Conference on Learning Representations (ICLR) 2023'
   oral: false
   oral_text: ''
   status:   ''
