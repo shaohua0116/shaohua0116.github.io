@@ -1,26 +1,3 @@
-- title: 'Diffusion Model-Augmented Behavioral Cloning'
-  date:  'Feb 2023'
-  imgurl: '/images/projects/diffbc.png'
-  imgprop: 'frame'
-  selected: true
-  authors:
-    - name: Hsiang-Chun Wang
-    - name: Shang-Fu Chen
-    - name: Shao-Hua Sun
-      url:  ''
-      me: true
-  desc: 'This work aims to augment BC by employing diffusion models for modeling expert behaviors, and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose diffusion model-augmented behavioral cloning (Diffusion-BC) that combines our proposed diffusion model guided learning objective with the BC objective, which complements each other. Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, and locomotion.'
-  abstract: 'Imitation learning addresses the challenge of learning by observing an expert demonstrations without access to reward signals from the environment. Behavioral cloning (BC) formulates imitation learning as a supervised learning problem and learns from sampled state-action pairs. Despite its simplicity, it often fails to capture the temporal structure of the task and the global information of expert demonstrations. This work aims to augment BC by employing diffusion models for modeling expert behaviors, and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose diffusion model-augmented behavioral cloning (Diffusion-BC) that combines our proposed diffusion model guided learning objective with the BC objective, which complements each other. Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, and locomotion. Ablation studies justify our design choices and investigate the effect of balancing the BC and our proposed diffusion model objective.'
-  tags:
-    - name: 'Paper'
-      url:  'https://arxiv.org/abs/2302.13335'
-    - name: 'Bibtex'
-      url:  '/bibtex/diffbc.txt'
-  publisher:  'arXiv preprint'
-  oral: false
-  oral_text: ''
-  status:   ''
-
 - title: 'Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs'
   date:  'Jan 2023'
   imgurl: '/images/projects/hprl.png'
@@ -49,6 +26,61 @@
   oral: false
   oral_text: ''
   status:   ''
+
+- title: 'Diffusion Model-Augmented Behavioral Cloning'
+  date:  'Feb 2023'
+  imgurl: '/images/projects/diffbc.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Hsiang-Chun Wang
+    - name: Shang-Fu Chen
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: 'This work aims to augment BC by employing diffusion models for modeling expert behaviors, and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose diffusion model-augmented behavioral cloning (Diffusion-BC) that combines our proposed diffusion model guided learning objective with the BC objective, which complements each other. Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, and locomotion.'
+  abstract: 'Imitation learning addresses the challenge of learning by observing an expert demonstrations without access to reward signals from the environment. Behavioral cloning (BC) formulates imitation learning as a supervised learning problem and learns from sampled state-action pairs. Despite its simplicity, it often fails to capture the temporal structure of the task and the global information of expert demonstrations. This work aims to augment BC by employing diffusion models for modeling expert behaviors, and designing a learning objective that leverages learned diffusion models to guide policy learning. To this end, we propose diffusion model-augmented behavioral cloning (Diffusion-BC) that combines our proposed diffusion model guided learning objective with the BC objective, which complements each other. Our proposed method outperforms baselines or achieves competitive performance in various continuous control domains, including navigation, robot arm manipulation, and locomotion. Ablation studies justify our design choices and investigate the effect of balancing the BC and our proposed diffusion model objective.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2302.13335'
+    - name: 'Bibtex'
+      url:  '/bibtex/diffbc.txt'
+  publisher:  'arXiv preprint'
+  oral: false
+  oral_text: ''
+  status:   ''
+
+- title: 'Hierarchical Neural Program Synthesis'
+  date:  'Mar 2023'
+  imgurl: '/images/projects/hnps.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Linghan Zhong
+      url:  'https://thoughtp0lice.github.io/'
+    - name: Ryan Lindeborg
+      url:  'https://www.ryanlindeborg.com/'
+    - name: Jesse Zhang
+      url:  'https://jesbu1.github.io/'
+    - name: Joseph J. Lim
+      url:  'https://clvrai.com/web_lim/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: 'Recent works in program synthesis have demonstrated encouraging results in a variety of domains such as string transformation, tensor manipulation, and describing behaviors of embodied agents. Most existing program synthesis methods are designed to synthesize programs from scratch, generating a program token by token, line by line. This fundamentally prevents these methods from scaling up to synthesize programs that are longer or more complex. In this work, we present a scalable program synthesis framework that instead synthesizes a program by hierarchically composing programs.'
+  abstract: 'Recent works in program synthesis have demonstrated encouraging results in a variety of domains such as string transformation, tensor manipulation, and describing behaviors of embodied agents. Most existing program synthesis methods are designed to synthesize programs from scratch, generating a program token by token, line by line. This fundamentally prevents these methods from scaling up to synthesize programs that are longer or more complex. In this work, we present a scalable program synthesis framework that instead synthesizes a program by hierarchically composing programs. The experimental results demonstrate that the proposed framework can synthesize programs that are significantly longer and more complex than the programs considered in prior program synthesis works.'
+  tags:
+    - name: 'Paper'
+      url:  'http://arxiv.org/abs/2303.06018'
+    - name: 'Bibtex'
+      url:  '/bibtex/hnps.txt'
+    - name: 'Project Page'
+      url:  'https://thoughtp0lice.github.io/hnps_web/'
+  publisher:  'arXiv preprint'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 - title: 'Efficient Multi-Task Reinforcement Learning via Selective Behavior Sharing'
   date:  'Dec 2022'
   imgurl: '/images/projects/qmp.png'
