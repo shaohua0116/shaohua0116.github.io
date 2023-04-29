@@ -22,7 +22,7 @@
       url:  'https://arxiv.org/abs/2301.12950'
     - name: 'Bibtex'
       url:  '/bibtex/hprl.txt'
-  publisher:  'International Conference on Machine Learning Representations (ICML) 2023 and<br>Deep Learning for Code Workshop at International Conference on Learning Representations (ICLR) 2023'
+  publisher:  'International Conference on Machine Learning (ICML) 2023 and<br>Deep Learning for Code Workshop at International Conference on Learning Representations (ICLR) 2023'
   oral: false
   oral_text: ''
   status:   ''
