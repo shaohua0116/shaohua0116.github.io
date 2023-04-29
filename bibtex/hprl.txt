@@ -1,6 +1,6 @@
-@article{liu2023hierarchical,
+@inproceedings{liu2023hierarchical,
   title={Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs},
   author={Guan-Ting Liu and En-Pei Hu and Pu-Jen Cheng and Hung-Yi Lee and Shao-Hua Sun},
-  journal={arXiv preprint arXiv:2301.12950},
+  booktitle = {International Conference on Machine Learning},
   year={2023}
 }
