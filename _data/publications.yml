@@ -22,7 +22,7 @@
       url:  'https://arxiv.org/abs/2301.12950'
     - name: 'Bibtex'
       url:  '/bibtex/hprl.txt'
-  publisher:  'International Conference on Machine Learning (ICML) 2023 and<br>Deep Learning for Code Workshop at International Conference on Learning Representations (ICLR) 2023'
+  publisher:  'International Conference on Machine Learning (ICML) 2023'
   oral: false
   oral_text: ''
   status:   ''
@@ -144,7 +144,7 @@
       url:  'https://openreview.net/forum?id=jeLW-Fh9bV'
     - name: 'Bibtex'
       url:  '/bibtex/simpl.txt'
-  publisher:  'International Conference on Learning Representations (ICLR) 2022 and<br>Meta-Learning Workshop at Neural Information Processing Systems (NeurIPS) 2021 and<br>Deep RL Workshop at Neural Information Processing Systems (NeurIPS) 2021'
+  publisher:  'International Conference on Learning Representations (ICLR) 2022'
   oral: false
   oral_text: ''
   status:   ''
