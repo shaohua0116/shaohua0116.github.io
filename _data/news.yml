@@ -1,9 +1,9 @@
-- news: 'I will be joining the Dept. of Electrical Engineering at National Taiwan University (NTU) as a tenure-Track Assistant Professor this Fall.'
-  date: 'Mar 2022'
-- news: 'I have successfully defended my Ph.D.'
-  date: 'Feb 2022'
-  # - news: 'Our paper <b>Program Guided Agent</b> is accepted by <b><a href="https://iclr.cc/Conferences/2020/">ICLR 2020</a></b> as a <b>Spotlight</b> paper.'
-  #   date: 'Dec 2019'
+- news: "I gave a guest lecture talk a for the Machine Learning course at NTUEE on <b><a href='https://drive.google.com/file/d/1x6iLEBFH8G_rd1y1pFW8sc0nY6dhaog2/view?usp=share_link'>Neural Program Synthesis and Neural Program Induction</a></b>."
+  date: 'May 2023'
+- news: "I gave a talk at <a href='https://aiforum2023.cs.nthu.edu.tw/'>TAAI AI Forum 2023</a> on <b><a href='/talk/TAAI_AI_Forum_2023.pdf'>Learning to Synthesize Programs as Interpretable and Generalizable Reinforcement Learning Policies</a></b>, covering our works that re-formulate solving reinforcement Learning tasks as program synthesis problems."
+  date: 'May 2023'
+- news: 'Our paper <b>Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs</b> is accepted by <b><a href="https://icml.cc/Conferences/2023/Dates">ICML 2023</a></b>.'
+  date: 'May 2023'
   # - news: 'Our paper <b>Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation</b> is accepted by <b><a href="https://nips.cc/Conferences/2019/">NeurIPS 2019</a></b> as a <b>Spotlight</b> paper.'
   #   date: 'Sep 2019'
   # - news: 'Our paper <b>Feedback Adversarial Learning: Spatial Feedback for Improving Generative Adversarial Networks</b> is accepted by <b><a href="http://cvpr2019.thecvf.com/">CVPR 2019</a></b>.'
