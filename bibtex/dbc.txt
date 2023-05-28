@@ -1,0 +1,6 @@
+@article{wang2023diffusion,
+  title={Diffusion Model-Augmented Behavioral Cloning},
+  author={Hsiang-Chun Wang and Shang-Fu Chen and Shao-Hua Sun},
+  journal={arXiv preprint arXiv:2302.13335},
+  year={2023}
+}

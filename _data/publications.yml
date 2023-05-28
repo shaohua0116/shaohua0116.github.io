@@ -29,7 +29,7 @@
 
 - title: 'Diffusion Model-Augmented Behavioral Cloning'
   date:  'Feb 2023'
-  imgurl: '/images/projects/diffbc.png'
+  imgurl: '/images/projects/dbc.png'
   imgprop: 'frame'
   selected: true
   authors:
@@ -43,8 +43,10 @@
   tags:
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2302.13335'
+    - name: 'Project Page'
+      url:  'https://nturobotlearninglab.github.io/dbc/'
     - name: 'Bibtex'
-      url:  '/bibtex/diffbc.txt'
+      url:  '/bibtex/dbc.txt'
   publisher:  'arXiv preprint'
   oral: false
   oral_text: ''
