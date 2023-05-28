@@ -26,8 +26,8 @@ $border-width: 1px;
 
 .research-abs > p {
   margin:         auto;
-  @include media-query($on-palm) {
-    // don't show desc on phones
-    font-size:  0px;
-  }
+  // @include media-query($on-palm) {
+  //  don't show desc on phones
+  //  font-size:  0px;
+  //  }
 }

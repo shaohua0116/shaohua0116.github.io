@@ -361,7 +361,7 @@
   date:  'Dec 2018'
   imgurl: '/images/projects/mumomaml.png'
   imgprop: 'frame'
-  selected: true
+  selected: false
   authors:
     - name: Risto Vuorio
       url:  'https://vuoristo.github.io/'
