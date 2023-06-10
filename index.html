@@ -117,12 +117,12 @@ layout: home
 
         {% if publication.oral %}
         <div class="publisher">
-            <span class="publisher">in {{ publication.publisher }}</span>
+            <span class="publisher"> {{ publication.publisher }}</span>
             <span class="publisher_oral">&nbsp ({{ publication.oral_text }})</span>
         </div>
         {% else %}
         <div class="publisher">
-            <span class="publisher">in {{ publication.publisher }}</span>
+            <span class="publisher">{{ publication.publisher }}</span>
         </div>
         {% endif %}
         
