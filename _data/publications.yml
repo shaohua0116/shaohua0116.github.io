@@ -20,6 +20,8 @@
   tags:
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2301.12950'
+    - name: 'Project Page'
+      url:  'https://nturobotlearninglab.github.io/hprl/'
     - name: 'Bibtex'
       url:  '/bibtex/hprl.txt'
   publisher:  'International Conference on Machine Learning (ICML) 2023'
