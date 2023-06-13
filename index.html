@@ -15,6 +15,38 @@ layout: home
   </div>
 </div>
 
+<!-- INDUCTRY -->
+<div class="pub">
+</div>
+<div id="industry" class="industry">
+  <h1 class="md-heading text-center">
+    Industrial Outreach and Collaboration <!-- (產業界合作) -->
+  </h1>
+  <div class="Industrial-body">
+    {% for partnership in site.data.industry %}
+    <div class="industry-item">
+      <div class="industry-left">
+        <div class="industry-date">
+          {{ partnership.partner }}
+        </div>
+      </div>
+      <div class="industry-right">
+        <div class="industry-news">
+          {{ partnership.partnership }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div id="reachout" class="reachout">
+  <div class="reachout-body">
+      {{ site.data.bio.industry_reachout }}
+  </div>
+</div>
+
+
+<!-- NEWS -->
 <div class="pub">
 </div>
 <div id="news" class="news">
