@@ -52,7 +52,7 @@
       url:  'https://nturobotlearninglab.github.io/dbc/'
     - name: 'Bibtex'
       url:  '/bibtex/dbc.txt'
-  publisher:  'arXiv preprint'
+  publisher:  'Frontiers4LCD Workshop at International Conference on Machine Learning (ICML) 2023'
   oral: false
   oral_text: ''
   status:   ''
