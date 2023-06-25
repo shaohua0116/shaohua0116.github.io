@@ -50,6 +50,8 @@
       url:  'https://arxiv.org/abs/2302.13335'
     - name: 'Project Page'
       url:  'https://nturobotlearninglab.github.io/dbc/'
+    - name: 'Poster'
+      url:  'https://nturobotlearninglab.github.io/dbc/asset/dbc_poster_icml2023_f4lcd.pdf'
     - name: 'Bibtex'
       url:  '/bibtex/dbc.txt'
   publisher:  'Frontiers4LCD Workshop at International Conference on Machine Learning (ICML) 2023'
