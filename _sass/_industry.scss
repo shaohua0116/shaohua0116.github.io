@@ -28,8 +28,7 @@ $industry-padding: 20px;
 
 
 .industry {
-  max-width:        -webkit-calc(45% - (#{$spacing-unit} / 2));
-  max-width:        calc(45% - (#{$spacing-unit} / 2));
+  max-width:        calc(40% - (#{$spacing-unit} / 2));
   margin-left:      auto;
   margin-right:     auto;
   @include media-query($on-palm) {
@@ -39,41 +38,35 @@ $industry-padding: 20px;
 }
 
 .industry-body {
-  overflow:   auto;
+//   overflow:   auto;
 }
 
 .industry-item {
-  text-align:     justify;
+  // text-align:     justify;
   font-size:      16px;
   @include media-query($on-palm) {
     font-size:      14px;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
   }
   overflow:       auto;
   margin-top:     10px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 10px;
 }
 
 .industry-left {
-  float:       left;
-  margin-left: auto;
-  margin-right: auto;
-  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-  width:         calc(25% - (#{$spacing-unit} / 2));
-}
-
-.industry-right {
-  float:       left;
-  width: -webkit-calc(75% - (#{$spacing-unit} / 2));
-  width:         calc(75% - (#{$spacing-unit} / 2));
-  margin-left: 5px;
+  color:       $primary-color-dark;
+  font-weight: bold;
   @include media-query($on-palm) {
-    margin-left: 25px;
+      text-align: center;
   }
 }
 
-.industry-left > .industry-date {
-  color:       $primary-color-dark;
-  font-weight: bold;
-}
-
-.industry-right > .industry-industry {
+.industry-right {
+  text-align: left;
+  @include media-query($on-palm) {
+      text-align: center;
+  }
 }
