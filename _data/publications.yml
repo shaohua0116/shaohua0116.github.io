@@ -24,6 +24,8 @@
       url:  'https://nturobotlearninglab.github.io/hprl/'
     - name: 'Slide'
       url:  'https://nturobotlearninglab.github.io/hprl/asset/hprl_slide.pdf'
+    - name: 'Poster'
+      url:  'https://nturobotlearninglab.github.io/hprl/asset/hprl_poster.png'
     - name: 'Bibtex'
       url:  '/bibtex/hprl.txt'
   publisher:  'International Conference on Machine Learning (ICML) 2023'
