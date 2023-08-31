@@ -1,0 +1,6 @@
+@inproceedings{zhang2023bootstrap,
+  title={Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance},
+  author={Jesse Zhang and Jiahui Zhang, Karl Pertsch and Ziyi Liu and Xiang Ren and Minsuk Chang and Shao-Hua Sun and Joseph J. Lim},
+  booktitle = {Conference on Robot Learning},
+  year={2023}
+}
