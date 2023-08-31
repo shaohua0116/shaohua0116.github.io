@@ -31,8 +31,8 @@
     - name: 'Bibtex'
       url:  '/bibtex/boss.txt'
   publisher:  'Conference on Robot Learning (CoRL) 2023'
-  oral: false
-  oral_text: ''
+  oral: true
+  oral_text: 'Oral'
   status:   ''
 - title: 'Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs'
   date:  'Jan 2023'
