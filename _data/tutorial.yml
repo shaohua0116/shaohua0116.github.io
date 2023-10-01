@@ -1,0 +1,11 @@
+title: "Neural Program Synthesis and Induction"
+when_where: 
+  when: 
+    l: "When"
+    r: "11 November 2023 9:00-12:30"
+  where:
+    l: "Where"
+    r: "Acıbadem University Conference Center"
+
+abstract: "Despite the recent advancement in machine learning, developing artificial intelligence systems that can be understood by human users and generalize to novel scenarios remains challenging. This tutorial provides an in-depth overview of the two emerging research paradigms that aim to address this challenge: neural program synthesis and neural program induction. Neural program synthesis (NPS) methods produce human-readable and machine-executable programs that can serve as task-solving procedures, data representations, or reinforcement learning policies. On the other hand, neural program induction (NPI) approaches aim to induce latent programmatic representations by employing specific network architectural design (e.g., differentiable external memory) or leveraging detailed supervision. This tutorial will cover the transformative impact of neural program synthesis and neural program induction toward building interpretable and generalizable machine learning frameworks."
+bio: "Shao-Hua Sun is an <strong>Assistant Professor</strong> at <strong>National Taiwan University (NTU)</strong> with a joint appointment in <strong>the Department of Electrical Engineering</strong> and <strong>the Graduate Institute of Communication Engineering</strong>. Prior to joining NTU, Shao-Hua Sun recently completed his Ph.D. in Computer Science at the University of Southern California. Before that, he received my B.S. degree in Electrical Engineering from NTU. His research interests span <strong>Robot Learning</strong>, <strong>Reinforcement Learning</strong>, <strong>Program Synthesis</strong>, and <strong>Machine Learning</strong>."

@@ -1,0 +1,66 @@
+---
+layout: page
+description: "ACML 2023 Tutorial"
+noindex:  true
+---
+
+<div id="publications" class="publications">
+  <h1 class="lg-heading text-center">
+    ACML 2023 Tutorial
+  </h1>
+
+  <h1 class="lg-heading text-center">
+    Neural Program Synthesis and Induction
+  </h1>
+
+  <div class="pub-navigator"></div>
+
+<div class="pub">
+</div>
+<div id="industry" class="industry">
+  <h1 class="md-heading text-center">
+    When & Where
+  </h1>
+  <div class="industry-body">
+    {% for x in site.data.tutorial.when_where %}
+    <div class="industry-item">
+      <div class="industry-left">
+        {{ x[1].l }}
+      </div>
+      <div class="industry-right">
+        {{ x[1].r }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <br>
+</div>
+
+<div id="bio" class="bio">
+  <h1 class="md-heading text-center">
+    Abstract
+  </h1>
+  <div class="bio-body">
+      {{ site.data.tutorial.abstract }}
+  </div>
+  <div class="bio-bottom-margin">
+  </div>
+</div>
+
+<div id="bio" class="bio">
+  <h1 class="md-heading text-center">
+    Speaker
+  </h1>
+  <div class="bio-body">
+      {{ site.data.tutorial.bio }}
+  </div>
+  <div class="bio-bottom-margin">
+  </div>
+</div>
+
+  <div class="button">
+    <h1 class="sm-heading text-center"><a href="{{ site.url }}">
+      <i class="fa fa-arrow-circle-left"></i> Back
+    </a></h1>
+  </div>
+</div>
