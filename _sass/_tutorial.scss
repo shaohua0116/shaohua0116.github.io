@@ -21,11 +21,13 @@ $border-width: 1px;
 }
 
 .tutorial-left {
+  min-width: 150px;
   float:         left;
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
   width:         calc(20% - (#{$spacing-unit} / 2));
   text-align:    center;
-  margin-right:  auto;
+//  margin-right:  auto;
+  margin-right:  20px;// auto;
 
   @media screen and (min-width: 800px){
     display:       flex;
@@ -58,7 +60,7 @@ $border-width: 1px;
   text-align:     justify;
   @include media-query($on-palm) {
     // don't show desc on phones
-    font-size:  0px;
+    font-size:  14px;
   }
 }
 
