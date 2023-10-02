@@ -1,0 +1,100 @@
+$border-width: 1px;
+
+.tutorial {
+  max-width:        -webkit-calc(80% - (#{$spacing-unit} / 2));
+  max-width:        calc(80% - (#{$spacing-unit} / 2));
+  margin-top:       #{$spacing-unit};
+  font-family:      'Roboto',sans-serif, Helvetica;
+  margin:           auto;
+}
+
+.tutorial-block {
+  radius:         55px;
+//  padding-top: -webkit-calc((#{$spacing-unit} / 2));
+//  padding-top:        -calc((#{$spacing-unit} / 2));
+//  padding-bottom: -webkit-calc((#{$spacing-unit} / 2));
+//  padding-bottom:        -calc((#{$spacing-unit} / 2));
+  overflow:       auto;
+  @media screen and (min-width: 800px){
+    display:        flex;
+  }
+}
+
+.tutorial-left {
+  float:         left;
+  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+  width:         calc(20% - (#{$spacing-unit} / 2));
+  text-align:    center;
+  margin-right:  auto;
+
+  @media screen and (min-width: 800px){
+    display:       flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:   left;
+  }
+  @include media-query($on-palm) {
+    padding-bottom: -webkit-calc((#{$spacing-unit} / 2));
+    padding-bottom:        -calc((#{$spacing-unit} / 2));
+    margin-right:  10px auto;
+    margin-left:   10px auto;
+  }
+}
+
+.tutorial-left > .intro-img {
+  width:          180px;
+  border:         2px solid $red-color-dark;
+  border-radius:  50%;
+  box-shadow: 5px 5px 15px rgba(173, 181, 189, 0.4);
+}
+
+.tutorial-left > .frame {
+}
+
+.tutorial-right {
+  width: -webkit-calc(80% - (#{$spacing-unit} / 2));
+  width:         calc(80% - (#{$spacing-unit} / 2));
+  margin:         auto;
+  text-align:     justify;
+  @include media-query($on-palm) {
+    // don't show desc on phones
+    font-size:  0px;
+  }
+}
+
+@include media-query($on-laptop) {
+  .tutorial-left,
+  .tutorial-right {
+    float:         none;
+    margin:        10px auto;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .tutorial {
+    position:   relative;
+    margin:     10px auto;
+    float:      none;
+    width: -webkit-calc( 100% - (#{$spacing-unit} / 2));
+    width:         calc( 100% - (#{$spacing-unit} / 2));
+  }
+}
+
+.tutorial-right > .title {
+  font-weight:  600;
+  font-size:    16px;
+}
+
+ul.main-nav {
+       display: inline-block; /* fixes that spacing issue */
+       margin: 0; /* cancels out unwanted margin */
+       white-space: nowrap;
+}
+li {
+       overflow: hidden; 
+       text-overflow: ellipsis;
+       display: inline-block;
+       white-space: nowrap;
+}
