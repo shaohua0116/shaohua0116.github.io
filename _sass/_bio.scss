@@ -11,14 +11,14 @@
   }
 }
 
-.bio-wide{
+.wide{
   @media screen and (max-width: 800px){
     display: none;
       
   }
 }
 
-.bio-narrow{
+.narrow{
   @media screen and (min-width: 801px){
     display: none;
   }
