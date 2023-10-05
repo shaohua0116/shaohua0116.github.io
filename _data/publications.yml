@@ -27,7 +27,7 @@
     - name: 'Paper'
       url:  'https://openreview.net/pdf?id=a0mFRgadGO'
     - name: 'Project Page'
-      url:  'https://sites.google.com/view/boss-corl-2023'
+      url:  'https://clvrai.github.io/boss/'
     - name: 'Bibtex'
       url:  '/bibtex/boss.txt'
   publisher:  'Conference on Robot Learning (CoRL) 2023'
