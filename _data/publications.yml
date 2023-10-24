@@ -34,6 +34,7 @@
   oral: true
   oral_text: 'Oral'
   status:   ''
+
 - title: 'Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs'
   date:  'Jan 2023'
   imgurl: '/images/projects/hprl.png'
@@ -70,6 +71,40 @@
   oral: false
   oral_text: ''
   status:   ''
+
+- title: 'Location-aware Visual Question Generation with Lightweight Models'
+  date:  'Nov 2023'
+  imgurl: '/images/projects/locavqg.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Nicholas Collin Suwono
+    - name: Justin Chih-Yao Chen
+      url:  'https://dinobby.github.io/'
+    - name: Tun Min Hung
+    - name: Ting-Hao Kenneth Huang
+      url:  'https://crowd.ist.psu.edu/'
+    - name: I-Bin Liao
+    - name: Yung-Hui Li
+    - name: Lun-Wei Ku
+      url:  'https://academiasinicanlplab.github.io/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: 'This work introduces a novel task, location-aware visual question generation (LocaVQG), which aims to generate engaging questions from data relevant to a particular geographical location (e.g.,surrounding images and its GPS coordinate). To tackle this task, we present a dataset generation pipeline that leverages GPT-4 to produce diverse and sophisticated questions. We propose methods to train lightweight models which can reliably generate engaging questions from location-aware information. '
+  abstract: 'This work introduces a novel task, location-aware visual question generation (LocaVQG), which aims to generate engaging questions from data relevant to a particular geographical location. Specifically, we represent such location-aware information with surrounding images and a GPS coordinate. To tackle this task, we present a dataset generation pipeline that leverages GPT-4 to produce diverse and sophisticated questions. Then, we aim to learn a lightweight model that can address the LocaVQG task and fit on an edge device, such as a mobile phone. To this end, we propose a method which can reliably generate engaging questions from location-aware information. Our proposed method outperforms baselines regarding human evaluation (e.g., engagement, grounding, coherence) and automatic evaluation metrics (e.g., BERTScore, ROUGE-2). Moreover, we conduct extensive ablation studies to justify our proposed techniques for both generating the dataset and solving the task.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2310.15129'
+    - name: 'Project Page'
+      url:  'https://github.com/AcademiaSinicaNLPLab/LocaVQG'
+    - name: 'Bibtex'
+      url:  '/bibtex/locavqg.txt'
+  publisher:  'Empirical Methods in Natural Language Processing (EMNLP) 2023'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 
 - title: 'Diffusion Model-Augmented Behavioral Cloning'
   date:  'Feb 2023'

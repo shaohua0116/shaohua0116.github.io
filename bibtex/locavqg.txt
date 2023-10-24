@@ -1,0 +1,6 @@
+@inproceedings{suwono2023location,
+  title={Location-Aware Visual Question Generation with Lightweight Models},
+  author={Nicholas Collin Suwono and Justin Chen and Tun Min Hung and Ting-Hao Kenneth Huang and I-Bin Liao and Yung-Hui Li and Lun-Wei Ku and Shao-Hua Sun},
+  booktitle = {Empirical Methods in Natural Language Processing},
+  year={2023}
+}
