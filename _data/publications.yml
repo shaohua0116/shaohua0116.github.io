@@ -1,3 +1,36 @@
+- title: 'Learning to Act from Actionless Video through Dense Correspondences'
+  date:  'Nov 2023'
+  imgurl: '/images/projects/avdc.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Po-Chen Ko
+      url:  'https://pochen-ko.github.io/'
+    - name: Jiayuan Mao
+      url:  'https://jiayuanm.com/'
+    - name: Yilun Du
+      url:  'https://yilundu.github.io/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+    - name: Joshua B. Tenenbaum
+      url:  'https://cocosci.mit.edu/josh'
+  desc: 'Our method leverages images as a task-agnostic representation, encoding both the state and action information, and text as a general representation for specifying robot goals. By synthesizing videos that “hallucinate” robot executing actions and in combination with dense correspondences between frames, our approach can infer the closed-formed action to execute to an environment without the need of any explicit action labels. This unique capability allows us to train the policy solely based on RGB videos and deploy learned policies to various robotic tasks.'
+  abstract: 'In this work, we present an approach to construct a video-based robot policy capable of reliably executing diverse tasks across different robots and environments from few video demonstrations without using any action annotations. Our method leverages images as a task-agnostic representation, encoding both the state and action information, and text as a general representation for specifying robot goals. By synthesizing videos that “hallucinate” robot executing actions and in combination with dense correspondences between frames, our approach can infer the closed-formed action to execute to an environment without the need of any explicit action labels. This unique capability allows us to train the policy solely based on RGB videos and deploy learned policies to various robotic tasks. We demonstrate the efficacy of our approach in learning policies on table-top manipulation and navigation tasks. Additionally, we contribute an open-source framework for efficient video modeling, enabling the training of high-fidelity policy models with four GPUs within a single day.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2310.08576'
+    - name: 'Project Page'
+      url:  'https://flow-diffusion.github.io/'
+    - name: 'Bibtex'
+      url:  '/bibtex/avdc.txt'
+  publisher:  'Robot Learning Workshop at Neural Information Processing Systems (NeurIPS) 2023'
+  oral: false
+  oral_text: ''
+  status:   ''
+
+
+
 - title: 'Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance'
   date:  'Nov 2023'
   imgurl: '/images/projects/boss.gif'
