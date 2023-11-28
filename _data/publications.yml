@@ -29,7 +29,35 @@
   oral_text: ''
   status:   ''
 
-
+- title: 'Addressing Long-Horizon Tasks by Integrating Program Synthesis and State Machines'
+  date:  'Nov 2023'
+  imgurl: '/images/projects/pomp.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Yu-An Lin
+      equal_contribution: true
+    - name: Chen-Tao Lee, 
+      equal_contribution: true
+    - name: Guan-Ting Liu
+      equal_contribution: true
+      url:  'https://dannyliu15.github.io/'
+    - name: Pu-Jen Cheng
+      url:  'https://www.csie.ntu.edu.tw/~pjcheng/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: 'This work proposes Program Machine Policies (POMPs), which bridge the advantages of programmatic RL and state machine policies, allowing for the representation of complex behaviors and the address of long-term tasks. Specifically, we introduce a method that can retrieve a set of effective, diverse, compatible programs. Then, we use these programs as modes of a state machine and learn a transition function to transition among mode programs, allowing for capturing long-horizon repetitive behaviors.'
+  abstract: 'Deep reinforcement learning excels in various domains but lacks generalizability and interoperability. Programmatic RL methods (Trivedi et al., 2021; Liu et al., 2023) reformulate solving RL tasks as synthesizing interpretable programs that can be executed in the environments. Despite encouraging results, these methods are limited to short-horizon tasks. On the other hand, representing RL policies using state machines (Inala et al., 2020) can inductively generalize to long-horizon tasks; however, it struggles to scale up to acquire diverse and complex behaviors. This work proposes Program Machine Policies (POMPs), which bridge the advantages of programmatic RL and state machine policies, allowing for the representation of complex behaviors and the address of long-term tasks. Specifically, we introduce a method that can retrieve a set of effective, diverse, compatible programs. Then, we use these programs as modes of a state machine and learn a transition function to transition among mode programs, allowing for capturing long-horizon repetitive behaviors. Our proposed framework outperforms programmatic RL and deep RL baselines on various tasks and demonstrates the ability to generalize to even longer horizons without any fine-tuning inductively. Ablation studies justify the effectiveness of our proposed search algorithm for retrieving a set of programs as modes.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2311.15960'
+    - name: 'Bibtex'
+      url:  '/bibtex/pomp.txt'
+  publisher:  'Generalization in Planning Workshop at Neural Information Processing Systems (NeurIPS) 2023'
+  oral: false
+  oral_text: ''
+  status:   ''  
 
 - title: 'Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance'
   date:  'Nov 2023'
