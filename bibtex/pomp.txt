@@ -1,6 +1,6 @@
 @article{lin2023addressing,
   title={Addressing Long-Horizon Tasks by Integrating Program Synthesis and State Machines},
   author={Yu-An Lin and Chen-Tao Lee and Guan-Ting Liu and Pu-Jen Cheng and Shao-Hua Sun},
-  journal={arXiv:2311.15960}
+  journal={arXiv:2311.15960},
   year={2023}
 }
