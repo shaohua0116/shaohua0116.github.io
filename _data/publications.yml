@@ -52,6 +52,8 @@
   tags:
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2311.15960'
+    - name: 'Slide'
+      url:  './images/slides/pomp.pdf'
     - name: 'Bibtex'
       url:  '/bibtex/pomp.txt'
   publisher:  'Generalization in Planning Workshop at Neural Information Processing Systems (NeurIPS) 2023'
