@@ -135,7 +135,7 @@
   oral_text: ''
   status:   ''
 
-- title: 'Location-aware Visual Question Generation with Lightweight Models'
+- title: 'Location-Aware Visual Question Generation with Lightweight Models'
   date:  'Nov 2023'
   imgurl: '/images/projects/locavqg.png'
   imgprop: 'frame'
