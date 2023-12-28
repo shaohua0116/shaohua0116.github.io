@@ -1,0 +1,6 @@
+@inproceedings{liu2023integrating,
+  title={Integrating Planning and Deep Reinforcement Learning via Automatic Induction of Task Substructures},
+  author={Jung-Chun Liu and Chi-Hsien Chang and Shao-Hua Sun and Tian-Li Yu},
+  booktitle={NeurIPS 2023 Workshop on Generalization in Planning},
+  year={2023},
+}
