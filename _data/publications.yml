@@ -57,8 +57,8 @@
     - name: 'Bibtex'
       url:  '/bibtex/pomp.txt'
   publisher:  'Generalization in Planning Workshop at Neural Information Processing Systems (NeurIPS) 2023'
-  oral: false
-  oral_text: ''
+  oral: true
+  oral_text: 'Contributed talk'
   status:   ''  
 
 - title: 'Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance'
