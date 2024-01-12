@@ -28,7 +28,7 @@ $industry-padding: 20px;
 
 
 .industry {
-  max-width:        calc(40% - (#{$spacing-unit} / 2));
+  max-width:        calc(50% - (#{$spacing-unit} / 2));
   margin-left:      auto;
   margin-right:     auto;
   @include media-query($on-palm) {
@@ -52,7 +52,7 @@ $industry-padding: 20px;
   overflow:       auto;
   margin-top:     10px;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 30% 70%;
   gap: 10px;
 }
 
