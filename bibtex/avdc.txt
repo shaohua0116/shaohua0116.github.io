@@ -1,6 +1,6 @@
-@article{Ko2023Learning,
+@inproceedings{Ko2024Learning,
   title={{Learning to Act from Actionless Video through Dense Correspondences}},
   author={Ko, Po-Chen and Mao, Jiayuan and Du, Yilun and Sun, Shao-Hua and Tenenbaum, Joshua B},
-  journal={arXiv:2310.08576},
-  year={2023},
+  booktitle={International Conference on Learning Representations},
+  year={2024},
 }
