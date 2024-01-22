@@ -16,7 +16,8 @@ $industry-padding: 20px;
 }
 
 .reachout-body {
-  text-align: justify;
+  //text-align: justify;
+  text-align: center;
   margin:     5px;
   padding:    5px;
   font-size:  16px;
@@ -53,11 +54,13 @@ $industry-padding: 20px;
   overflow:       auto;
   margin-top:     10px;
   display: grid;
-  grid-template-columns: 30% 70%;
-  gap: 10px;
+  grid-template-columns: 28% 72%;
+  // border: 1px solid black;
+  // gap: 10px;
 }
 
 .industry-left {
+  text-align: center;
   color:       $primary-color-dark;
   font-weight: bold;
   @include media-query($on-palm) {
