@@ -1,0 +1,31 @@
+---
+layout: page
+description: "NTU Robot Learning Lab Members"
+noindex: false
+---
+
+<!-- INDUCTRY -->
+<div class="pub">
+</div>
+<div id="member" class="member">
+  <h1 class="md-heading text-center">
+    Industrial Outreach and Collaboration <!-- (產業界合作) -->
+  </h1>
+  <div class="industry-body">
+    {% for partnership in site.data.industry %}
+    <div class="industry-item">
+      <div class="industry-left">
+        {{ partnership.partner }}
+      </div>
+      <div class="industry-right">
+        {{ partnership.partnership }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div id="reachout" class="reachout">
+  <div class="reachout-body">
+      {{ site.data.bio.industry_reachout }}
+  </div>
+</div>
