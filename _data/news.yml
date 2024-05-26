@@ -1,3 +1,5 @@
+- news: 'Our paper <b>Diffusion Model-Augmented Behavioral Cloning</b> is accepted by <b><a href="https://icml.cc/Conferences/2024/Dates">ICML 2024</a></b>.'
+  date: 'May 2024'
 - news: "I gave a talk at <a href='https://groups.oist.jp/mlss'>The Machine Learning Summer School in Okinawa 2024</a> on <b><a href='./slides/MLSS2024.pdf'>Learning to Synthesize Programs as Interpretable and Generalizable Reinforcement Learning Policies</a></b>."
   date: 'Mar 2024'
 - news: 'Our papers <b>Learning to Act from Actionless Video through Dense Correspondences</b> and <b>Integrating Planning and Deep Reinforcement Learning via Automatic Induction of Task Substructures</b> are accepted by <b><a href="https://iclr.cc/Conferences/2024/Dates">ICLR 2024</a></b>.'
@@ -16,8 +18,8 @@
     #   date: 'May 2023'
     # - news: "I gave a talk at <a href='https://aiforum2023.cs.nthu.edu.tw/'>TAAI AI Forum 2023</a> on <b><a href='https://drive.google.com/file/d/1nzDcQkG1VUb4Xt36eTdwxNFRgs9cyJhK/view?usp=share_link'>Learning to Synthesize Programs as Interpretable and Generalizable Reinforcement Learning Policies</a></b> hosted by Prof. <a href='https://www.csie.ntu.edu.tw/~htlin/'>Hsuan-Tien Lin</a>."
     #  date: 'May 2023'
-- news: 'Our paper <b>Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs</b> is accepted by <b><a href="https://icml.cc/Conferences/2023/Dates">ICML 2023</a></b>.'
-  date: 'May 2023'
+    # - news: 'Our paper <b>Hierarchical Programmatic Reinforcement Learning via Learning to Compose Programs</b> is accepted by <b><a href="https://icml.cc/Conferences/2023/Dates">ICML 2023</a></b>.'
+    #  date: 'May 2023'
   # - news: 'Our paper <b>Multimodal Model-Agnostic Meta-Learning via Task-Aware Modulation</b> is accepted by <b><a href="https://nips.cc/Conferences/2019/">NeurIPS 2019</a></b> as a <b>Spotlight</b> paper.'
   #   date: 'Sep 2019'
   # - news: 'Our paper <b>Feedback Adversarial Learning: Spatial Feedback for Improving Generative Adversarial Networks</b> is accepted by <b><a href="http://cvpr2019.thecvf.com/">CVPR 2019</a></b>.'
