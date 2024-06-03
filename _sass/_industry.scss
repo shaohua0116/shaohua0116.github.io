@@ -29,7 +29,7 @@ $industry-padding: 20px;
 
 
 .industry {
-  max-width:        calc(45% - (#{$spacing-unit} / 2));
+  max-width:        calc(65% - (#{$spacing-unit} / 2));
   margin-left:      auto;
   margin-right:     auto;
   text-align: center;
@@ -54,7 +54,7 @@ $industry-padding: 20px;
   overflow:       auto;
   margin-top:     10px;
   display: grid;
-  grid-template-columns: 28% 72%;
+  grid-template-columns: 32% 68%;
   // border: 1px solid black;
   // gap: 10px;
 }
