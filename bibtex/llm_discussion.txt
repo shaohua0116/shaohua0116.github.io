@@ -1,0 +1,6 @@
+@inproceedings{lu2024discussion,
+  title={LLM Discussion: Enhancing the Creativity of Large Language Models via Discussion Framework and Role-Play},
+  author={Li-Chun Lu and Shou-Jen Chen and Tsung-Min Pai and Chan-Hung Yu and Hung-Yi Lee and Shao-Hua Sun},
+  booktitle = {Conference on Language Modeling},
+  year={2024}
+}

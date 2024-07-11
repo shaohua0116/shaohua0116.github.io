@@ -1,3 +1,32 @@
+- title: 'LLM Discussion: Enhancing the Creativity of Large Language Models via Discussion Framework and Role-Play'
+  date:  'July 2023'
+  imgurl: '/images/projects/llm_discussion.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Li-Chun Lu
+      equal_contribution: true
+    - name: Shou-Jen Chen
+      equal_contribution: true
+    - name: Tsung-Min Pai
+    - name: Chan-Hung Yu
+    - name: Hung-Yi Lee
+      url:  'https://speech.ee.ntu.edu.tw/~hylee/index.php'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: 'Large language models (LLMs) have shown exceptional proficiency in natural language processing but often fall short of generating creative and original responses to open-ended questions. To enhance LLM creativity, our key insight is to emulate the human process of inducing collective creativity through engaging discussions with participants from diverse backgrounds and perspectives. To this end, we propose LLM Discussion, a three-phase discussion framework that facilitates vigorous and diverging idea exchanges and ensures convergence to creative answers. Moreover, we adopt a role-playing technique by assigning distinct roles to LLMs to combat the homogeneity of LLMs.'
+  abstract: 'Large language models (LLMs) have shown exceptional proficiency in natural language processing but often fall short of generating creative and original responses to open-ended questions. To enhance LLM creativity, our key insight is to emulate the human process of inducing collective creativity through engaging discussions with participants from diverse backgrounds and perspectives. To this end, we propose LLM Discussion, a three-phase discussion framework that facilitates vigorous and diverging idea exchanges and ensures convergence to creative answers. Moreover, we adopt a role-playing technique by assigning distinct roles to LLMs to combat the homogeneity of LLMs. We evaluate the efficacy of the proposed framework with the Alternative Uses Test, Similarities Test, Instances Test, and Scientific Creativity Test through both LLM evaluation and human study. Our proposed framework outperforms single-LLM approaches and existing multi-LLM frameworks across various creativity metrics.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2405.06373'
+    - name: 'Bibtex'
+      url:  '/bibtex/llm_discussion.txt'
+  publisher:  'Conference on Language Modeling (COLM) 2024'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 - title: 'Diffusion Model-Augmented Behavioral Cloning'
   date:  'Feb 2023'
   imgurl: '/images/projects/dbc.png'
