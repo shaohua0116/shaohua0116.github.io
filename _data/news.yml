@@ -1,3 +1,5 @@
+- news: 'Our paper <b>LLM Discussion: Enhancing the Creativity of Large Language Models via Discussion Framework and Role-Play</b> is accepted by <b><a href="https://colmweb.org/">COLM 2024</a></b>.'
+  date: 'July 2024'
 - news: 'Our paper <b>Diffusion Model-Augmented Behavioral Cloning</b> is accepted by <b><a href="https://icml.cc/Conferences/2024/Dates">ICML 2024</a></b>.'
   date: 'May 2024'
 - news: "I gave a talk at <a href='https://groups.oist.jp/mlss'>The Machine Learning Summer School in Okinawa 2024</a> on <b><a href='./slides/MLSS2024.pdf'>Learning to Synthesize Programs as Interpretable and Generalizable Reinforcement Learning Policies</a></b>."
