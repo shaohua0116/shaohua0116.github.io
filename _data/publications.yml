@@ -291,7 +291,7 @@
   date:  'Dec 2022'
   imgurl: '/images/projects/qmp.png'
   imgprop: 'frame'
-  selected: true
+  selected: false
   authors:
     - name: Grace Zhang
       url: 'https://gracehzhang.github.io/'
