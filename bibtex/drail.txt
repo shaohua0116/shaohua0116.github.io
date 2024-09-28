@@ -1,0 +1,6 @@
+@inproceedings{lai2024diffusion,
+  title={Diffusion-Reward Adversarial Imitation Learning},
+  author={Lai, Chun-Mao and Wang, Hsiang-Chun and Hsieh, Ping-Chun and Wang, Yu-Chiang Frank and Chen, Min-Hung and Sun, Shao-Hua},
+  booktitle={Neural Information Processing Systems},
+  year={2024},
+}
