@@ -1,6 +1,6 @@
 @inproceedings{huang2024diffusion,
-  title={Diffusion-Reward Adversarial Imitation Learning},
-  author={Bo-Ruei Huang and Chun-Kai Yang and Chun-Mao Lai and and Sun, Shao-Hua},
+  title={Diffusion Imitation from Observation},
+  author={Bo-Ruei Huang and Chun-Kai Yang and Chun-Mao Lai and Shao-Hua Sun},
   booktitle={Neural Information Processing Systems},
   year={2024},
 }
