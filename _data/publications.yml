@@ -512,8 +512,10 @@
   selected: true
   authors:
     - name: Youngwoon Lee
+      equal_contribution: true
       url:  'http://youngwoon.github.io/'
     - name: Andrew Szot
+      equal_contribution: true
       url:  'https://www.andrewszot.com/'
     - name: Shao-Hua Sun
       url:  ''
