@@ -1,6 +1,6 @@
 @inproceedings{huang2024diffusion,
   title={Diffusion Imitation from Observation},
-  author={Bo-Ruei Huang and Chun-Kai Yang and Chun-Mao Lai and Shao-Hua Sun},
+  author={Bo-Ruei Huang and Chun-Kai Yang and Chun-Mao Lai and Dai-Jie Wu and Shao-Hua Sun},
   booktitle={Neural Information Processing Systems},
   year={2024},
 }
