@@ -1,3 +1,5 @@
+- news: "I talked about <b><a href='https://drive.google.com/file/d/1os1Tqo5QTaPSzhxNcchTmoLbdzq9h7O8/view?usp=drive_link'>Diffusion Imitation Learning</a></b> at <a href='https://www.nycu.edu.tw/nycu/ch/index'>National Yang Ming Chiao Tung University</a> (hosted by Prof. <a href='https://pinghsieh.github.io/'>Ping-Chun Hsieh</a>) and <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University</a> (hosted by Prof. <a href='https://pinghsieh.github.io'>Yi-Shin Chen</a>) ."
+  date: 'Mar 2024'
 - news: '<a href="https://jungyhuk.github.io/">Xinyun Chen</a>, <a href="https://webdocs.cs.ualberta.ca/~santanad/">Levi Lelis</a> and I organized a tutorial on <b>Generating Programmatic Solutions: Algorithms and Applications of Programmatic Reinforcement Learning and Code Generation</b> at <b><a href="https://neurips.cc/Conferences/2024/Dates">NeurIPS 2024</a></b>. My slide can be found <a href="https://drive.google.com/file/d/10x7KE7w9yU47bToFVC-dKpuP-0lPRbmU/view?usp=drive_link">here</a>.'
   date: 'Dec 2024'
 - news: 'Our papers <b>Hierarchical Programmatic Option Framework</b>, <b>Diffusion Imitation from Observation</b>, <b>Diffusion-Reward Adversarial Imitation Learning</b>, and <b>REBORN: Reinforcement-Learned Boundary Segmentation with Iterative Training for Unsupervised ASR</b> are accepted by <b><a href="https://neurips.cc/Conferences/2024/Dates">NeurIPS 2024</a></b>.'
@@ -10,16 +12,16 @@
   date: 'Mar 2024'
 - news: 'Our papers <b>Learning to Act from Actionless Video through Dense Correspondences</b> and <b>Integrating Planning and Deep Reinforcement Learning via Automatic Induction of Task Substructures</b> are accepted by <b><a href="https://iclr.cc/Conferences/2024/Dates">ICLR 2024</a></b>.'
   date: 'Oct 2023'
-- news: 'I gave a talk on <a href="./slides/pomp.pdf"><b>Addressing Long-Horizon Tasks by Integrating Program Synthesis and State Machines</b></a> at <a href="https://aair-lab.github.io/genplan23/index.html#program">Generalization in Planning Workshop at NeurIPS 2023</a>.'
-  date: 'Dec 2023'
-- news: 'I gave a tutorial on <a href="https://shaohua0116.github.io/acml2023_tutorial/"><b>Neural Program Synthesis and Induction</b></a> at <a href="https://www.acml-conf.org/2023/index.html">ACML 2023</a>.'
+# - news: 'I gave a talk on <a href="./slides/pomp.pdf"><b>Addressing Long-Horizon Tasks by Integrating Program Synthesis and State Machines</b></a> at <a href="https://aair-lab.github.io/genplan23/index.html#program">Generalization in Planning Workshop at NeurIPS 2023</a>.'
+#   date: 'Dec 2023'
+- news: 'I organized a tutorial on <a href="https://shaohua0116.github.io/acml2023_tutorial/"><b>Neural Program Synthesis and Induction</b></a> at <a href="https://www.acml-conf.org/2023/index.html">ACML 2023</a>.'
   date: 'Nov 2023'
 # - news: 'Our paper <b>Location-aware Visual Question Generation with Lightweight Models</b> is accepted by <b><a href="https://2023.emnlp.org/">EMNLP 2023</a></b>.'
 #  date: 'Oct 2023'
 # - news: 'Our paper <b>Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance</b> is accepted by <b><a href="https://www.corl2023.org/">CoRL 2023</a></b> for an <b>oral</b> presentation.'
 #   date: 'Aug 2023'
-- news: "I gave a talk at <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University</a> on <b><a href='https://drive.google.com/file/d/1Jwh59RQwYUQo9NNSE12oxA-mtbKq-9QD/view?usp=share_link'>Program-Guided Robot Learning</a></b> hosted by Prof. <a href='https://elsalab.ai/about'>Chun-Yi Lee</a> and Prof. <a href='https://theochiu.wixsite.com/nthucs'>Te-Chuan Chiu</a>."
-  date: 'June 2023'
+# - news: "I gave a talk at <a href='https://nthu-en.site.nthu.edu.tw/'>National Tsing Hua University</a> on <b><a href='https://drive.google.com/file/d/1Jwh59RQwYUQo9NNSE12oxA-mtbKq-9QD/view?usp=share_link'>Program-Guided Robot Learning</a></b> hosted by Prof. <a href='https://elsalab.ai/about'>Chun-Yi Lee</a> and Prof. <a href='https://theochiu.wixsite.com/nthucs'>Te-Chuan Chiu</a>."
+#   date: 'June 2023'
     # - news: "I gave a guest lecture for the Machine Learning course at NTU on <b><a href='https://drive.google.com/file/d/1x6iLEBFH8G_rd1y1pFW8sc0nY6dhaog2/view?usp=share_link'>Neural Program Synthesis and Neural Program Induction</a></b> hosted by Prof. <a href='https://speech.ee.ntu.edu.tw/~hylee/index.php'>Hung-yi Lee</a>."
     #   date: 'May 2023'
     # - news: "I gave a talk at <a href='https://aiforum2023.cs.nthu.edu.tw/'>TAAI AI Forum 2023</a> on <b><a href='https://drive.google.com/file/d/1nzDcQkG1VUb4Xt36eTdwxNFRgs9cyJhK/view?usp=share_link'>Learning to Synthesize Programs as Interpretable and Generalizable Reinforcement Learning Policies</a></b> hosted by Prof. <a href='https://www.csie.ntu.edu.tw/~htlin/'>Hsuan-Tien Lin</a>."
