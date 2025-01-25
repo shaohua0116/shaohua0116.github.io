@@ -28,6 +28,7 @@ noindex:  true
             {% if author.me %}</strong> {% endif %}
         </a>
         {% if author.equal_contribution %}* {% endif %}
+        {% if author.equal_advisory_contribution %}† {% endif %}
         {% if forloop.last == false %},{% endif %}
         {% endfor %}
       </div>

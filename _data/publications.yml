@@ -1,3 +1,128 @@
+- title: 'Synthesizing Programmatic Reinforcement Learning Policies with Large Language Model Guided Search'
+  date:  'Jan 2025'
+  imgurl: '/images/projects/llmgs.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Max Liu
+      equal_contribution: true
+    - name: Chan-Hung Yu
+      equal_contribution: true
+    - name: Wei-Hsu Lee
+    - name: Cheng-Wei Hung
+    - name: Yen-Chun Chen
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: "We address the challenge of LLMs' inability to generate precise and grammatically correct programs in domain-specific languages (DSLs) by proposing a Pythonic-DSL strategy — an LLM is instructed to initially generate Python codes and then convert them into DSL programs. To further optimize the LLM-generated programs, we develop a search algorithm named Scheduled Hill Climbing, designed to efficiently explore the programmatic search space to improve the programs consistently."
+  abstract: "Programmatic reinforcement learning (PRL) has been explored for representing policies through programs as a means to achieve interpretability and generalization. Despite promising outcomes, current state-of-the-art PRL methods are hindered by sample inefficiency, necessitating tens of millions of program-environment interactions. To tackle this challenge, we introduce a novel LLM-guided search framework (LLM-GS). Our key insight is to leverage the programming expertise and common sense reasoning of LLMs to enhance the efficiency of assumption-free, random-guessing search methods. We address the challenge of LLMs' inability to generate precise and grammatically correct programs in domain-specific languages (DSLs) by proposing a Pythonic-DSL strategy — an LLM is instructed to initially generate Python codes and then convert them into DSL programs. To further optimize the LLM-generated programs, we develop a search algorithm named Scheduled Hill Climbing, designed to efficiently explore the programmatic search space to improve the programs consistently. Experimental results in the Karel domain demonstrate our LLM-GS framework's superior effectiveness and efficiency. Extensive ablation studies further verify the critical role of our Pythonic-DSL strategy and Scheduled Hill Climbing algorithm. Moreover, we conduct experiments with two novel tasks, showing that LLM-GS enables users without programming skills and knowledge of the domain or DSL to describe the tasks in natural language to obtain performant programs."
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2405.16450'
+    - name: 'Bibtex'
+      url:  '/bibtex/llmgs.txt'
+  publisher:  'International Conference on Learning Representations (ICLR) 2025'
+  oral: false
+  oral_text: ''
+  status:   ''
+
+- title: 'Human-Feedback Efficient Reinforcement Learning for Online Diffusion Model Finetuning'
+  date:  'Jan 2025'
+  imgurl: '/images/projects/hero.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Ayano Hiranaka 
+      url:  'https://misoshiruseijin.github.io/'
+      equal_contribution: true
+    - name: Shang-Fu Chen
+      url:  'https://shangfuchen.github.io/'
+      equal_contribution: true
+    - name: Chieh-Hsin Lai
+      url:  'https://chiehhsinjesselai.github.io/'
+      equal_contribution: true
+    - name: Dongjun Kim
+      url:  'https://sites.google.com/view/dongjun-kim'
+    - name: Naoki Murata
+      url:  'https://scholar.google.com/citations?user=oyuTmwoAAAAJ&hl=ja'
+    - name: Takashi Shibuya
+      url:  'https://ai.sony/people/Takashi-Shibuya/'
+    - name: Wei-Hsiang Liao
+      url:  'https://ai.sony/people/Weihsiang-Liao/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+      equal_advisory_contribution: true
+    - name: Yuki Mitsufuji
+      url:  'https://www.yukimitsufuji.com/'
+      equal_advisory_contribution: true
+  desc: "To effectively and efficiently utilize human feedback, we develop a framework, HERO, which leverages online human feedback collected on the fly during model learning. Specifically, HERO features two key mechanisms: (1) an online training method that captures human feedback and provides informative learning signals for fine-tuning, and (2) generating images from SD's refined initialization samples, enabling faster convergence towards the evaluator's intent."
+  abstract: "Controllable generation through Stable Diffusion (SD) fine-tuning aims to improve fidelity, safety, and alignment with human guidance. Existing reinforcement learning from human feedback methods usually rely on predefined heuristic reward functions or pretrained reward models built on large-scale datasets, limiting their applicability to scenarios where collecting such data is costly or difficult. To effectively and efficiently utilize human feedback, we develop a framework, HERO, which leverages online human feedback collected on the fly during model learning. Specifically, HERO features two key mechanisms: (1) Feedback-Aligned Representation Learning, an online training method that captures human feedback and provides informative learning signals for fine-tuning, and (2) Feedback-Guided Image Generation, which involves generating images from SD's refined initialization samples, enabling faster convergence towards the evaluator's intent. We demonstrate that HERO is 4x more efficient in online feedback for body part anomaly correction compared to the best existing method. Additionally, experiments show that HERO can effectively handle tasks like reasoning, counting, personalization, and reducing NSFW content with only 0.5K online feedback."
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2410.05116'
+    - name: 'Bibtex'
+      url:  '/bibtex/hero.txt'
+  publisher:  'International Conference on Learning Representations (ICLR) 2025'
+  oral: false
+  oral_text: ''
+  status:   ''
+
+- title: 'Efficient Action-Constrained Reinforcement Learning via Acceptance-Rejection Method and Augmented MDPs'
+  date:  'Jan 2025'
+  imgurl: '/images/projects/aram.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Wei Hung 
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+    - name: Ping-Chun Hsieh
+      url:  'https://pinghsieh.github.io/'
+  desc: 'We propose a generic and computationally efficient framework that can adapt a standard unconstrained RL method to action-constrained reinforcement learning. To enforce the action constraints, we leverage the classic acceptance-rejection method, where we treat the unconstrained policy as the proposal distribution and derive a modified policy with feasible actions. To improve the acceptance rate of the proposal distribution, we construct an augmented two-objective Markov decision process, which include additional self-loop state transitions and a penalty signal for the rejected actions.'
+  abstract: 'Action-constrained reinforcement learning (ACRL) is a generic framework for learning control policies with zero action constraint violation, which is required by various safety-critical and resource-constrained applications. The existing ACRL methods can typically achieve favorable constraint satisfaction but at the cost of either high computational burden incurred by the quadratic programs (QP) or increased architectural complexity due to the use of sophisticated generative models. In this paper, we propose a generic and computationally efficient framework that can adapt a standard unconstrained RL method to ACRL through two modifications: (i) To enforce the action constraints, we leverage the classic acceptance-rejection method, where we treat the unconstrained policy as the proposal distribution and derive a modified policy with feasible actions. (ii) To improve the acceptance rate of the proposal distribution, we construct an augmented two-objective Markov decision process (MDP), which include additional self-loop state transitions and a penalty signal for the rejected actions. This augmented MDP incentives the learned policy to stay close to the feasible action sets. Through extensive experiments in both robot control and resource allocation domains, we demonstrate that the proposed framework enjoys faster training progress, better constraint satisfaction, and a lower action inference time simultaneously than the state-of-the-art ACRL methods.'
+  tags:
+    - name: 'Paper'
+      url:  'https://openreview.net/forum?id=AgMpK7z4bz'
+    - name: 'Bibtex'
+      url:  '/bibtex/aram.txt'
+  publisher:  'International Conference on Learning Representations (ICLR) 2025'
+  oral: false
+  oral_text: ''
+  status:   ''
+
+- title: 'QMP: Q-switch Mixture of Policies for Multi-Task Behavior Sharing'
+  date:  'Jan 2025'
+  imgurl: '/images/projects/qmp.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Grace Zhang
+      url: 'https://gracehzhang.github.io/'
+    - name: Ayush Jain
+      url:  'https://ayushj240.github.io/'
+    - name: Injune Hwang
+      url:  'https://hij0527.github.io/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+    - name: Joseph J. Lim
+      url:  'http://www-bcf.usc.edu/~limjj/'
+  desc: 'We propose a multi-task reinforcement learning method, Q-switch Mixture of policies (QMP), that can share exploratory behavior, which can be helpful even when the optimal behaviors differ. Furthermore, as we learn each task, we can guide the exploration by sharing behaviors in a task and state dependent way. QMP learns to selectively share exploratory behavior between tasks by using a mixture of policies based on estimated discounted returns to gather training data. '
+  abstract: "Multi-task reinforcement learning (MTRL) aims to learn several tasks simultaneously for better sample efficiency than learning them separately. Traditional methods achieve this by sharing parameters or relabeling data between tasks. In this work, we introduce a new framework for sharing behavioral policies across tasks, which can be used in addition to existing MTRL methods. The key idea is to improve each task's off-policy data collection by employing behaviors from other task policies. Selectively sharing helpful behaviors acquired in one task to collect training data for another task can lead to higher-quality trajectories, leading to more sample-efficient MTRL. Thus, we introduce a simple and principled framework called Q-switch mixture of policies (QMP) that selectively shares behavior between different task policies by using the task's Q-function to evaluate and select useful shareable behaviors. We theoretically analyze how QMP improves the sample efficiency of the underlying RL algorithm. Our experiments show that QMP's behavioral policy sharing provides complementary gains over many popular MTRL algorithms and outperforms alternative ways to share behaviors in various manipulation, locomotion, and navigation environments."
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2302.00671'
+    - name: 'Project Page'
+      url:  'https://sites.google.com/view/qmp-mtrl'
+    - name: 'Bibtex'
+      url:  '/bibtex/qmp.txt'
+  publisher:  'International Conference on Learning Representations (ICLR) 2025'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 - title: 'Hierarchical Programmatic Option Framework'
   date:  'Sep 2024'
   imgurl: '/images/projects/hipo.png'
@@ -410,37 +535,6 @@
     - name: 'Project Page'
       url:  'https://thoughtp0lice.github.io/hnps_web/'
   publisher:  'arXiv preprint'
-  oral: false
-  oral_text: ''
-  status:   ''
-
-- title: 'Efficient Multi-Task Reinforcement Learning via Selective Behavior Sharing'
-  date:  'Dec 2022'
-  imgurl: '/images/projects/qmp.png'
-  imgprop: 'frame'
-  selected: false
-  authors:
-    - name: Grace Zhang
-      url: 'https://gracehzhang.github.io/'
-    - name: Ayush Jain
-      url:  'https://ayushj240.github.io/'
-    - name: Injune Hwang
-      url:  'https://hij0527.github.io/'
-    - name: Shao-Hua Sun
-      url:  ''
-      me: true
-    - name: Joseph J. Lim
-      url:  'http://www-bcf.usc.edu/~limjj/'
-  desc: 'We propose a multi-task reinforcement learning method, Q-switch Mixture of policies (QMP), that can share exploratory behavior, which can be helpful even when the optimal behaviors differ. Furthermore, as we learn each task, we can guide the exploration by sharing behaviors in a task and state dependent way. QMP learns to selectively share exploratory behavior between tasks by using a mixture of policies based on estimated discounted returns to gather training data. '
-  abstract: 'The ability to leverage shared behaviors between tasks is critical for sample efficient multi-task reinforcement learning (MTRL). Prior approaches based on parameter sharing or policy distillation share behaviors uniformly across tasks and states or focus on learning one optimal policy. Therefore, they are fundamentally limited when tasks have conflicting behaviors because no one optimal policy exists. Our key insight is that we can instead share exploratory behavior which can be helpful even when the optimal behaviors differ. Furthermore, as we learn each task, we can guide the exploration by sharing behaviors in a task and state dependent way. To this end, we propose a novel MTRL method, Q-switch Mixture of policies (QMP), that learns to selectively share exploratory behavior between tasks by using a mixture of policies based on estimated discounted returns to gather training data. Experimental results in manipulation and locomotion tasks demonstrate that our method outperforms prior behavior sharing methods, high- lighting the importance of task and state dependent sharing.'
-  tags:
-    - name: 'Paper'
-      url:  'https://arxiv.org/abs/2302.00671'
-    - name: 'Project Page'
-      url:  'https://sites.google.com/view/qmp-mtrl'
-    - name: 'Bibtex'
-      url:  '/bibtex/qmp.txt'
-  publisher:  'Deep RL Workshop at Neural Information Processing Systems (NeurIPS) 2022'
   oral: false
   oral_text: ''
   status:   ''

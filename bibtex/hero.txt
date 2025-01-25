@@ -1,0 +1,6 @@
+@inproceedings{Hiranaka2025humanfeedback,
+  title={Human-Feedback Efficient Reinforcement Learning for Online Diffusion Model Finetuning},
+  author={Ayano Hiranaka and Shang-Fu Chen and Chieh-Hsin Lai and Dongjun Kim and Naoki Murata and Takashi Shibuya and Wei-Hsiang Liao and Shao-Hua Sun and Yuki Mitsufuji},
+  booktitle={International Conference on Learning Representations},
+  year={2025},
+}
