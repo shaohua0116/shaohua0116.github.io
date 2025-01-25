@@ -133,12 +133,16 @@ layout: home
               {{author.name}}
               {%- if author.me -%}</strong> {%- endif -%}
           </a>
-          {%- if author.equal_contribution == nil -%}
+          {%- if author.equal_contribution == nil and author.equal_advisory_contribution == nil -%}
             {% if forloop.last == false %},{%- endif %}
           {%- elsif author.equal_contribution -%}
             {%- if forloop.last == false -%}*,
             {%- elsif forloop.last == true -%}*
-            {%- endif -%}
+            {% endif %}
+          {%- elsif author.equal_advisory_contribution -%}
+            {%- if forloop.last == false -%}<sup>†</sup>,
+            {%- elsif forloop.last == true -%}<sup>†</sup>
+            {% endif %}
           {% endif %}
           {% endfor %}
         </div>
