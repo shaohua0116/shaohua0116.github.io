@@ -1,3 +1,37 @@
+- title: 'SimTube: Generating Simulated Video Comments through Multimodal AI and User Personas'
+  date:  'Feb 2025'
+  imgurl: '/images/projects/simtube.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Yu-Kai Hung
+    - name: Yun-Chien Huang
+    - name: Ting-Yu Su
+    - name: Yen-Ting Lin
+      url:  'https://yentingl.com/'
+    - name: Lung-Pan Cheng
+      url:  'https://www.lungpancheng.tw/'
+    - name: Bryan Wang
+      url:  'https://www.dgp.toronto.edu/~bryanw/'
+      equal_advisory_contribution: true
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+      equal_advisory_contribution: true
+  desc: "We introduce SimTube, a generative AI system designed to simulate audience feedback in the form of video comments before a video’s release. SimTube features a computational pipeline that integrates multimodal data from the video—such as visuals, audio, and metadata—with user personas derived from a broad and diverse corpus of audience demographics, generating varied and contextually relevant feedback. Furthermore, the system’s UI allows creators to explore and customize the simulated comments."
+  abstract: "Audience feedback is crucial for refining video content, yet it typically comes after publication, limiting creators’ ability to make timely adjustments. To bridge this gap, we introduce SimTube, a generative AI system designed to simulate audience feedback in the form of video comments before a video’s release. SimTube features a computational pipeline that integrates multimodal data from the video—such as visuals, audio, and metadata—with user personas derived from a broad and diverse corpus of audience demographics, generating varied and contextually relevant feedback. Furthermore, the system’s UI allows creators to explore and customize the simulated comments. Through a comprehensive evaluation—comprising quantitative analysis, crowd-sourced assessments, and qualitative user studies—we show that SimTube’s generated comments are not only relevant, believable, and diverse but often more detailed and informative than actual audience comments, highlighting its potential to help creators refine their content before release."
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2411.09577'
+    - name: 'Project Page'
+      url:  'https://tingyusu1786.github.io/SimTube-Project-Page/'
+    - name: 'Bibtex'
+      url:  '/bibtex/simtube.txt'
+  publisher:  'International Conference on Intelligent User Interfaces (IUI) 2025'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 - title: 'Synthesizing Programmatic Reinforcement Learning Policies with Large Language Model Guided Search'
   date:  'Jan 2025'
   imgurl: '/images/projects/llmgs.png'

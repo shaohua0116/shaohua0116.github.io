@@ -1,0 +1,6 @@
+@inproceedings{hung2025simtube,
+  title={SimTube: Generating Simulated Video Comments through Multimodal AI and User Personas},
+  author={Yu-Kai Hung and Yun-Chien Huang and Ting-Yu Su and Yen-Ting Lin and Lung-Pan Cheng and Bryan Wang and Shao-Hua Sun},
+  booktitle={International Conference on Intelligent User Interfaces},
+  year={2025},
+}
