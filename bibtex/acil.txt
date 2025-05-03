@@ -1,0 +1,6 @@
+@inproceedings{yeh2025action,
+  title={Action-Constrained Imitation Learning},
+  author={Chia-Han Yeh and Tse-Sheng Nan and Risto Vuorio and Wei Hung and Hung Yen Wu and Shao-Hua Sun and Ping-Chun Hsieh},
+  booktitle = {International Conference on Machine Learning},
+  year={2025}
+}
