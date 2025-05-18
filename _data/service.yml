@@ -1,10 +1,10 @@
+- role: "Area chair"
+  activity: "NeurIPS, ICML, ICLR, ACL Rolling Review, ACML"
 - role: "Conference reviewer"
-  activity: "NeurIPS, ICML, ICLR, CoRL, CVPR, ICCV, ECCV, AAAI, COLM, HRI, WACV, BMVC, ICIP"
+  activity: "NeurIPS, ICML, ICLR, CoRL, CVPR, ICCV, ECCV, AAAI, COLM, HRI, WACV, BMVC, ICIP, ACML"
   activity_year: "NeurIPS 2019-2020, ICML 2020, ICLR 2020-2021, CVPR 2019-2020, ICCV 2019, ECCV 2020, CoRL 2020, AAAI 2020, ICIP 2019, BMVC 2019"
   brief: true
 - role: "Journal reviewer"
   activity: "Transactions on Machine Learning Research, IEEE Transactions on Pattern Analysis and Machine Intelligence, Machine Learning, IEEE Transactions on Image Processing, IEEE Transactions on Industrial Informatics, IEEE Transactions on Multimedia, ACM Transactions on Multimedia Computing Communications and Applications"
   activity_year: "IEEE Transactions on Image Processing 2019"
   brief: true
-- role: "Area chair"
-  activity: "ICLR, ACL Rolling Review, ACML"
