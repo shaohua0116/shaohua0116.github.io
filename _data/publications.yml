@@ -71,6 +71,7 @@
     - name: Max Liu
       equal_contribution: true
     - name: Chan-Hung Yu
+      url: "https://chanhungyu.github.io/"
       equal_contribution: true
     - name: Wei-Hsu Lee
     - name: Cheng-Wei Hung
@@ -326,6 +327,7 @@
       equal_contribution: true
     - name: Tsung-Min Pai
     - name: Chan-Hung Yu
+      url: "https://chanhungyu.github.io/"
     - name: Hung-Yi Lee
       url:  'https://speech.ee.ntu.edu.tw/~hylee/index.php'
     - name: Shao-Hua Sun
