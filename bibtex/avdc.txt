@@ -1,4 +1,4 @@
-@inproceedings{Ko2024Learning,
+@inproceedings{ko2024learning,
   title={{Learning to Act from Actionless Video through Dense Correspondences}},
   author={Ko, Po-Chen and Mao, Jiayuan and Du, Yilun and Sun, Shao-Hua and Tenenbaum, Joshua B},
   booktitle={International Conference on Learning Representations},

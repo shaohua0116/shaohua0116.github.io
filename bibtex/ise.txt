@@ -1,0 +1,6 @@
+@inproceedings{ko2025implicit,
+  title={{Implicit State Estimation via Video Replanning}},
+  author={Po-Chen Ko and Jiayuan Mao and Yu-Hsiang Fu and Hsien-Jeng Yeh and Chu-Rong Chen and Wei-Chiu Ma and Yilun Du and Shao-Hua Sun},
+  booktitle={Building Physically Plausible World Models workshop at International Conference on Machine Learning (ICML) 2025},
+  year={2025},
+}
