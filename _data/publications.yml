@@ -1,34 +1,66 @@
-# - title: 'Implicit State Estimation via Video Replanning'
-#   date:  'July 2025'
-#   imgurl: '/images/projects/ise.png'
-#   imgprop: 'frame'
-#   selected: true
-#   authors:
-#     - name: Po-Chen Ko
-#       url:  'https://pochen-ko.github.io/'
-#     - name: Jiayuan Mao
-#       url:  'https://jiayuanm.com/'
-#     - name: Yu-Hsiang Fu
-#     - name: Hsien-Jeng Yeh 
-#     - name: Chu-Rong Chen
-#     - name: Wei-Chiu Ma
-#       url:  'https://www.cs.cornell.edu/~weichiu/'
-#     - name: Yilun Du
-#       url:  'https://yilundu.github.io/'
-#     - name: Shao-Hua Sun
-#       url:  ''
-#       me: true
-#   desc: 'We introduce a novel framework that integrates interaction-time data into the video planning process. Our approach updates model parameters online and filters out previously failed plans during generation. This enables implicit state estimation, allowing the system to adapt dynamically without explicitly modeling unknown state variables. We evaluate our framework through extensive experiments on a new simulated manipulation benchmark, demonstrating its ability to improve replanning performance and advance the field of video-based decision-making.'
-#   abstract: 'Video-based representations have gained prominence in planning and decision-making due to their ability to encode rich spatiotemporal dynamics and geometric relationships. These representations enable flexible and generalizable solutions for complex tasks such as object manipulation and navigation. However, existing video planning frameworks often struggle to adapt to failures at interaction time due to the incapability to reason about uncertainties in partially observed environments. To overcome these limitations, we introduce a novel framework that integrates interaction-time data into the planning process. Our approach updates model parameters online and filters out previously failed plans during generation. This enables implicit state estimation, allowing the system to adapt dynamically without explicitly modeling unknown state variables. We evaluate our framework through extensive experiments on a new simulated manipulation benchmark, demonstrating its ability to improve replanning performance and advance the field of video-based decision-making.'
-#   tags:
-#     - name: 'Paper'
-#       url:  'https://openreview.net/forum?id=g6wi263Szj'
-#     - name: 'Bibtex'
-#       url:  '/bibtex/ise.txt'
-#   publisher:  'Building Physically Plausible World Models workshop at International Conference on Machine Learning (ICML) 2025'
-#   oral: true
-#   oral_text: 'Best paper'
-#   status:   ''
+- title: 'Mitigating Forgetting in LLM Fine-Tuning via Low-Perplexity Token Learning'
+  date:  'Dec 2025'
+  imgurl: '/images/projects/stm.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Chao-Chung Wu
+      url: 'https://scholar.google.com/citations?user=K1yD3LAAAAAJ'
+    - name: Zhi Rui Tam
+      url: 'https://zrt.wtf/'
+    - name: Chieh-Yen Lin
+      url:  'https://scholar.google.com/citations?user=-4rvt4AAAAAJ'
+    - name: Yun-Nung Chen 
+      url:  'https://www.csie.ntu.edu.tw/~yvchen/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+    - name: Hung-Yi Lee
+      url:  'https://speech.ee.ntu.edu.tw/~hylee/index.php'
+  desc: 'This paper presents a systematic analysis revealing that fine-tuning with LLM-generated data not only improves target task performance but also reduces non-target task degradation compared to fine-tuning with ground truth data. Through analyzing the data sequence in tasks of various domains, we demonstrate that this enhancement of non-target task robustness stems from the reduction of high perplexity tokens found in LLM-generated sequences. To the best of our knowledge, this is the first work to provide an empirical explanation based on token perplexity reduction to mitigate catastrophic forgetting in LLMs after fine-tuning, offering valuable insights for developing more robust fine-tuning strategies.'
+  abstract: 'Maintaining consistent model performance across domains is a fundamental challenge in machine learning. While recent work has explored using LLM-generated data for fine-tuning, its impact on cross-domain generalization remains poorly understood. This paper presents a systematic analysis revealing that fine-tuning with LLM-generated data not only improves target task performance but also reduces non-target task degradation compared to fine-tuning with ground truth data. Through analyzing the data sequence in tasks of various domains, we demonstrate that this enhancement of non-target task robustness stems from the reduction of high perplexity tokens found in LLM-generated sequences. Following our findings, we showed that masking high perplexity tokens in ground truth training data achieves similar non-target task performance preservation, comparable to using LLM-generated data. Extensive experiments across different model families and scales, including Gemma 2 IT 2B, Llama 3 8B Instruct, and 3 additional models, agree with our findings. To the best of our knowledge, this is the first work to provide an empirical explanation based on token perplexity reduction to mitigate catastrophic forgetting in LLMs after fine-tuning, offering valuable insights for developing more robust fine-tuning strategies.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2501.14315'
+    - name: 'Bibtex'
+      url:  '/bibtex/stm.txt'
+  publisher:  'Neural Information Processing Systems (NeurIPS) 2025'
+  oral: false
+  oral_text: ''
+  status:   ''
+
+- title: 'Implicit State Estimation via Video Replanning'
+  date:  'July 2025'
+  imgurl: '/images/projects/ise.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Po-Chen Ko
+      url:  'https://pochen-ko.github.io/'
+    - name: Jiayuan Mao
+      url:  'https://jiayuanm.com/'
+    - name: Yu-Hsiang Fu
+    - name: Hsien-Jeng Yeh 
+    - name: Chu-Rong Chen
+    - name: Wei-Chiu Ma
+      url:  'https://www.cs.cornell.edu/~weichiu/'
+    - name: Yilun Du
+      url:  'https://yilundu.github.io/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: 'We introduce a novel framework that integrates interaction-time data into the video planning process. Our approach updates model parameters online and filters out previously failed plans during generation. This enables implicit state estimation, allowing the system to adapt dynamically without explicitly modeling unknown state variables. We evaluate our framework through extensive experiments on a new simulated manipulation benchmark, demonstrating its ability to improve replanning performance and advance the field of video-based decision-making.'
+  abstract: 'Video-based representations have gained prominence in planning and decision-making due to their ability to encode rich spatiotemporal dynamics and geometric relationships. These representations enable flexible and generalizable solutions for complex tasks such as object manipulation and navigation. However, existing video planning frameworks often struggle to adapt to failures at interaction time due to the incapability to reason about uncertainties in partially observed environments. To overcome these limitations, we introduce a novel framework that integrates interaction-time data into the planning process. Our approach updates model parameters online and filters out previously failed plans during generation. This enables implicit state estimation, allowing the system to adapt dynamically without explicitly modeling unknown state variables. We evaluate our framework through extensive experiments on a new simulated manipulation benchmark, demonstrating its ability to improve replanning performance and advance the field of video-based decision-making.'
+  tags:
+    - name: 'Paper'
+      url:  'https://openreview.net/forum?id=g6wi263Szj'
+    - name: 'Bibtex'
+      url:  '/bibtex/ise.txt'
+  publisher:  'Building Physically Plausible World Models workshop at International Conference on Machine Learning (ICML) 2025'
+  oral: true
+  oral_text: 'Best paper'
+  status:   ''
+
 - title: 'Action-Constrained Imitation Learning'
   date:  'May 2025'
   imgurl: '/images/projects/acil.png'

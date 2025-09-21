@@ -1,0 +1,6 @@
+@inproceedings{wu2025mitigating,
+  title={{Mitigating Forgetting in LLM Fine-Tuning via Low-Perplexity Token Learning}},
+  author={Chao-Chung Wu and Zhi Rui Tam and Chieh-Yen Lin and Yun-Nung Chen and Shao-Hua Sun and Hung-yi Lee},
+  booktitle={Neural Information Processing Systems},
+  year={2025},
+}
