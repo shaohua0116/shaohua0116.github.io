@@ -1,3 +1,5 @@
+- news: "I gave a talk on <b><a href='https://drive.google.com/file/d/1JvIT_AjlGaFBFYiVx43wseEsZeoYJN7t/view?usp=sharing'>Imitation Learning with Diffusion Models</a></b> at <a href='https://embeddedvisionworkshop.wordpress.com/'>The 21th Embedded Vision Workshop at ICCV 2025</a>."
+  date: 'Oct 2025'
 - news: 'Our paper <b>Mitigating Forgetting in LLM Fine-Tuning via Low-Perplexity Token Learning</b> is accepted by <b><a href="https://neurips.cc/">NeurIPS 2025</a></b>.'
   date: 'Sep 2025'
 - news: 'We are organizing the <b><a href="https://rational-robots.github.io/">Resource-Rational Robot Learning</a></b> workshop at <b><a href="https://www.corl.org/">CoRL 2025</a></b>.'
