@@ -1,0 +1,6 @@
+@inproceedings{lu2026rethinking,
+  title={{Rethinking Creativity Evaluation: A Critical Analysis of Existing Creativity Evaluations}},
+  author={Li-Chun Lu and Miri Liu and Pin Chun Lu and Yufei Tian and Shao-Hua Sun and Nanyun Peng},
+  booktitle={Conference of the European Chapter of the Association for Computational Linguistics},
+  year={2026},
+}

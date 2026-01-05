@@ -1,0 +1,7 @@
+@inproceedings{liang2026adaptive,
+  title={{Adaptive Helpfulness–Harmlessness Alignment with Preference Vectors
+}},
+  author={Ren-Wei Liang and Chin Ting Hsu and Chan-Hung Yu and Saransh Agrawal and Shih-Cheng Huang and Chieh-Yen Lin and Shang-Tse Chen and Kuan-Hao Huang and Shao-Hua Sun},
+  booktitle={Conference of the European Chapter of the Association for Computational Linguistics},
+  year={2026},
+}

@@ -1,3 +1,102 @@
+- title: 'Adaptive Helpfulness–Harmlessness Alignment with Preference Vectors'
+  date:  'Mar 2026'
+  imgurl: '/images/projects/preference_vector.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Ren-Wei Liang
+      url: ''
+    - name: Chin Ting Hsu
+      url: ''
+    - name: Chan-Hung Yu
+      url: ''
+    - name: Saransh Agrawal
+      url: ''
+    - name: Shih-Cheng Huang
+      url: ''
+    - name: Chieh-Yen Lin
+      url:  'https://scholar.google.com/citations?user=-4rvt4AAAAAJ'
+    - name: Shang-Tse Chen 
+      url:  'https://www.csie.ntu.edu.tw/~stchen/'
+    - name: Kuan-Hao Huang 
+      url:  'https://khhuang.me/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: 'We propose Preference Vector, a novel framework inspired by task arithmetic. Instead of optimizing multiple preferences within a single objective, we train separate models on individual preferences, extract behavior shifts as preference vectors, and dynamically merge them at test time. This modular approach enables fine-grained, user-controllable preference adjustments and facilitates seamless integration of new preferences without retraining. Experiments show that our proposed Preference Vector framework improves helpfulness without excessive conservatism, allows smooth control over preference trade-offs, and supports scalable multi-preference alignment.'
+  abstract: 'Ensuring that large language models (LLMs) are both helpful and harmless is a critical challenge, as overly strict constraints can lead to excessive refusals, while permissive models risk generating harmful content. Existing approaches, such as reinforcement learning from human feedback (RLHF) and direct preference optimization (DPO), attempt to balance these trade-offs but suffer from performance conflicts, limited controllability, and poor extendability. To address these issues, we propose Preference Vector, a novel framework inspired by task arithmetic. Instead of optimizing multiple preferences within a single objective, we train separate models on individual preferences, extract behavior shifts as preference vectors, and dynamically merge them at test time. This modular approach enables fine-grained, user-controllable preference adjustments and facilitates seamless integration of new preferences without retraining. Experiments show that our proposed Preference Vector framework improves helpfulness without excessive conservatism, allows smooth control over preference trade-offs, and supports scalable multi-preference alignment.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2504.20106'
+    - name: 'Bibtex'
+      url:  '/bibtex/preference_vector.txt'
+  publisher:  'Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2026'
+  oral: true
+  oral_text: 'main'
+  status:   ''
+
+- title: 'Rethinking Creativity Evaluation: A Critical Analysis of Existing Creativity Evaluations'
+  date:  'Mar 2026'
+  imgurl: '/images/projects/creativity_eval.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Li-Chun Lu 
+      url: 'https://lichun-19.github.io/'
+    - name: Miri Liu
+      url: 'https://emmatliu.github.io/'
+    - name: Pin Chun Lu
+      url: ''
+    - name: Yufei Tian
+      url: 'https://yufeitian.github.io/website/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+    - name: Nanyun Peng
+      url:  'https://violetpeng.github.io/'
+  desc: "We systematically examine, analyze, and compare representative creativity measures--creativity index, perplexity, syntactic templates, and LLM-as-a-Judge--across diverse creative domains, including creative writing, unconventional problem-solving, and research ideation. Our analyses reveal that these metrics exhibit limited consistency, capturing different dimensions of creativity. We highlight key limitations, including the creativity index's focus on lexical diversity, perplexity's sensitivity to model confidence, and syntactic templates' inability to capture conceptual creativity. Additionally, LLM-as-a-Judge shows instability and bias. Our findings underscore the need for more robust, generalizable evaluation frameworks that better align with human judgments of creativity."
+  abstract: "We systematically examine, analyze, and compare representative creativity measures--creativity index, perplexity, syntactic templates, and LLM-as-a-Judge--across diverse creative domains, including creative writing, unconventional problem-solving, and research ideation. Our analyses reveal that these metrics exhibit limited consistency, capturing different dimensions of creativity. We highlight key limitations, including the creativity index's focus on lexical diversity, perplexity's sensitivity to model confidence, and syntactic templates' inability to capture conceptual creativity. Additionally, LLM-as-a-Judge shows instability and bias. Our findings underscore the need for more robust, generalizable evaluation frameworks that better align with human judgments of creativity."
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2508.05470'
+    - name: 'Bibtex'
+      url:  '/bibtex/creativity_eval.txt'
+  publisher:  'Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2026'
+  oral: true
+  oral_text: 'main'
+  status:   ''
+
+- title: 'BILLY: Steering Large Language Models via Merging Persona Vectors for Creative Generation'
+  date:  'Mar 2026'
+  imgurl: '/images/projects/billy.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Tsung-Min Pai 
+      url: ''
+    - name: Jui-I Wang
+      url: ''
+    - name: Li-Chun Lu 
+      url: 'https://lichun-19.github.io/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+    - name: Hung-Yi Lee
+      url:  'https://speech.ee.ntu.edu.tw/~hylee/index.php'
+    - name: Kai-Wei Chang 
+      url:  'https://khhuang.me/'
+  desc: "Multi-LLM systems enhance the creativity of large language models by simulating human collective intelligence but suffer from significant drawbacks, such as high computational costs and inference latency. To address these limitations, we propose BILLY (BlendIng persona vectors for Large Language model creativitY), a training-free framework that captures the benefits of multi-LLM collaboration, i.e. inducing diverse perspectives and specialized expertise, within a single model. BILLY operates by extracting and blending multiple distinct persona vectors directly in the model's activation space. We steer the model's generation process with this merged vector while inference, enabling multi-perspective output without explicit multi-LLM communication."
+  abstract: "Multi-LLM systems enhance the creativity of large language models by simulating human collective intelligence but suffer from significant drawbacks, such as high computational costs and inference latency. To address these limitations, we propose BILLY (BlendIng persona vectors for Large Language model creativitY), a training-free framework that captures the benefits of multi-LLM collaboration, i.e. inducing diverse perspectives and specialized expertise, within a single model. BILLY operates by extracting and blending multiple distinct persona vectors directly in the model's activation space. We steer the model's generation process with this merged vector while inference, enabling multi-perspective output without explicit multi-LLM communication. Our experiments across creativity-oriented benchmarks demonstrate that BILLY surpasses single model prompting and traditional multi-LLM approaches, while substantially reducing inference time and computational costs. Our analyses further reveal that distinct persona vectors can be blended to achieve both effective control over complementary aspects of generation and greater interpretability."
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2504.20106'
+    - name: 'Bibtex'
+      url:  '/bibtex/preference_vector.txt'
+  publisher:  'Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2026'
+  oral: true
+  oral_text: 'main'
+  status:   ''
+
 - title: 'Mitigating Forgetting in LLM Fine-Tuning via Low-Perplexity Token Learning'
   date:  'Dec 2025'
   imgurl: '/images/projects/stm.png'
