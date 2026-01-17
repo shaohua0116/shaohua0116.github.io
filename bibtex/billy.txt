@@ -1,7 +1,7 @@
 @inproceedings{pai2026billy,
   title={{BILLY: Steering Large Language Models via Merging Persona Vectors for Creative Generation
 }},
-  author={Tsung-Min Pai and Jui-I Wang and Li-Chun Lu and Shao-Hua Sun and Hung-yi Lee and Kai-Wei Chang},
+  author={Pai, Tsung-Min and Wang, Jui-I and Lu, Li-Chun and Sun, Shao-Hua and Lee, Hung-Yi and Chang, Kai-Wei},
   booktitle={Conference of the European Chapter of the Association for Computational Linguistics},
   year={2026},
 }
