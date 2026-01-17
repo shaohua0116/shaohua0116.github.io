@@ -734,8 +734,8 @@
     - name: 'Bibtex'
       url:  '/bibtex/locavqg.txt'
   publisher:  'Empirical Methods in Natural Language Processing (EMNLP) 2023'
-  oral: false
-  oral_text: ''
+  oral: true
+  oral_text: 'main'
   status:   ''
 
 - title: 'Hierarchical Neural Program Synthesis'
