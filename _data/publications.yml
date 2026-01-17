@@ -91,7 +91,7 @@
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2504.20106'
     - name: 'Bibtex'
-      url:  '/bibtex/preference_vector.txt'
+      url:  '/bibtex/billy.txt'
   publisher:  'Conference of the European Chapter of the Association for Computational Linguistics (EACL) 2026'
   oral: true
   oral_text: 'main'
