@@ -1,3 +1,42 @@
+- title: 'Game-Time: Evaluating Temporal Dynamics in Spoken Language Models'
+  date:  'May 2026'
+  imgurl: '/images/projects/game_time.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Kai-Wei Chang
+      url: 'https://kwchang.org/'
+    - name: En-Pei Hu
+      url: 'https://guapaqaq.github.io/'
+    - name: Chun-Yi Kuan
+      url: ''
+    - name: Wenze Ren
+      url: ''
+    - name: Wei-Chih Che
+      url: ''
+    - name: Guan-Ting Lin
+      url:  'https://daniellin94144.github.io/'
+    - name: Yu Tsao
+      url:  'https://homepage.citi.sinica.edu.tw/pages/yu.tsao/index_en.html'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+    - name: Hung-yi Lee 
+      url:  'https://speech.ee.ntu.edu.tw/~hylee/index.php'
+    - name: James Glass 
+      url:  'https://sls.csail.mit.edu/'
+  desc: 'We introduce the Game-Time Benchmark, a framework to systematically assess these temporal capabilities. Inspired by how humans learn a language through language activities, Game-Time consists of basic instruction-following tasks and advanced tasks with temporal constraints, such as tempo adherence and synchronized responses. Our evaluation of diverse SLM architectures reveals a clear performance disparity: while state-of-the-art models handle basic tasks well, many contemporary systems still struggle with fundamental instruction-following. More critically, nearly all models degrade substantially under temporal constraints, exposing persistent weaknesses in time awareness and full-duplex interaction. The Game-Time Benchmark provides a foundation for guiding future research toward more temporally-aware conversational AI.'
+  abstract: 'Conversational Spoken Language Models (SLMs) are emerging as a promising paradigm for real-time speech interaction. However, their capacity of temporal dynamics, including the ability to manage timing, tempo and simultaneous speaking, remains a critical and unevaluated challenge for conversational fluency. To address this gap, we introduce the Game-Time Benchmark, a framework to systematically assess these temporal capabilities. Inspired by how humans learn a language through language activities, Game-Time consists of basic instruction-following tasks and advanced tasks with temporal constraints, such as tempo adherence and synchronized responses. Our evaluation of diverse SLM architectures reveals a clear performance disparity: while state-of-the-art models handle basic tasks well, many contemporary systems still struggle with fundamental instruction-following. More critically, nearly all models degrade substantially under temporal constraints, exposing persistent weaknesses in time awareness and full-duplex interaction. The Game-Time Benchmark provides a foundation for guiding future research toward more temporally-aware conversational AI.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2509.26388'
+    - name: 'Bibtex'
+      url:  '/bibtex/game_time.txt'
+  publisher:  'IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 - title: 'Adaptive Helpfulness–Harmlessness Alignment with Preference Vectors'
   date:  'Mar 2026'
   imgurl: '/images/projects/preference_vector.png'

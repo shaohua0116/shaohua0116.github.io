@@ -1,0 +1,6 @@
+@inproceedings{chang2026gametime,
+  title={Game-Time: Evaluating Temporal Dynamics in Spoken Language Models},
+  author={Chang, Kai-Wei and Hu, En-Pei and Kuan, Chun-Yi and Ren, Wenze and Chen, Wei-Chih and Lin, Guan-Ting and Tsao, Yu and Sun, Shao-Hua and Lee, Hung-yi and Glass, James},
+  booktitle={IEEE International Conference on Acoustics, Speech, and Signal Processing},
+  year={2026},
+}
