@@ -1,0 +1,6 @@
+@inproceedings{huang2025sadflower,
+  title={SAD-Flower: Flow Matching for Safe, Admissible, and Dynamically Consistent Planning},
+  author={Huang, Tzu-Yuan and Lederer, Armin and Wu, Dai-Jie and Dai, Xiaobing and Zhang, Sihua and Sosnowski, Stefan Georg and Sun, Shao-Hua and Hirche, Sandra},
+  booktitle = {International Conference on Machine Learning},
+  year={2026}
+}

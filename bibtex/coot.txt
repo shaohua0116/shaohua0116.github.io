@@ -1,0 +1,6 @@
+@inproceedings{wang2026coot,
+  title={CooT: Learning to Coordinate In-Context with Coordination Transformers},
+  author={Wang, Huai-Chih and Chuang, Hsiang-Chun and Cheng, Hsi-Chun and Wu, Dai-Jie and Sun, Shao-Hua},
+  booktitle={International Conference on Machine Learning},
+  year={2026}
+}

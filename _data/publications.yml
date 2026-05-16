@@ -1,3 +1,65 @@
+- title: 'CooT 🐦: Learning to Coordinate In-Context with Coordination Transformers'
+  date:  'May 202'
+  imgurl: '/images/projects/coot.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Huai-Chih Wang
+      equal_contribution: true
+    - name: Hsiang-Chun Chuang
+      equal_contribution: true
+    - name: Hsi-Chun Cheng
+    - name: Dai-Jie Wu
+      url:  'https://jaywu109.github.io/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+  desc: 'We propose Coordination Transformers (CooT), a framework that leverages in-context learning for real-time partner adaptation. Unlike prior ICL approaches that focus on task generalization, CooT is designed to generalize across diverse partner behaviors. Trained on trajectories from behavior-preferring agents, it learns to align actions with partner intentions purely through observation. We evaluate CooT on two challenging multi-agent benchmarks: Overcooked and Google Research Football. Results show that CooT consistently outperforms population-based methods, gradient-based fine-tuning, and Meta-RL baselines, achieving stable and rapid adaptation without parameter updates.'
+  abstract: 'Effective coordination among unfamiliar partners remains a major challenge in multi-agent systems. Existing approaches, such as population-based methods, improve robustness through diversity but often lack mechanisms for efficient adaptation beyond the training distribution. Fine-tuning is also impractical for few-shot learning because it requires a large number of interactions for meaningful improvement. To address these limitations, we propose Coordination Transformers (CooT), a framework that leverages in-context learning (ICL) for real-time partner adaptation. Unlike prior ICL approaches that focus on task generalization, CooT is designed to generalize across diverse partner behaviors. Trained on trajectories from behavior-preferring agents, it learns to align actions with partner intentions purely through observation. We evaluate CooT on two challenging multi-agent benchmarks: Overcooked and Google Research Football. Results show that CooT consistently outperforms population-based methods, gradient-based fine-tuning, and Meta-RL baselines, achieving stable and rapid adaptation without parameter updates. Human evaluations also identify CooT as a preferred collaborator, and our ablations confirm its ability to adapt quickly to new partners and remain stable under sudden partner changes, making it reliable for real-world human-AI collaboration.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2506.23549'
+    - name: 'Bibtex'
+      url:  '/bibtex/coot.txt'
+  publisher:  'International Conference on Machine Learning (ICML) 2026'
+  oral: false
+  oral_text: ''
+  status:   ''
+
+- title: 'SAD-Flower: Flow Matching for Safe, Admissible, and Dynamically Consistent Planning'
+  date:  'May 2025'
+  imgurl: '/images/projects/sadflower.png'
+  imgprop: 'frame'
+  selected: true
+  authors:
+    - name: Tzu-Yuan Huangh
+    - name: Armin Lederer
+      url: 'https://alederer25.github.io/'
+    - name: Dai-Jie Wu
+      url:  'https://jaywu109.github.io/'
+    - name: Xiaobing Dai
+    - name: Sihua Zhang 
+    - name: Hsiu-Chin Lin
+      url:  'https://sites.google.com/site/hsiuchinlin/'
+    - name: Shao-Hua Sun
+      url:  ''
+      me: true
+    - name: Stefan Georg Sosnowski
+      url:  'https://www.ce.cit.tum.de/itr/sosnowski/'
+    - name: Sandra Hirche
+      url:  'https://www.professoren.tum.de/en/hirche-sandra'
+  desc: 'We propose SAD-Flower, a novel framework for generating \textbf{S}afe, \textbf{A}dmissible, and \textbf{D}ynamically consistent trajectories. Our approach relies on an augmentation of the flow with a virtual control input. Thereby, principled guidance can be derived using techniques from nonlinear control theory, providing formal guarantees for state constraints, action constraints, and dynamic consistency. Crucially, SAD-Flower operates without retraining, enabling test-time satisfaction of unseen constraints. Through extensive experiments across several tasks, we demonstrate that SAD-Flower outperforms various generative-model-based baselines in ensuring constraint satisfaction.'
+  abstract: 'Flow matching (FM) has shown promising results in data-driven planning. However, it inherently lacks formal guarantees for ensuring state and action constraints, whose satisfaction is a fundamental and crucial requirement for the safety and admissibility of planned trajectories on various systems. Moreover, existing FM planners do not ensure the dynamical consistency, which potentially renders trajectories inexecutable. We address these shortcomings by proposing SAD-Flower, a novel framework for generating \textbf{S}afe, \textbf{A}dmissible, and \textbf{D}ynamically consistent trajectories. Our approach relies on an augmentation of the flow with a virtual control input. Thereby, principled guidance can be derived using techniques from nonlinear control theory, providing formal guarantees for state constraints, action constraints, and dynamic consistency. Crucially, SAD-Flower operates without retraining, enabling test-time satisfaction of unseen constraints. Through extensive experiments across several tasks, we demonstrate that SAD-Flower outperforms various generative-model-based baselines in ensuring constraint satisfaction.'
+  tags:
+    - name: 'Paper'
+      url:  'https://arxiv.org/abs/2511.05355'
+    - name: 'Bibtex'
+      url:  '/bibtex/sadflower.txt'
+  publisher:  'International Conference on Machine Learning (ICML) 2026'
+  oral: false
+  oral_text: ''
+  status:   ''
+
 - title: 'Game-Time: Evaluating Temporal Dynamics in Spoken Language Models'
   date:  'May 2026'
   imgurl: '/images/projects/game_time.png'
