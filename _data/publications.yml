@@ -96,6 +96,8 @@
   tags:
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2509.26388'
+    - name: 'Project Page'
+      url:  'https://kwchang.org/Game-Time/'
     - name: 'Bibtex'
       url:  '/bibtex/game_time.txt'
   publisher:  'IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026'
