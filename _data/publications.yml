@@ -19,6 +19,8 @@
   tags:
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2506.23549'
+    - name: 'Project Page'
+      url:  'https://coot-project.github.io/coot/'
     - name: 'Bibtex'
       url:  '/bibtex/coot.txt'
   publisher:  'International Conference on Machine Learning (ICML) 2026'
@@ -53,6 +55,8 @@
   tags:
     - name: 'Paper'
       url:  'https://arxiv.org/abs/2511.05355'
+    - name: 'Project Page'
+      url:  'https://sadflowerplanning.github.io/project_web/'
     - name: 'Bibtex'
       url:  '/bibtex/sadflower.txt'
   publisher:  'International Conference on Machine Learning (ICML) 2026'
