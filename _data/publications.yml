@@ -34,7 +34,7 @@
   imgprop: 'frame'
   selected: true
   authors:
-    - name: Tzu-Yuan Huangh
+    - name: Tzu-Yuan Huang
     - name: Armin Lederer
       url: 'https://alederer25.github.io/'
     - name: Dai-Jie Wu
@@ -72,8 +72,10 @@
   authors:
     - name: Kai-Wei Chang
       url: 'https://kwchang.org/'
+      equal_contribution: true
     - name: En-Pei Hu
       url: 'https://guapaqaq.github.io/'
+      equal_contribution: true
     - name: Chun-Yi Kuan
       url: ''
     - name: Wenze Ren
@@ -113,8 +115,10 @@
   authors:
     - name: Ren-Wei Liang
       url: ''
+      equal_contribution: true
     - name: Chin Ting Hsu
       url: ''
+      equal_contribution: true
     - name: Chan-Hung Yu
       url: ''
     - name: Saransh Agrawal
@@ -212,8 +216,10 @@
   authors:
     - name: Chao-Chung Wu
       url: 'https://scholar.google.com/citations?user=K1yD3LAAAAAJ'
+      equal_contribution: true
     - name: Zhi Rui Tam
       url: 'https://zrt.wtf/'
+      equal_contribution: true
     - name: Chieh-Yen Lin
       url:  'https://scholar.google.com/citations?user=-4rvt4AAAAAJ'
     - name: Yun-Nung Chen 
