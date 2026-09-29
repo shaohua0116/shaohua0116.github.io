@@ -2,7 +2,8 @@ name:       "Shao-Hua Sun (孫紹華)"
 # title:      "Ph.D. candidate in Computer Science<br>at the University of Southern California"
 # title:      "CS Ph.D. at USC,<br>Incoming Assistant Prof. at NTU" #  (Aug 2022)"
 # title:      "Graduating Ph.D. candidate at USC,<br>Incoming Assistant Professor at NTU" #  (Aug 2022)"
-title:      "Assistant Professor <br>at National Taiwan University" #  (Aug 2022)"
+# title:      "Assistant Professor <br>at National Taiwan University"
+title:      "Associate Professor <br>at National Taiwan University"
 email:      "<a href='mailto:shaohuas@ntu.edu.tw' >shaohuas@ntu.edu.tw</a>"
 head_pic:   /images/profile_talk.png
 deep_pic:   /images/profile_talk.png
@@ -10,7 +11,7 @@ normal:
   date:     "June 2017"
   title:    ""
   content: 
-    me: "I am an <strong>Assistant Professor</strong> at <strong>National Taiwan University (NTU)</strong> with a joint appointment in <strong>the Department of Electrical Engineering</strong> and <strong>the Graduate Institute of Communication Engineering</strong>. Prior to joining NTU, I recently completed my Ph.D. in Computer Science at the University of Southern California, where I worked in the <a href='http://clvrai.com/' target='_blank'>Cognitive Learning for Vision and Robotics Lab (CLVR)</a>. Before that, I received my B.S. degree in Electrical Engineering from NTU. My research interests span <strong>Robot Learning</strong>, <strong>Reinforcement Learning</strong>, <strong>Program Synthesis</strong>, and <strong>Machine Learning</strong>."
+    me: "I am an <strong>Associate Professor</strong> at <strong>National Taiwan University (NTU)</strong> with a joint appointment in <strong>the Department of Electrical Engineering</strong> and <strong>the Graduate Institute of Communication Engineering</strong>. Prior to joining NTU, I recently completed my Ph.D. in Computer Science at the University of Southern California, where I worked in the <a href='http://clvrai.com/' target='_blank'>Cognitive Learning for Vision and Robotics Lab (CLVR)</a>. Before that, I received my B.S. degree in Electrical Engineering from NTU. My research interests span <strong>Robot Learning</strong>, <strong>Reinforcement Learning</strong>, <strong>Program Synthesis</strong>, and <strong>Machine Learning</strong>."
     hiring: "<span style='color: #902a1f;'><strong>Prospective students</strong></span>: I am looking for students interested in machine learning, robot learning, reinforcement learning, and program synthesis. Specifically, I am hiring <strong>M.S.</strong> and <strong>Ph.D. students</strong> admitted to the Data Science and Smart Networking Group at the Graduate Institute of Communication Engineering (電信所丙組/資料科學與智慧網路組) or the Data Science Degree Program (資料科學學位學程) at NTU. Also, I am seeking <strong>undergraduate students</strong>, <strong>research assistants</strong>, and <strong>visitors</strong> with different experience levels. If you are interested in joining my group, please check out <a href='https://drive.google.com/file/d/1INWuY1oYVQvc0ycZi5kjvRuGfGudUU-6/view?usp=sharing' target='_blank'>this slide</a> and fill in the Google form."
     lab_web: "<span style='color: #902a1f;'><strong>Lab website</strong></span>: Check out our <a href='https://nturll.netlify.app/about' target='_blank'>lab website</a>!"
 
